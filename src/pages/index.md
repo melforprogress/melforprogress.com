@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Mel Gagarin for Congress
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: Mel Gagarin for Congress
+subheading: We need a political revolution in NY-6
 mainpitch:
   title: Why Kaldi
   description: >
