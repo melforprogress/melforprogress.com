@@ -62,9 +62,10 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item navbar-link" to="/issues">
                 Issues
               </Link>
-              <Link className="navbar-item navbar-link" to="/donate">
+              <a className="navbar-item navbar-link" href="https://secure.actblue.com/donate/melforprogress" target="_blank">Donate</a>
+              {/* <Link className="navbar-item navbar-link" to="/donate">
                 Donate
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
