@@ -1,21 +1,13 @@
 ---
 templateKey: index-page
-title: Mel Gagarin for Congress
+title: Running to Represent New York's 6th Congressional District
 image: /img/home-jumbotron.jpg
 heading: Mel Gagarin for Congress
-subheading: We need a political revolution in NY-6
-mainpitch:
-  title: Why Kaldi
+subheading:
+aboutpitch:
+  title: About Mel
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+    Mel Gagarin was born in Elmhurst to a Puerto-Rican working-class mom and a Filipino immigrant father. He was raised by his mom and abuela, attending school in the district before attending American University. From working as a congressional aide representing parts of New York’s 6th Congressional District, to advocating on the Hill alongside criminal justice reformers, Mel has always been dedicated to fighting for progress. He currently resides in Kew Gardens with his wife Aleda, their three children, and their dachshund.
 intro:
   blurbs:
     - image: /img/coffee.png

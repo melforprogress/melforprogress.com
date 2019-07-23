@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -42,7 +41,7 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <div className="navbar-title">Mel for Congress NY-6</div>
+              <div className="navbar-title">Mel for Progress</div>
             </Link>
             {/* Hamburger menu */}
             <div
@@ -60,30 +59,12 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item navbar-link" to="/about">
-                About
-              </Link>
               <Link className="navbar-item navbar-link" to="/issues">
                 Issues
-              </Link>
-              <Link className="navbar-item navbar-link" to="/volunteer">
-                Volunteer
               </Link>
               <Link className="navbar-item navbar-link" to="/donate">
                 Donate
               </Link>
-            </div>
-            <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
-              </a>
             </div>
           </div>
         </div>
