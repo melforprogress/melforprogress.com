@@ -5,57 +5,12 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import Billboard from '../components/Billboard'
 
 export const IndexPageTemplate = ({
-  image,
-  title,
-  heading,
-  subheading,
-  mainpitch,
-  description,
-  intro,
 }) => (
   <div>
-    <div
-      className="full-width-image margin-top-0"
-      style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
-        backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
-      }}
-    >
-      <div
-        style={{
-          display: 'flex',
-          height: '150px',
-          lineHeight: '1',
-          justifyContent: 'space-around',
-          alignItems: 'left',
-          flexDirection: 'column',
-        }}
-      >
-        <h1
-          className="has-text-weight-bold has-background-secondary-dark has-color-primary-dark is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-          style={{
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {title}
-        </h1>
-        <h3
-          className="has-text-weight-bold has-background-secondary-dark has-color-primary-dark is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {subheading}
-        </h3>
-      </div>
-    </div>
+    <Billboard>
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
@@ -64,37 +19,14 @@ export const IndexPageTemplate = ({
               <div className="content">
                 <div className="content">
                   <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
+                    <h1 className="title">Mel Gagarin Is Running for Congress</h1>
                   </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
+                  <div>
+                    <div>Melquiades Gagarin is a stay-at-home dad and community organizer who is running to represent New York’s 6th Congressional District to put people before politics, human dignity above corporate greed, and the needs of the many above the benefit of the wealthy and the powerful.
                   </div>
-                </div>
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
-                </div>
-                <Features gridItems={intro.blurbs} />
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
-                  </div>
-                </div>
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
-                  </h3>
-                  <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Read more
-                    </Link>
+                  <br />
+                  <div>
+                    Born in Elmhurst to a Puerto-Rican working-class mother and a Filipino immigrant father, he was raised by his mom and abuela. He went to Resurrection Ascension and Archbishop Molloy in district before attending American University in Washington, DC. From working as a congressional aide representing parts of New York’s 6th Congressional District, to advocating on the Hill alongside criminal justice reformers, Mel has always been dedicated to fighting for progress. He currently resides in Kew Gardens with his wife Aleda, their three children, and their dachshund. </div>
                   </div>
                 </div>
               </div>
@@ -103,6 +35,7 @@ export const IndexPageTemplate = ({
         </div>
       </div>
     </section>
+    </Billboard>
   </div>
 )
 
@@ -124,7 +57,7 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <IndexPageTemplate
-        image={frontmatter.image}
+        image={"../img/content/headshot.jpg"}
         title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}

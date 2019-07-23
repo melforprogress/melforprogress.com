@@ -6073,6 +6073,13 @@ gatsby-page-utils@^0.0.5:
     micromatch "^3.1.10"
     slash "^1.0.0"
 
+gatsby-plugin-amplitude-analytics@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-amplitude-analytics/-/gatsby-plugin-amplitude-analytics-1.5.0.tgz#868a1a410187bcb92e4ca943569b45a4fbea9f78"
+  integrity sha512-dhE5MNs10O7LLai4ShafvaHTMcLBOYjJm3qQPrkNT6KyX7WXpWy3OBzLtArZmdAe6M2SZCYA6tcAj3ORM7hCeg==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+
 gatsby-plugin-netlify-cms@^4.0.0:
   version "4.1.5"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify-cms/-/gatsby-plugin-netlify-cms-4.1.5.tgz#ea3da3b026848cf7990e5916a56f09ea9f2d3a1b"
@@ -11889,6 +11896,11 @@ react-lifecycles-compat@^3.0.0, react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
+
+react-load-script@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/react-load-script/-/react-load-script-0.0.6.tgz#db6851236aaa25bb622677a2eb51dad4f8d2c258"
+  integrity sha512-aRGxDGP9VoLxcsaYvKWIW+LRrMOzz2eEcubTS4NvQPPugjk2VvMhow0wWTkSl7RxookomD1MwcP4l5UStg5ShQ==
 
 react-modal@^3.8.1:
   version "3.8.2"

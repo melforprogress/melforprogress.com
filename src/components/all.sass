@@ -1,27 +1,128 @@
 // Config vars
 $purple: #3C2D82
 $light-purple: #C4C0D9
-$golden-yellow: #F8D132
+$light-blue: #b9d5fd
+$clear-blue: #3273dc
+$title-blue: #0398fc
 $white: white
 $white-ter: white
 $font-weight-strong: 600
 $font-weight-very-strong: 800
 $primary: $purple
 $primary-invert: $light-purple
-$secondary: $golden-yellow
+$secondary: $light-blue
 $black: #2b2523
+$link-color-on-light: $clear-blue
+$violet: purple
+$light-violet: red
+$serif: 'times new roman'
+$sans-serif: 'comic sans'
+$lightgray: 'lightgray'
 
 body,
 button,
 input,
 textarea
-  font-family: "Hammersmith One","Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important
 
 .has-background-primary-dark
   background-color: $primary
 
 .has-background-secondary-dark
   background-color: $secondary
+
+.has-color-primary-dark
+  color: $primary
+
+#can-form-area-join-our-campaign-for-progress-2
+  h2
+    display: none !important
+  h4
+    display: none !important
+  #action_welcome_message_inner
+    display: none !important
+  form .form_builder_output
+    display: none !important
+  form .international_link-wrap
+    display: none !important
+  form .country_drop_wrap
+    display: none !important
+  form #d_sharing
+    display: none !important
+  form .ajax-loading
+    display: none !important
+  #action_info
+    display: none !important
+  #logo_wrap
+    display: none !important
+
+form
+  div#form_col1
+    display: flex
+
+  div#form_col2
+    input[type='submit']
+      cursor: pointer;
+      border: 0;
+      background-color: $violet;
+      border: 4px;
+      color: $light-violet;
+
+      font-family: $serif;
+      font-size: 18px;
+      padding: 5px 10px;
+      border-radius: 4px;
+      box-shadow: 0px 1px 1px rgba(255,255,255,0.2);
+      margin-top: 10px;
+
+      transition: background-color 0.4s, color 0.4s, font-weight 0.4s;
+
+      &:hover
+        background-color: $light-violet;
+        color: $violet;
+        font-weight: 800;
+
+
+
+    //         .core_field
+
+    //             &:nth-child(2)
+    //                 flex-grow: 1;
+    //                 flex-basis: 0;
+
+
+    //             label
+    //                 font-size: 12px;
+    //                 text-transform: uppercase;
+    //                 display: block;
+    //                 letter-spacing: 0.7pt;
+    //                 color: #333333;
+
+    //             input[type='text'],input[type='email']
+    //                 font-size: 16px;
+    //                 padding: 5px;
+    //                 border-radius: 2px;
+    //                 font-family: $sans-serif;
+    //                 border: 0;
+    //                 background-color: $lightgray;
+    //                 width: calc(100% - 20px) !important;
+    //                 margin-top: 5px;
+
+    //                 &::placeholder
+    //                     color: $lightgray
+
+
+    //                 // &.error_input
+    //                 //     background-color: $error-red;
+
+
+
+
+
+
+    form li
+        list-style: none;
+
 
 .btn
   background-color: green
@@ -30,20 +131,30 @@ textarea
 #navbar
   min-height: 4.25rem
   position: fixed
+  top: 0
   background: $primary
   width: 100%
+
+#navbar .navbar-burger.burger
+  color: $secondary
 
 .navbar .navbar-menu
   box-shadow:none !important
 
 .navbar .navbar-title
-  color: $primary-invert
+  font-family: Oswald
+  color: $title-blue
   font-size: 40px
   font-weight: $font-weight-strong
 
+h1
+  font-family: Oswald
+  color: $primary !important
+  margin-bottom: 20px
+
 .navbar .navbar-link
-  color: white
-  font-weight: $font-weight-very-strong  
+  color: $white
+  font-weight: $font-weight-very-strong
 
 .content .taglist
   list-style: none
@@ -146,13 +257,13 @@ $menu-label-color: $white-ter
 
 // blog roll
 .blog-list-item.is-featured
-  background-color: #d6400033;
+  background-color: #d6400033
 .blog-list-item header
-  display: flex;
-  margin-bottom: 1em;
+  display: flex
+  margin-bottom: 1em
 .blog-list-item .featured-thumbnail
-  flex-basis: 35%;
-  margin: 0 1.5em 0 0;
+  flex-basis: 35%
+  margin: 0 1.5em 0 0
 
 
 @import "~bulma"
@@ -161,12 +272,41 @@ $menu-label-color: $white-ter
 // responsiveness
 +tablet-only
   .blog-list-item .featured-thumbnail
-    flex-basis: 50%;
+    flex-basis: 50%
 
 +mobile
   .blog-list-item header
     display: block
   .blog-list-item .featured-thumbnail
-    text-align: center;
-    max-width: 70%;
-    margin: 0 0 1em;
+    text-align: center
+    max-width: 70%
+    margin: 0 0 1em
++desktop
+  #billboard
+  display: flex
+  flex-direction: column
+
+  #can-form-area-join-our-campaign-for-progress-2
+    width: 100%
+    position: absolute
+    top: 60px
+
++touch
+  #billboard
+    display: flex
+    flex-direction: column
+
+    #can-form-area-join-our-campaign-for-progress-2
+      display: flex
+      width: 100%
+      justify-content: center
+      width: 100%
+
+  .navbar .navbar-link
+    color: $link-color-on-light
+
+.page-content
+  margin-top: 70px
+
+.issue
+  margin-bottom: 20px

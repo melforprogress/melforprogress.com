@@ -13,7 +13,9 @@ const TemplateWrapper = ({ children }) => {
         <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
-        <link href="https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap" rel="stylesheet"/>
+        <link href={'https://actionnetwork.org/css/style-embed-v3.css'} rel={'stylesheet'} type={'text/css'} />
+        <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"></link>
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -27,7 +29,7 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:image" content="/img/og-image.jpg" />
       </Helmet>
       <Navbar />
-      <div>{children}</div>
+      <div className="template-content">{children}</div>
       <Footer />
     </div>
   )
