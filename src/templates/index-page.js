@@ -11,15 +11,14 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <Billboard>
-    <section className="section section--gradient">
       <div className="container">
         <div className="section">
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h1 className="title">Mel Gagarin Is Running for Congress</h1>
+                <div className="content" >
+                  <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                  <h1 className="title" >Mel Gagarin Is Running for Congress</h1>
                   </div>
                   <div>
                     <div>Melquiades Gagarin is a stay-at-home dad and community organizer who is running to represent New York’s 6th Congressional District to put people before politics, human dignity above corporate greed, and the needs of the many above the benefit of the wealthy and the powerful.
@@ -34,7 +33,6 @@ export const IndexPageTemplate = ({
           </div>
         </div>
       </div>
-    </section>
     </Billboard>
   </div>
 )

@@ -7,10 +7,9 @@ export default class Billboard extends React.Component {
   handleFormLoaded(){
     setTimeout(
       () => {
-        // console.log(document.querySelector("#can-form-area-join-our-campaign-for-progress-2"))
         return document.querySelector("#can-form-area-join-our-campaign-for-progress-2").classList.add("loaded")
       },
-      500
+      1000
     );
   }
   render(){
@@ -23,6 +22,9 @@ export default class Billboard extends React.Component {
         <PageContent>
         <img id="headshot" src={headshot} />
         {this.props.children}
+        <div className="content" style={{display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          <h1 style={{textAlign: 'center'}}>Join Our Campaign for Progress!</h1>
+        </div>
         <div id='can-form-area-join-our-campaign-for-progress-2'></div>
         </PageContent>
       </div>
