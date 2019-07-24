@@ -4,6 +4,12 @@ import headshot from '../img/content/supercropped.jpg'
 import PageContent from './PageContent'
 
 export default class Billboard extends React.Component {
+  constructor(props) {
+    super(props);
+    // add random number to AN script URL cos otherwise the widget won't be inserted if this page is loaded a second time
+    this.state = {uniqueInt: Math.random()};
+  }
+
   handleFormLoaded(){
     setTimeout(
       () => {
@@ -15,9 +21,8 @@ export default class Billboard extends React.Component {
   render(){
     return (
       <div id="billboard">
-        {/* add random number to script URL cos otherwise the widget won't be inserted if this page is loaded a second time */}
         <Script
-          url={`https://actionnetwork.org/widgets/v3/form/join-our-campaign-for-progress-2?format=js&source=widget&hash=${Math.random()*9999}`}
+          url={`https://actionnetwork.org/widgets/v3/form/join-our-campaign-for-progress-2?format=js&source=widget&hash=${this.state.uniqueInt}`}
           onLoad={this.handleFormLoaded.bind(this)}
         />
         <PageContent>
