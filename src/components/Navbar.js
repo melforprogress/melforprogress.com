@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -62,10 +63,13 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item navbar-link" to="/issues">
                 Issues
               </Link>
-              <a className="navbar-item navbar-link" href="https://secure.actblue.com/donate/melforprogress" target="_blank">Donate</a>
-              {/* <Link className="navbar-item navbar-link" to="/donate">
-                Donate
-              </Link> */}
+                <OutboundLink className="navbar-item navbar-link"
+                      href="https://secure.actblue.com/donate/melforprogress" target="_blank"
+                    >
+                      Donate
+                </OutboundLink>
+
+              {/* <a className="navbar-item navbar-link" href="https://secure.actblue.com/donate/melforprogress" target="_blank">Donate</a> */}
             </div>
           </div>
         </div>
