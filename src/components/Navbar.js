@@ -68,8 +68,6 @@ const Navbar = class extends React.Component {
                     >
                       Donate
                 </OutboundLink>
-
-              {/* <a className="navbar-item navbar-link" href="https://secure.actblue.com/donate/melforprogress" target="_blank">Donate</a> */}
             </div>
           </div>
         </div>
