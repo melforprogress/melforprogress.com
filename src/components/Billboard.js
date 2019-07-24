@@ -26,7 +26,7 @@ export default class Billboard extends React.Component {
           <div className="content" style={{display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <h1 style={{textAlign: 'center'}}>Join Our Campaign for Progress!</h1>
           </div>
-          <div id='can-form-area-join-our-campaign-for-progress-2' className={styles.actionNetworkArea}></div>
+          <div id='can-form-area-join-our-campaign-for-progress-2'></div>
         </PageContent>
       </div>
     )
