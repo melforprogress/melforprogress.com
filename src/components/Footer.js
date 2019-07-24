@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
@@ -32,9 +33,11 @@ const Footer = class extends React.Component {
                 <section>
                   <ul className="menu-list">
                     <li>
-                      <Link className="navbar-item" to="/donate">
-                        Donate
-                      </Link>
+                      <OutboundLink className="navbar-item navbar-link"
+                            href="https://secure.actblue.com/donate/melforprogress" target="_blank"
+                          >
+                            Donate
+                      </OutboundLink>
                     </li>
                   </ul>
                 </section>
