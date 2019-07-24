@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 import facebook from '../img/social/facebook.svg'
