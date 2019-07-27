@@ -1,7 +1,5 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
 import PageContent from '../components/PageContent'
 import Issue from '../components/Issue'
 
