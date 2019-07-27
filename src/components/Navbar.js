@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
-import {FormattedMessage, FormattedHTMLMessage} from 'react-intl';
+import {FormattedMessage} from 'react-intl';
+import { localizedStringsKeypaths } from "../translations";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -31,6 +32,7 @@ const Navbar = class extends React.Component {
       }
     )
   }
+
 
   render() {
     return (
@@ -68,7 +70,7 @@ const Navbar = class extends React.Component {
             <div className="navbar-start has-text-centered">
               <Link className="navbar-item navbar-link" to="/">
                 <FormattedMessage
-                  id='navbar.links.home'
+                  id={localizedStringsKeypaths.home.title}
                   defaultMessage='Home'
                 />
               </Link>
