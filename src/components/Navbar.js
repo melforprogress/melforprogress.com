@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
+import {FormattedMessage, FormattedHTMLMessage} from 'react-intl';
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -42,7 +43,12 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <div className="navbar-title">Mel for Progress</div>
+              <div className="navbar-title">
+                <FormattedMessage
+                  id='navbar.title'
+                  defaultMessage='Mel for Progress'
+                />
+              </div>
             </Link>
             {/* Hamburger menu */}
             <div
@@ -61,17 +67,26 @@ const Navbar = class extends React.Component {
           >
             <div className="navbar-start has-text-centered">
               <Link className="navbar-item navbar-link" to="/">
-                Home
+                <FormattedMessage
+                  id='navbar.links.home'
+                  defaultMessage='Home'
+                />
               </Link>
               <Link className="navbar-item navbar-link" to="/issues">
-                Issues
+                <FormattedMessage
+                  id='navbar.links.issues'
+                  defaultMessage='Issues'
+                />
               </Link>
               <OutboundLink className="navbar-item navbar-link"
                     href="https://secure.actblue.com/donate/melforprogress"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Donate
+                <FormattedMessage
+                  id='navbar.links.donate'
+                  defaultMessage='Donate'
+                />
               </OutboundLink>
             </div>
           </div>

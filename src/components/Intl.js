@@ -4,4 +4,6 @@ import {IntlProvider } from "react-intl"
 const WithIntl = ({ children }) =>
   <IntlProvider local='en'>
     {children}
-  </IntlProvider>
+  </IntlProvider>;
+
+export default WithIntl;
