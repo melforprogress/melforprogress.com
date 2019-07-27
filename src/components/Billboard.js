@@ -1,7 +1,6 @@
 import React from 'react'
 import headshot from '../img/content/supercropped.jpg'
 import PageUnderNavbar from './PageUnderNavBar'
-
 import styles from './Billboard.module.css'
 import ActionNetworkWidget from './ActionNetworkWidget';
 
