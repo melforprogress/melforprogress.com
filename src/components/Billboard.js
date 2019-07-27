@@ -3,7 +3,14 @@ import Script from 'react-load-script'
 import headshot from '../img/content/supercropped.jpg'
 import PageContent from './PageContent'
 
+import styles from './Billboard.module.css'
+
 export default class Billboard extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {hashActionNetwork: Math.random() * 1000 };
+  }
+
   handleFormLoaded(){
     setTimeout(
       () => {
@@ -14,16 +21,16 @@ export default class Billboard extends React.Component {
   }
   render(){
     return (
-      <div id="billboard">
+      <div className={styles.billboard}>
         {/* add random number to script URL cos otherwise the widget won't be inserted if this page is loaded a second time */}
         <Script
-          url={`https://actionnetwork.org/widgets/v3/form/join-our-campaign-for-progress-2?format=js&source=widget&hash=${Math.random()*9999}`}
+          url={`https://actionnetwork.org/widgets/v3/form/join-our-campaign-for-progress-2?format=js&source=widget&hash=${this.state.hashActionNetwork}`}
           onLoad={this.handleFormLoaded.bind(this)}
         />
         <PageContent>
           <img id="headshot" src={headshot} />
           {this.props.children}
-          <div className="content" style={{display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          <div className="content" className={styles.actionNetworkSection}>
             <h1 style={{textAlign: 'center'}}>Join Our Campaign for Progress!</h1>
           </div>
           <div id='can-form-area-join-our-campaign-for-progress-2'></div>

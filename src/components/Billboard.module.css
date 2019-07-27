@@ -1,0 +1,10 @@
+.billboard {
+  display: flex;
+  flex-direction: column;
+}
+
+.action-network-section {
+  display: 'flex';
+  justify-content: 'center';
+  align-items: 'center';
+}
