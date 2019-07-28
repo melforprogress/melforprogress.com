@@ -1,12 +1,12 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import PageContent from '../components/PageContent'
+import PageUnderNavbar from '../components/PageUnderNavbar'
 import Issue from '../components/Issue'
 
 export default function() {
   return (
     <Layout>
-      <PageContent>
+      <PageUnderNavbar>
         <section className="section section--gradient">
           <div className="content">
             <div className="title">Policy for the People</div>
@@ -35,7 +35,7 @@ export default function() {
             />
           </div>
         </section>
-      </PageContent>
+      </PageUnderNavbar>
     </Layout>
   )
 }
