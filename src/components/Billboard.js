@@ -30,8 +30,8 @@ export default class Billboard extends React.Component {
         <PageContent>
           <img id="headshot" src={headshot} />
           {this.props.children}
-          <div className="content" className={styles.actionNetworkSection}>
-            <h1 style={{textAlign: 'center'}}>Join Our Campaign for Progress!</h1>
+          <div className={styles.actionNetworkSection}>
+            <div style={{textAlign: 'center'}} className="title">Join Our Campaign for Progress!</div>
           </div>
           <div id='can-form-area-join-our-campaign-for-progress-2'></div>
         </PageContent>
