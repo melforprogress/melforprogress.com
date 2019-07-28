@@ -15,7 +15,7 @@ export const IndexPageTemplate = ({
               <div className="content">
                 <div className="content" >
                   <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                  <h1 className="title" >Mel Gagarin Is Running for Congress</h1>
+                  <div className="title" >Mel Gagarin Is Running for Congress</div>
                   </div>
                   <div>
                     <div>Melquiades Gagarin is a stay-at-home dad and community organizer who is running to represent New York’s 6th Congressional District to put people before politics, human dignity above corporate greed, and the needs of the many above the benefit of the wealthy and the powerful.

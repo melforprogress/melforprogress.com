@@ -1,9 +1,16 @@
 import React from 'react'
 import Script from 'react-load-script'
 import headshot from '../img/content/supercropped.jpg'
-import PageContent from './PageContent'
+import PageUnderNavbar from './PageUnderNavBar'
+
+import styles from './Billboard.module.css'
 
 export default class Billboard extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {hashActionNetwork: Math.random() * 1000 };
+  }
+
   handleFormLoaded(){
     setTimeout(
       () => {
@@ -14,20 +21,20 @@ export default class Billboard extends React.Component {
   }
   render(){
     return (
-      <div id="billboard">
+      <div className={styles.billboard}>
         {/* add random number to script URL cos otherwise the widget won't be inserted if this page is loaded a second time */}
         <Script
-          url={`https://actionnetwork.org/widgets/v3/form/join-our-campaign-for-progress-2?format=js&source=widget&hash=${Math.random()*9999}`}
+          url={`https://actionnetwork.org/widgets/v3/form/join-our-campaign-for-progress-2?format=js&source=widget&hash=${this.state.hashActionNetwork}`}
           onLoad={this.handleFormLoaded.bind(this)}
         />
-        <PageContent>
+        <PageUnderNavbar>
           <img id="headshot" src={headshot} />
           {this.props.children}
-          <div className="content" style={{display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <h1 style={{textAlign: 'center'}}>Join Our Campaign for Progress!</h1>
+          <div className={styles.actionNetworkSection}>
+            <div style={{textAlign: 'center'}} className="title">Join Our Campaign for Progress!</div>
           </div>
           <div id='can-form-area-join-our-campaign-for-progress-2'></div>
-        </PageContent>
+        </PageUnderNavbar>
       </div>
     )
   }

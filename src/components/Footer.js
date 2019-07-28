@@ -29,7 +29,7 @@ const Footer = class extends React.Component {
                     style={{ width: '1em', height: '1em' }}
                   />
                 </OutboundLink >
-                <OutboundLink title="instagram" target="_blank" rel="noopener noreferrer"href="https://instagram.com/mel.gagarin">
+                <OutboundLink title="instagram" target="_blank" rel="noopener noreferrer" href="https://instagram.com/mel.gagarin">
                   <img
                     src={instagram}
                     alt="Instagram"
