@@ -9,8 +9,8 @@ import WithIntl from "./Intl";
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
   return (
-    <div>
-      <WithIntl>
+    <WithIntl>
+      <div>
         <Helmet>
           <html lang="en" />
           <title>{title}</title>
@@ -31,8 +31,8 @@ const TemplateWrapper = ({ children }) => {
         <Navbar />
         <div className="template-content">{children}</div>
         <Footer />
-      </WithIntl>
-    </div>
+      </div>
+    </WithIntl>
   )
 }
 
