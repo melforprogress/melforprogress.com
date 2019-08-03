@@ -1,6 +1,7 @@
 import React from 'react'
 import headshot from '../img/content/supercropped.jpg'
 import PageUnderNavbar from './PageUnderNavBar'
+import PressSection from './PressSection'
 
 import styles from './Billboard.module.css'
 import ActionNetworkWidget from './ActionNetworkWidget';
@@ -19,6 +20,7 @@ export default function ({children}) {
         <div className={styles.actionNetworkSection}>
           <div style={{textAlign: 'center'}} className="title">Join Our Campaign for Progress!</div>
           <ActionNetworkWidget />
+          <PressSection />
         </div>
       </PageUnderNavbar>
     </div>
