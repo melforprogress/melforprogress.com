@@ -1,4 +1,4 @@
-export const gatIdFromDotPath = (obj, parentPath = '') => {
+export const getIdFromDotPath = (obj, parentPath = '') => {
   const pathPrefix = parentPath === '' ? '' : `${parentPath}.`;
   const result = Object.keys(obj).reduce(
     (acc, key) => {
@@ -7,7 +7,7 @@ export const gatIdFromDotPath = (obj, parentPath = '') => {
       if (typeof node === 'string') {
         acc[key] = path;
       } else {
-        acc[key] = gatIdFromDotPath(node, path);
+        acc[key] = getIdFromDotPath(node, path);
       }
       return acc;
     },
@@ -16,3 +16,5 @@ export const gatIdFromDotPath = (obj, parentPath = '') => {
 
   return result;
 };
+
+export const oneLine = (str) => str.replace(/\n/g, ' ').trim();
