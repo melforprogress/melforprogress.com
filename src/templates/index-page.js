@@ -3,6 +3,9 @@ import PropTypes from 'prop-types'
 
 import Layout from '../components/Layout'
 import Billboard from '../components/Billboard'
+import { FormattedMessage } from "react-intl";
+import { localizedStringsKeypaths } from "../translations/es";
+import { oneLine } from "../translations/stringFileUtils";
 
 export const IndexPageTemplate = ({
 }) => (
@@ -15,14 +18,35 @@ export const IndexPageTemplate = ({
               <div className="content">
                 <div className="content" >
                   <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                  <div className="title" >Mel Gagarin Is Running for Congress</div>
+                  <div className="title" >
+                    <FormattedMessage
+                      id={localizedStringsKeypaths.home.about.header}
+                      defaultMessage="Mel Gagarin Is Running for Congress"
+                    />
+                  </div>
                   </div>
                   <div>
-                    <div>Melquiades Gagarin is a stay-at-home dad and community organizer who is running to represent New York’s 6th Congressional District to put people before politics, human dignity above corporate greed, and the needs of the many above the benefit of the wealthy and the powerful.
+                    <FormattedMessage
+                      id={localizedStringsKeypaths.home.about.summary}
+                      defaultMessage={oneLine(`Melquiades Gagarin is a stay-at-home dad and community organizer who is
+                        running to represent New York’s 6th Congressional District to put people before politics,
+                        human dignity above corporate greed, and the needs of the many above the benefit of the
+                        wealthy and the powerful.`)}
+                    />
                   </div>
                   <br />
                   <div>
-                    Born in Elmhurst to a Puerto-Rican working-class mother and a Filipino immigrant father, he was raised by his mom and abuela. He went to Resurrection Ascension and Archbishop Molloy in district before attending American University in Washington, DC. From working as a congressional aide representing parts of New York’s 6th Congressional District, to advocating on the Hill alongside criminal justice reformers, Mel has always been dedicated to fighting for progress. He currently resides in Kew Gardens with his wife Aleda, their three children, and their dachshund. </div>
+                    <FormattedMessage
+                      id={localizedStringsKeypaths.home.about.background}
+                      defaultMessage={oneLine(`Born in Elmhurst to a Puerto-Rican working-class mother
+                        and a Filipino immigrant father, he was raised by his mom and abuela. He
+                        went to Resurrection Ascension and Archbishop Molloy in district before
+                        attending American University in Washington, DC. From working as a
+                        congressional aide representing parts of New York’s 6th Congressional
+                        District, to advocating on the Hill alongside criminal justice reformers,
+                        Mel has always been dedicated to fighting for progress. He currently resides
+                        in Kew Gardens with his wife Aleda, their three children, and their dachshund.`)}
+                    />
                   </div>
                 </div>
               </div>
@@ -32,7 +56,7 @@ export const IndexPageTemplate = ({
       </div>
     </Billboard>
   </div>
-)
+);
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),

@@ -1,6 +1,7 @@
 import React from 'react'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
-
+import {FormattedMessage} from 'react-intl';
+import { localizedStringsKeypaths } from "../translations";
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
@@ -38,9 +39,28 @@ const Footer = class extends React.Component {
                 </OutboundLink >
             </div>
             <div className={styles.footerInfo}>
-              <div className={styles.contactLine}><a href="mailto:info@melforprogress.com">General inquiries: info@melforprogress.com</a></div>
-              <div className={styles.contactLine}><a href="mailto:press@melforprogress.com">Press inquiries: press@melforprogress.com</a></div>
-              <div className={styles.paidForMessage}>Paid for by Committee to Elect Mel Gagarin</div>
+              <div className={styles.contactLine}>
+                <a href="mailto:info@melforprogress.com">
+                  <FormattedMessage
+                    id={localizedStringsKeypaths.footer.inquiries.general}
+                    defaultMessage="General inquiries: info@melforprogress.com"
+                  />
+                </a>
+              </div>
+              <div className={styles.contactLine}>
+                <a href="mailto:press@melforprogress.com">
+                  <FormattedMessage
+                    id={localizedStringsKeypaths.footer.inquiries.press}
+                    defaultMessage="Press inquiries: press@melforprogress.com"
+                  />
+                </a>
+              </div>
+              <div className={styles.paidForMessage}>
+                <FormattedMessage
+                  id={localizedStringsKeypaths.footer.finance}
+                  defaultMessage="Paid for by Committee to Elect Mel Gagarin"
+                />
+              </div>
             </div>
           </div>
         </div>

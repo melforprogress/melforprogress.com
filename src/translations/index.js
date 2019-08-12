@@ -2,7 +2,8 @@ import es from './es'
 
 export const Locale = {
   English: 'en',
-  Spanish: 'es',
+  // Comment this back in when the translations are ready
+  // Spanish: 'es',
 };
 
 const localizedStrings = {

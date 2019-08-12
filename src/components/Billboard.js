@@ -1,4 +1,6 @@
 import React from 'react'
+import {FormattedMessage} from 'react-intl';
+import { localizedStringsKeypaths } from "../translations";
 import headshot from '../img/content/supercropped.jpg'
 import PageUnderNavbar from './PageUnderNavBar'
 import styles from './Billboard.module.css'
@@ -16,7 +18,12 @@ export default function ({children}) {
         <img id="headshot" src={headshot} />
         {children}
         <div className={styles.actionNetworkSection}>
-          <div style={{textAlign: 'center'}} className="title">Join Our Campaign for Progress!</div>
+          <div style={{textAlign: 'center'}} className="title">
+            <FormattedMessage
+              id={localizedStringsKeypaths.join.header}
+              defaultMessage="Join Our Campaign for Progress!"
+            />
+          </div>
           <ActionNetworkWidget />
         </div>
       </PageUnderNavbar>

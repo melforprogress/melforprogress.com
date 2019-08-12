@@ -76,7 +76,7 @@ const Navbar = class extends React.Component {
               </Link>
               <Link className="navbar-item navbar-link" to="/issues">
                 <FormattedMessage
-                  id='navbar.links.issues'
+                  id={localizedStringsKeypaths.issues.title}
                   defaultMessage='Issues'
                 />
               </Link>
@@ -86,7 +86,7 @@ const Navbar = class extends React.Component {
                     rel="noopener noreferrer"
                   >
                 <FormattedMessage
-                  id='navbar.links.donate'
+                  id={localizedStringsKeypaths.donate.title}
                   defaultMessage='Donate'
                 />
               </OutboundLink>
