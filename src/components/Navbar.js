@@ -73,6 +73,13 @@ const Navbar = class extends React.Component {
                   >
                     Donate
               </OutboundLink>
+              <OutboundLink className="navbar-item navbar-link"
+                    href="https://act.melforprogress.com/local"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Organize
+              </OutboundLink>
             </div>
           </div>
         </div>
