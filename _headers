@@ -7,119 +7,119 @@
   Referrer-Policy: same-origin
 /styles.73bc1aa5e27267269176.css
   Cache-Control: public, max-age=31536000, immutable
-/styles-4ae324b7594888a7b987.js
+/styles-107e52c30d8308a0838a.js
   Cache-Control: public, max-age=31536000, immutable
-/1-a0f02521ec646fa0f623.js
+/1-6f17ddf8dd5baeda99bc.js
   Cache-Control: public, max-age=31536000, immutable
-/2-bdb146d0202951bd7827.js
+/component---src-templates-index-page-js-6de2915bcee224338152.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-templates-blog-post-js-634abe3c14acedaa4e46.js
+/component---src-templates-issue-page-js-4cedec0cb1bc64f6a078.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-templates-issue-page-js-32d6fa5f1bef2c73747a.js
+/2-14de7295c0415f7b92bb.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-templates-index-page-js-29bc2c86eea26cb028c7.js
+/component---src-templates-blog-post-js-e0d4dcbbb9fbd0d6c015.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-templates-tags-js-106c3bc4d6dbf33d5a0f.js
+/component---src-templates-tags-js-92baecf1684fda6e3206.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-pages-404-js-635ca50c4e0c452c4322.js
+/component---src-pages-404-js-dae570e71f77a6c6ef3a.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-pages-tags-index-js-40303a91f2783806a897.js
+/component---src-pages-tags-index-js-ff0ca8bb4a73d4e24017.js
   Cache-Control: public, max-age=31536000, immutable
 /undefined
   Cache-Control: public, max-age=31536000, immutable
-/webpack-runtime-25980a43572d863736da.js
+/webpack-runtime-aa4d80483fa319431d7d.js
   Cache-Control: public, max-age=31536000, immutable
-/app-73d9fa2685485a593e0d.js
+/app-de0dbf23def4d1ff7c5f.js
   Cache-Control: public, max-age=31536000, immutable
 /static/*
   Cache-Control: public, max-age=31536000, immutable
 /sw.js
   Cache-Control: no-cache
-/blog/2016-12-17-making-sense-of-the-scaas-new-flavor-wheel/
-  Link: </webpack-runtime-25980a43572d863736da.js>; rel=preload; as=script
-  Link: </app-73d9fa2685485a593e0d.js>; rel=preload; as=script
-  Link: </styles-4ae324b7594888a7b987.js>; rel=preload; as=script
-  Link: </1-a0f02521ec646fa0f623.js>; rel=preload; as=script
-  Link: </2-bdb146d0202951bd7827.js>; rel=preload; as=script
-  Link: </component---src-templates-blog-post-js-634abe3c14acedaa4e46.js>; rel=preload; as=script
-/blog/2017-01-04-just-in-small-batch-of-jamaican-blue-mountain-in-store-next-week/
-  Link: </webpack-runtime-25980a43572d863736da.js>; rel=preload; as=script
-  Link: </app-73d9fa2685485a593e0d.js>; rel=preload; as=script
-  Link: </styles-4ae324b7594888a7b987.js>; rel=preload; as=script
-  Link: </1-a0f02521ec646fa0f623.js>; rel=preload; as=script
-  Link: </2-bdb146d0202951bd7827.js>; rel=preload; as=script
-  Link: </component---src-templates-blog-post-js-634abe3c14acedaa4e46.js>; rel=preload; as=script
-/blog/2017-01-04-a-beginners-guide-to-brewing-with-chemex/
-  Link: </webpack-runtime-25980a43572d863736da.js>; rel=preload; as=script
-  Link: </app-73d9fa2685485a593e0d.js>; rel=preload; as=script
-  Link: </styles-4ae324b7594888a7b987.js>; rel=preload; as=script
-  Link: </1-a0f02521ec646fa0f623.js>; rel=preload; as=script
-  Link: </2-bdb146d0202951bd7827.js>; rel=preload; as=script
-  Link: </component---src-templates-blog-post-js-634abe3c14acedaa4e46.js>; rel=preload; as=script
-/issues/
-  Link: </webpack-runtime-25980a43572d863736da.js>; rel=preload; as=script
-  Link: </app-73d9fa2685485a593e0d.js>; rel=preload; as=script
-  Link: </styles-4ae324b7594888a7b987.js>; rel=preload; as=script
-  Link: </1-a0f02521ec646fa0f623.js>; rel=preload; as=script
-  Link: </component---src-templates-issue-page-js-32d6fa5f1bef2c73747a.js>; rel=preload; as=script
 /
-  Link: </webpack-runtime-25980a43572d863736da.js>; rel=preload; as=script
-  Link: </app-73d9fa2685485a593e0d.js>; rel=preload; as=script
-  Link: </styles-4ae324b7594888a7b987.js>; rel=preload; as=script
-  Link: </1-a0f02521ec646fa0f623.js>; rel=preload; as=script
-  Link: </component---src-templates-index-page-js-29bc2c86eea26cb028c7.js>; rel=preload; as=script
-/tags/flavor/
-  Link: </webpack-runtime-25980a43572d863736da.js>; rel=preload; as=script
-  Link: </app-73d9fa2685485a593e0d.js>; rel=preload; as=script
-  Link: </styles-4ae324b7594888a7b987.js>; rel=preload; as=script
-  Link: </1-a0f02521ec646fa0f623.js>; rel=preload; as=script
-  Link: </component---src-templates-tags-js-106c3bc4d6dbf33d5a0f.js>; rel=preload; as=script
-/tags/tasting/
-  Link: </webpack-runtime-25980a43572d863736da.js>; rel=preload; as=script
-  Link: </app-73d9fa2685485a593e0d.js>; rel=preload; as=script
-  Link: </styles-4ae324b7594888a7b987.js>; rel=preload; as=script
-  Link: </1-a0f02521ec646fa0f623.js>; rel=preload; as=script
-  Link: </component---src-templates-tags-js-106c3bc4d6dbf33d5a0f.js>; rel=preload; as=script
-/tags/jamaica/
-  Link: </webpack-runtime-25980a43572d863736da.js>; rel=preload; as=script
-  Link: </app-73d9fa2685485a593e0d.js>; rel=preload; as=script
-  Link: </styles-4ae324b7594888a7b987.js>; rel=preload; as=script
-  Link: </1-a0f02521ec646fa0f623.js>; rel=preload; as=script
-  Link: </component---src-templates-tags-js-106c3bc4d6dbf33d5a0f.js>; rel=preload; as=script
-/tags/green-beans/
-  Link: </webpack-runtime-25980a43572d863736da.js>; rel=preload; as=script
-  Link: </app-73d9fa2685485a593e0d.js>; rel=preload; as=script
-  Link: </styles-4ae324b7594888a7b987.js>; rel=preload; as=script
-  Link: </1-a0f02521ec646fa0f623.js>; rel=preload; as=script
-  Link: </component---src-templates-tags-js-106c3bc4d6dbf33d5a0f.js>; rel=preload; as=script
+  Link: </webpack-runtime-aa4d80483fa319431d7d.js>; rel=preload; as=script
+  Link: </app-de0dbf23def4d1ff7c5f.js>; rel=preload; as=script
+  Link: </styles-107e52c30d8308a0838a.js>; rel=preload; as=script
+  Link: </1-6f17ddf8dd5baeda99bc.js>; rel=preload; as=script
+  Link: </component---src-templates-index-page-js-6de2915bcee224338152.js>; rel=preload; as=script
+/issues/
+  Link: </webpack-runtime-aa4d80483fa319431d7d.js>; rel=preload; as=script
+  Link: </app-de0dbf23def4d1ff7c5f.js>; rel=preload; as=script
+  Link: </styles-107e52c30d8308a0838a.js>; rel=preload; as=script
+  Link: </1-6f17ddf8dd5baeda99bc.js>; rel=preload; as=script
+  Link: </component---src-templates-issue-page-js-4cedec0cb1bc64f6a078.js>; rel=preload; as=script
+/blog/2017-01-04-a-beginners-guide-to-brewing-with-chemex/
+  Link: </webpack-runtime-aa4d80483fa319431d7d.js>; rel=preload; as=script
+  Link: </app-de0dbf23def4d1ff7c5f.js>; rel=preload; as=script
+  Link: </styles-107e52c30d8308a0838a.js>; rel=preload; as=script
+  Link: </1-6f17ddf8dd5baeda99bc.js>; rel=preload; as=script
+  Link: </2-14de7295c0415f7b92bb.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-e0d4dcbbb9fbd0d6c015.js>; rel=preload; as=script
+/blog/2017-01-04-just-in-small-batch-of-jamaican-blue-mountain-in-store-next-week/
+  Link: </webpack-runtime-aa4d80483fa319431d7d.js>; rel=preload; as=script
+  Link: </app-de0dbf23def4d1ff7c5f.js>; rel=preload; as=script
+  Link: </styles-107e52c30d8308a0838a.js>; rel=preload; as=script
+  Link: </1-6f17ddf8dd5baeda99bc.js>; rel=preload; as=script
+  Link: </2-14de7295c0415f7b92bb.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-e0d4dcbbb9fbd0d6c015.js>; rel=preload; as=script
+/blog/2016-12-17-making-sense-of-the-scaas-new-flavor-wheel/
+  Link: </webpack-runtime-aa4d80483fa319431d7d.js>; rel=preload; as=script
+  Link: </app-de0dbf23def4d1ff7c5f.js>; rel=preload; as=script
+  Link: </styles-107e52c30d8308a0838a.js>; rel=preload; as=script
+  Link: </1-6f17ddf8dd5baeda99bc.js>; rel=preload; as=script
+  Link: </2-14de7295c0415f7b92bb.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-e0d4dcbbb9fbd0d6c015.js>; rel=preload; as=script
 /tags/brewing/
-  Link: </webpack-runtime-25980a43572d863736da.js>; rel=preload; as=script
-  Link: </app-73d9fa2685485a593e0d.js>; rel=preload; as=script
-  Link: </styles-4ae324b7594888a7b987.js>; rel=preload; as=script
-  Link: </1-a0f02521ec646fa0f623.js>; rel=preload; as=script
-  Link: </component---src-templates-tags-js-106c3bc4d6dbf33d5a0f.js>; rel=preload; as=script
+  Link: </webpack-runtime-aa4d80483fa319431d7d.js>; rel=preload; as=script
+  Link: </app-de0dbf23def4d1ff7c5f.js>; rel=preload; as=script
+  Link: </styles-107e52c30d8308a0838a.js>; rel=preload; as=script
+  Link: </1-6f17ddf8dd5baeda99bc.js>; rel=preload; as=script
+  Link: </component---src-templates-tags-js-92baecf1684fda6e3206.js>; rel=preload; as=script
 /tags/chemex/
-  Link: </webpack-runtime-25980a43572d863736da.js>; rel=preload; as=script
-  Link: </app-73d9fa2685485a593e0d.js>; rel=preload; as=script
-  Link: </styles-4ae324b7594888a7b987.js>; rel=preload; as=script
-  Link: </1-a0f02521ec646fa0f623.js>; rel=preload; as=script
-  Link: </component---src-templates-tags-js-106c3bc4d6dbf33d5a0f.js>; rel=preload; as=script
+  Link: </webpack-runtime-aa4d80483fa319431d7d.js>; rel=preload; as=script
+  Link: </app-de0dbf23def4d1ff7c5f.js>; rel=preload; as=script
+  Link: </styles-107e52c30d8308a0838a.js>; rel=preload; as=script
+  Link: </1-6f17ddf8dd5baeda99bc.js>; rel=preload; as=script
+  Link: </component---src-templates-tags-js-92baecf1684fda6e3206.js>; rel=preload; as=script
+/tags/jamaica/
+  Link: </webpack-runtime-aa4d80483fa319431d7d.js>; rel=preload; as=script
+  Link: </app-de0dbf23def4d1ff7c5f.js>; rel=preload; as=script
+  Link: </styles-107e52c30d8308a0838a.js>; rel=preload; as=script
+  Link: </1-6f17ddf8dd5baeda99bc.js>; rel=preload; as=script
+  Link: </component---src-templates-tags-js-92baecf1684fda6e3206.js>; rel=preload; as=script
+/tags/green-beans/
+  Link: </webpack-runtime-aa4d80483fa319431d7d.js>; rel=preload; as=script
+  Link: </app-de0dbf23def4d1ff7c5f.js>; rel=preload; as=script
+  Link: </styles-107e52c30d8308a0838a.js>; rel=preload; as=script
+  Link: </1-6f17ddf8dd5baeda99bc.js>; rel=preload; as=script
+  Link: </component---src-templates-tags-js-92baecf1684fda6e3206.js>; rel=preload; as=script
+/tags/flavor/
+  Link: </webpack-runtime-aa4d80483fa319431d7d.js>; rel=preload; as=script
+  Link: </app-de0dbf23def4d1ff7c5f.js>; rel=preload; as=script
+  Link: </styles-107e52c30d8308a0838a.js>; rel=preload; as=script
+  Link: </1-6f17ddf8dd5baeda99bc.js>; rel=preload; as=script
+  Link: </component---src-templates-tags-js-92baecf1684fda6e3206.js>; rel=preload; as=script
+/tags/tasting/
+  Link: </webpack-runtime-aa4d80483fa319431d7d.js>; rel=preload; as=script
+  Link: </app-de0dbf23def4d1ff7c5f.js>; rel=preload; as=script
+  Link: </styles-107e52c30d8308a0838a.js>; rel=preload; as=script
+  Link: </1-6f17ddf8dd5baeda99bc.js>; rel=preload; as=script
+  Link: </component---src-templates-tags-js-92baecf1684fda6e3206.js>; rel=preload; as=script
 /404/
-  Link: </webpack-runtime-25980a43572d863736da.js>; rel=preload; as=script
-  Link: </app-73d9fa2685485a593e0d.js>; rel=preload; as=script
-  Link: </styles-4ae324b7594888a7b987.js>; rel=preload; as=script
-  Link: </1-a0f02521ec646fa0f623.js>; rel=preload; as=script
-  Link: </component---src-pages-404-js-635ca50c4e0c452c4322.js>; rel=preload; as=script
+  Link: </webpack-runtime-aa4d80483fa319431d7d.js>; rel=preload; as=script
+  Link: </app-de0dbf23def4d1ff7c5f.js>; rel=preload; as=script
+  Link: </styles-107e52c30d8308a0838a.js>; rel=preload; as=script
+  Link: </1-6f17ddf8dd5baeda99bc.js>; rel=preload; as=script
+  Link: </component---src-pages-404-js-dae570e71f77a6c6ef3a.js>; rel=preload; as=script
 /tags/
-  Link: </webpack-runtime-25980a43572d863736da.js>; rel=preload; as=script
-  Link: </app-73d9fa2685485a593e0d.js>; rel=preload; as=script
-  Link: </styles-4ae324b7594888a7b987.js>; rel=preload; as=script
-  Link: </1-a0f02521ec646fa0f623.js>; rel=preload; as=script
-  Link: </2-bdb146d0202951bd7827.js>; rel=preload; as=script
-  Link: </component---src-pages-tags-index-js-40303a91f2783806a897.js>; rel=preload; as=script
+  Link: </webpack-runtime-aa4d80483fa319431d7d.js>; rel=preload; as=script
+  Link: </app-de0dbf23def4d1ff7c5f.js>; rel=preload; as=script
+  Link: </styles-107e52c30d8308a0838a.js>; rel=preload; as=script
+  Link: </1-6f17ddf8dd5baeda99bc.js>; rel=preload; as=script
+  Link: </2-14de7295c0415f7b92bb.js>; rel=preload; as=script
+  Link: </component---src-pages-tags-index-js-ff0ca8bb4a73d4e24017.js>; rel=preload; as=script
 /404.html
-  Link: </webpack-runtime-25980a43572d863736da.js>; rel=preload; as=script
-  Link: </app-73d9fa2685485a593e0d.js>; rel=preload; as=script
-  Link: </styles-4ae324b7594888a7b987.js>; rel=preload; as=script
-  Link: </1-a0f02521ec646fa0f623.js>; rel=preload; as=script
-  Link: </component---src-pages-404-js-635ca50c4e0c452c4322.js>; rel=preload; as=script
+  Link: </webpack-runtime-aa4d80483fa319431d7d.js>; rel=preload; as=script
+  Link: </app-de0dbf23def4d1ff7c5f.js>; rel=preload; as=script
+  Link: </styles-107e52c30d8308a0838a.js>; rel=preload; as=script
+  Link: </1-6f17ddf8dd5baeda99bc.js>; rel=preload; as=script
+  Link: </component---src-pages-404-js-dae570e71f77a6c6ef3a.js>; rel=preload; as=script

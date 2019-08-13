@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{197:function(n,o,e){"use strict";e.r(o),o.default=function(){return window.location.href="https://secure.actblue.com/donate/melforprogress",null}}}]);
-//# sourceMappingURL=component---src-templates-donate-page-js-2f4274c97edeaddd082c.js.map
