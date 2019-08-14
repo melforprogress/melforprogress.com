@@ -20,11 +20,16 @@ export const IndexPageTemplate = ({
                     </div>
                   </div>
                   <div>
-                    <div>Melquiades Gagarin is a stay-at-home dad and community organizer who is running to represent New York’s 6th Congressional District to put people before politics, human dignity above corporate greed, and the needs of the many above the benefit of the wealthy and the powerful.
+                    <div>Melquiades Gagarin is a stay-at-home dad and a lifelong advocate who is running for congress in New York’s Sixth Congressional District to be the bold, progressive fighter unbeholden to the political establishment that this moment calls for. 
                   </div>
                   <br />
                   <div>
-                    Born in Elmhurst to a Puerto-Rican working-class mother and a Filipino immigrant father, he was raised by his mom and abuela. He went to Resurrection Ascension and Archbishop Molloy in district before attending American University in Washington, DC. From working as a congressional aide representing parts of New York’s 6th Congressional District, to advocating on the Hill alongside criminal justice reformers, Mel has always been dedicated to fighting for progress. He currently resides in Kew Gardens with his wife Aleda, their three children, and their dachshund. </div>
+                  He was born in Elmhurst to a Puerto-Rican working-class mother and a Filipino immigrant father, and raised by his mom and abuela. He went to Resurrection Ascension and Archbishop Molloy in district before attending American University in Washington, DC. Mel worked as a congressional aide representing large parts of the 6th Congressional District, advocated on the Hill alongside criminal justice reformers, and organized across Queens as part of a movement to build a more just future for the nation’s most diverse county. 
+                  </div>
+                  <br />
+                  <div>
+                  Mel has always been dedicated to fighting for progress. He is running to fight for working class people, people of color, immigrants, the elderly, and our future.  He won’t be accepting any money from corporations, the fossil fuel industry or real estate developers. The only interests he will ever answer to are those of neighbors in the district. Mel lives in Kew Gardens with his wife Aleda, their three beautiful children, and their dachshund, Chewbacca.
+                  </div>
                   </div>
                 </div>
               </div>
