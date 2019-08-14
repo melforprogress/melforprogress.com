@@ -1,0 +1,7 @@
+.article {
+    display: flex;
+
+    .image {
+        flex: 0 0 300px;
+    }
+}

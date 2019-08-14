@@ -1,6 +1,7 @@
 import React from 'react'
 import headshot from '../img/content/supercropped.jpg'
 import PageUnderNavbar from './PageUnderNavBar'
+import PressSection from './PressSection'
 
 import styles from './Billboard.module.css'
 import ActionNetworkWidget from './ActionNetworkWidget';
@@ -21,6 +22,7 @@ export default function ({children}) {
           <span className="underlined">Join Our Campaign for Progress!</span>
           </div>
           <ActionNetworkWidget />
+          <PressSection />
         </div>
       </PageUnderNavbar>
     </div>
