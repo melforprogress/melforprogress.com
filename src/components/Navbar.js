@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
+import logo from '../img/content/Gagarin_wordmark-congress-blue-web.png'
+
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -42,7 +44,9 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <div className="navbar-title">Mel for Progress</div>
+              <div className="navbar-title">
+                <img id="logo" src={logo} />
+              </div>
             </Link>
             {/* Hamburger menu */}
             <div
@@ -59,7 +63,7 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-start has-text-centered">
+            <div className="navbar-start">
               <Link className="navbar-item navbar-link" to="/">
                 Home
               </Link>

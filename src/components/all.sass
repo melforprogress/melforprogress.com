@@ -1,19 +1,22 @@
 // Config vars
-$purple: #3C2D82
+$paper: #f2efe7
+$crimson: #c41d4a;
+$leaf-green: #00b551;
 $light-purple: #C4C0D9
 $light-blue: #b9d5fd
-$clear-blue: #3273dc
 $title-blue: #0398fc
+$black: black
 $white: white
+$sky-blue: #009bdf
 $white-ter: white
 $font-weight-strong: 600
 $font-weight-very-strong: 800
-$primary: $purple
+$primary: $paper
 $primary-invert: $light-purple
 $secondary: $light-blue
 $black: #2b2523
-$link-color-on-light: $clear-blue
-$violet: purple
+$link-color-on-light: $sky-blue
+$violet: #73308b;
 $light-violet: red
 $serif: 'times new roman'
 $sans-serif: 'comic sans'
@@ -23,7 +26,7 @@ body,
 button,
 input,
 textarea
-  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important
+  font-family: "azo-sans-web", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important
 
 .has-background-primary-dark
   background-color: $primary
@@ -39,17 +42,21 @@ textarea
     display: none !important
   h4
     display: none !important
+  
 
 .btn
   background-color: green
 
 // for specificity
 #navbar
-  min-height: 4.25rem
+  min-height: 6rem
   position: fixed
   top: 0
   background: $primary
   width: 100%
+  
+.navbar-title #logo
+  min-height: 6rem
 
 #navbar .navbar-burger.burger
   color: $secondary
@@ -58,14 +65,14 @@ textarea
   box-shadow:none !important
 
 .navbar .navbar-title
-  font-family: Oswald
   color: $title-blue
   font-size: 40px
   font-weight: $font-weight-strong
-
 .navbar .navbar-link
-  color: $white
+  color: $black
+  font-size: 16px 
   font-weight: $font-weight-very-strong
+
 
 .content .taglist
   list-style: none
@@ -144,15 +151,29 @@ $menu-label-color: $white-ter
     vertical-align: middle
     display: inline
 
+span.underlined
+  padding-bottom: 4px
+  border-bottom: 6px solid $sky-blue
+  line-height: 48px
+
 @import "~bulma/bulma"
+
+body 
+  background-color: $primary 
 
 // customization of bulma class
 .title
-  font-family: Oswald
-  color: $primary !important
-  margin-bottom: 20px
+  color: $black !important
+  margin-bottom: 25px
   font-size: 40px !important
   font-weight: 600
+
+.navbar-start 
+  margin-right: 0
+  margin-left: auto
+
+a.navbar-link:hover
+  color: $sky-blue
 
 // responsiveness
 +desktop
@@ -187,3 +208,4 @@ $menu-label-color: $white-ter
 
 .issue
   margin-bottom: 20px
+  text-align: left
