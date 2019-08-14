@@ -7,19 +7,25 @@
 }
 
 .footer-info {
+  color: black;
   display: inline-block;
   margin-bottom: 10px
 }
 
 .contact-line {
+  color: black;
   font-size: 12px;
 }
 
 .contact-line a {
   cursor: pointer;
-  color: white;
+  color: black;
 }
 
 .contact-line a:hover {
-  color: white;
+  color: black;
+}
+
+.social a {
+  filter: invert(100%);
 }
