@@ -17,7 +17,9 @@ export default function ({children}) {
         <img id="headshot" src={headshot} />
         {children}
         <div className={styles.actionNetworkSection}>
-          <div style={{textAlign: 'center'}} className="title">Join Our Campaign for Progress!</div>
+          <div style={{textAlign: 'center'}} className="title">
+          <span className="underlined">Join Our Campaign for Progress!</span>
+          </div>
           <ActionNetworkWidget />
         </div>
       </PageUnderNavbar>
