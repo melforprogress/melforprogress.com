@@ -90,7 +90,7 @@ const Navbar = class extends React.Component {
                 />
               </OutboundLink>
               <OutboundLink className="navbar-item navbar-link"
-                    href="https://act.melforprogress.com/local"
+                    href="https://act.melforprogress.com/local?filter%5Blocation%5D=queens&page=1"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
