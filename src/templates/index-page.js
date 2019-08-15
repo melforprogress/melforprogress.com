@@ -46,6 +46,7 @@ export const IndexPageTemplate = ({
                       as part of a movement to build a more just future for the nation’s most diverse county.`)}
                     />
                   </div>
+                  <br />
                   <div>
                     <FormattedMessage
                       id={localizedStringsKeypaths.home.about.background}

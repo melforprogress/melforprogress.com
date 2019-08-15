@@ -83,7 +83,7 @@ export default function() {
       <PageUnderNavbar>
         <section className="section section--gradient">
           <div className="content">
-            <div className="title">
+            <div className="title" style={{textAlign: 'center'}}>
               <span class="underlined">
                 <FormattedMessage
                   id={localizedStringsKeypaths.issues.title}
