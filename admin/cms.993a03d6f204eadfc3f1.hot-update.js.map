@@ -1,1 +1,0 @@
-{"version":3,"file":"cms.993a03d6f204eadfc3f1.hot-update.js","sources":["webpack:///./src/components/Billboard.js"],"sourcesContent":["import React from 'react'\n\nexport default function(props){\n  return <div>\n    <img src=\"../static/img/content/headshot.jpg\"/>\n  </div>\n}\n"],"mappings":";;;;;;;;;;AAAA;AAAA;AAAA;AAAA;;;;;A","sourceRoot":""}
