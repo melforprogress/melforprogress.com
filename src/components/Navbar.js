@@ -3,7 +3,8 @@ import { Link } from 'gatsby'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import {FormattedMessage} from 'react-intl';
 import { localizedStringsKeypaths } from "../translations";
-import logo from '../img/content/Gagarin_wordmark-congress-blue-web.png'
+import desktop_logo from '../img/content/Gagarin_wordmark-congress-blue-web.png'
+import mobile_logo from '../img/content/Gagarin_wordmark-blue-web.png'
 
 
 const Navbar = class extends React.Component {
@@ -47,8 +48,9 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <div className="navbar-title">
-                <img id="logo" src={logo} />
+              <div className="navbar-title logo">
+                <img class="desktop" src={desktop_logo} />
+                <img class="mobile" src={mobile_logo} />
               </div>
             </Link>
             {/* Hamburger menu */}
@@ -79,7 +81,7 @@ const Navbar = class extends React.Component {
                   defaultMessage='Issues'
                 />
               </Link>
-              <OutboundLink className="navbar-item navbar-link"
+              <OutboundLink className="navbar-item navbar-link donate"
                     href="https://secure.actblue.com/donate/melforprogress"
                     target="_blank"
                     rel="noopener noreferrer"
