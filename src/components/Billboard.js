@@ -19,10 +19,12 @@ export default function ({children}) {
         {children}
         <div className={styles.actionNetworkSection}>
           <div style={{textAlign: 'center'}} className="title">
-            <FormattedMessage
-              id={localizedStringsKeypaths.join.header}
-              defaultMessage="Join Our Campaign for Progress!"
-            />
+            <span className="underlined">
+              <FormattedMessage
+                id={localizedStringsKeypaths.join.header}
+                defaultMessage="Join Our Campaign for Progress!"
+              />
+            </span>
           </div>
           <ActionNetworkWidget />
         </div>

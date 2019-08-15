@@ -16,6 +16,7 @@ const TemplateWrapper = ({ children }) => {
           <title>{title}</title>
           <meta name="description" content={description} />
           <link href={'https://actionnetwork.org/css/style-embed-v3.css'} rel={'stylesheet'} type={'text/css'} />
+          <link rel="stylesheet" href="https://use.typekit.net/fcx7eur.css"></link>
           <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet"></link>
           <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"></link>
           <link rel="icon"
@@ -23,6 +24,7 @@ const TemplateWrapper = ({ children }) => {
                 href="/img/favicon-mel.jpg"
           ></link>
           <meta name="theme-color" content="#fff" />
+
           <meta property="og:type" content="website" />
           <meta property="og:title" content={title} />
           <meta property="og:url" content="/" />

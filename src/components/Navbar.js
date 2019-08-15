@@ -3,6 +3,8 @@ import { Link } from 'gatsby'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import {FormattedMessage} from 'react-intl';
 import { localizedStringsKeypaths } from "../translations";
+import logo from '../img/content/Gagarin_wordmark-congress-blue-web.png'
+
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -46,10 +48,7 @@ const Navbar = class extends React.Component {
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
               <div className="navbar-title">
-                <FormattedMessage
-                  id='navbar.title'
-                  defaultMessage='Mel for Progress'
-                />
+                <img id="logo" src={logo} />
               </div>
             </Link>
             {/* Hamburger menu */}
@@ -67,7 +66,7 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-start has-text-centered">
+            <div className="navbar-start">
               <Link className="navbar-item navbar-link" to="/">
                 <FormattedMessage
                   id={localizedStringsKeypaths.home.title}
@@ -89,6 +88,13 @@ const Navbar = class extends React.Component {
                   id={localizedStringsKeypaths.donate.title}
                   defaultMessage='Donate'
                 />
+              </OutboundLink>
+              <OutboundLink className="navbar-item navbar-link"
+                    href="https://act.melforprogress.com/local"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Organize
               </OutboundLink>
             </div>
           </div>
