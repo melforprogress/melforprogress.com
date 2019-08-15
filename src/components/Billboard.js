@@ -1,7 +1,8 @@
 import React from 'react'
+import {FormattedMessage} from 'react-intl';
+import { localizedStringsKeypaths } from "../translations";
 import headshot from '../img/content/supercropped.jpg'
 import PageUnderNavbar from './PageUnderNavBar'
-
 import styles from './Billboard.module.css'
 import ActionNetworkWidget from './ActionNetworkWidget';
 
@@ -18,7 +19,12 @@ export default function ({children}) {
         {children}
         <div className={styles.actionNetworkSection}>
           <div style={{textAlign: 'center'}} className="title">
-          <span className="underlined">Join Our Campaign for Progress!</span>
+            <span className="underlined">
+              <FormattedMessage
+                id={localizedStringsKeypaths.join.header}
+                defaultMessage="Join Our Campaign for Progress!"
+              />
+            </span>
           </div>
           <ActionNetworkWidget />
         </div>
