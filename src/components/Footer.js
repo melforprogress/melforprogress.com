@@ -11,9 +11,9 @@ import styles from './Footer.module.css'
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="footer has-background-primary-dark has-text-white-ter">
-        <div className="content has-text-centered has-background-primary-dark has-text-white-ter">
-          <div className="container has-background-primary-dark has-text-white-ter">
+      <footer className="footer">
+        <div className="content has-text-centered">
+          <div className="container">
             <div className="social"> {/* TODO clean this up, very confusing */}
                 <div className={styles.social}>
                   <OutboundLink title="facebook" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/melforprogress/">
