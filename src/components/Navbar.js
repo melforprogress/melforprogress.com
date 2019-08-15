@@ -94,7 +94,10 @@ const Navbar = class extends React.Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Organize
+                <FormattedMessage
+                  id={localizedStringsKeypaths.organize.title}
+                  defaultMessage='Organize'
+                />
               </OutboundLink>
             </div>
           </div>
