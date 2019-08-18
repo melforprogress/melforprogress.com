@@ -3,8 +3,8 @@ import { Link } from 'gatsby'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import {FormattedMessage} from 'react-intl';
 import { localizedStringsKeypaths } from "../translations";
-import desktop_logo from '../img/content/Gagarin_wordmark-congress-blue-web.png'
-import mobile_logo from '../img/content/Gagarin_wordmark-blue-web.png'
+import desktop_logo from '../img/content/mel-logo-web-desktop.png'
+import mobile_logo from '../img/content/mel-logo-web-mobile.png'
 
 
 const Navbar = class extends React.Component {
@@ -49,8 +49,8 @@ const Navbar = class extends React.Component {
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
               <div className="navbar-title logo">
-                <img class="desktop" src={desktop_logo} />
-                <img class="mobile" src={mobile_logo} />
+                <img className="desktop" src={desktop_logo} />
+                <img className="mobile" src={mobile_logo} />
               </div>
             </Link>
             {/* Hamburger menu */}
