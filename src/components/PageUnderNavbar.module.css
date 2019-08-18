@@ -1,17 +1,9 @@
-.page-under-navbar-desktop {
+.page-under-navbar {
   margin-top: 130px;
 }
 
-.page-under-navbar-mobile {
-  display: None;
-}
-
 @media (max-width: 600px) {
-  .page-under-navbar-mobile {
+  .page-under-navbar {
     margin-top: 80px;
-    display: block;
-  }
-  .page-under-navbar-desktop {
-    display: None;
   }
 }

@@ -49,8 +49,8 @@ const Navbar = class extends React.Component {
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
               <div className="navbar-title logo">
-                <img class="desktop" src={desktop_logo} />
-                <img class="mobile" src={mobile_logo} />
+                <img className="desktop" src={desktop_logo} />
+                <img className="mobile" src={mobile_logo} />
               </div>
             </Link>
             {/* Hamburger menu */}
@@ -81,16 +81,6 @@ const Navbar = class extends React.Component {
                   defaultMessage='Issues'
                 />
               </Link>
-              <OutboundLink className="navbar-item navbar-link donate"
-                    href="https://secure.actblue.com/donate/melforprogress"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                <FormattedMessage
-                  id={localizedStringsKeypaths.donate.title}
-                  defaultMessage='Donate'
-                />
-              </OutboundLink>
               <OutboundLink className="navbar-item navbar-link"
                     href="https://act.melforprogress.com/local?filter%5Blocation%5D=queens&page=1"
                     target="_blank"
@@ -99,6 +89,16 @@ const Navbar = class extends React.Component {
                 <FormattedMessage
                   id={localizedStringsKeypaths.organize.title}
                   defaultMessage='Organize'
+                />
+              </OutboundLink>
+              <OutboundLink className="navbar-item navbar-link donate"
+                    href="https://secure.actblue.com/donate/melforprogress"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                <FormattedMessage
+                  id={localizedStringsKeypaths.donate.title}
+                  defaultMessage='Donate'
                 />
               </OutboundLink>
             </div>
