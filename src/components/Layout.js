@@ -24,11 +24,17 @@ const TemplateWrapper = ({ children }) => {
                 href="/img/favicon-mel.jpg"
           ></link>
           <meta name="theme-color" content="#fff" />
-
-          <meta property="og:type" content="website" />
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:site" content="@melforprogress" />
+          <meta name="twitter:creator" content="@melforprogress" />
+          <meta property="og:type" content="website" /> 
+          
+          <meta property="og:description" content="Mel Gagarin is running to represent New York’s 6th Congressional 
+          District to put people before politics, human dignity above corporate greed, and the needs of the many
+           above the benefit of the wealthy and the powerful."/>
           <meta property="og:title" content={title} />
           <meta property="og:url" content="/" />
-          <meta property="og:image" content="/img/ogimage.jpg" />
+          <meta property="og:image" content="https://melforprogress.com/img/ogimage.png" />
         </Helmet>
         <Navbar />
         <div className="template-content">{children}</div>
