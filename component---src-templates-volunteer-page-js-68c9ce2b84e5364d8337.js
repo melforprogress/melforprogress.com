@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{198:function(n,e,t){"use strict";t.r(e);var u=t(0),o=t.n(u);e.default=function(){return o.a.createElement("div",null,"Volunteer!")}}}]);
+//# sourceMappingURL=component---src-templates-volunteer-page-js-68c9ce2b84e5364d8337.js.map

@@ -1,7 +1,6 @@
 {
   "main.js": "render-page.js",
   "main.js.map": "render-page.js.map",
-  "static/Gagarin_wordmark-blue-web.png": "static/Gagarin_wordmark-blue-web-20b6542a641698f39d39c9eec6081b7b.png",
   "static/Gagarin_wordmark-congress-blue-web.png": "static/Gagarin_wordmark-congress-blue-web-b100608bfa4a4db8b4d2cccf5cbb9924.png",
   "static/mel-logo-web-desktop.png": "static/mel-logo-web-desktop-b100608bfa4a4db8b4d2cccf5cbb9924.png",
   "static/mel-logo-web-mobile.png": "static/mel-logo-web-mobile-20b6542a641698f39d39c9eec6081b7b.png",

@@ -1,0 +1,1 @@
+{"version":3,"file":"cms.16116983930aaef55f59.hot-update.js","sources":["webpack:///./src/components/PageWrapper.js"],"sourcesContent":["import React from 'react'\n\nexport default function(props){\n  return <div className=\"page-wrapper\">\n    {props.children}\n  </div>\n}\n"],"mappings":";;;;;;;;;;AAAA;AAAA;AAAA;AAAA;;;;;A","sourceRoot":""}
