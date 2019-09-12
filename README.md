@@ -1,3 +1,21 @@
+# Getting started:
+- Clone the repo
+- Install [Gatsby CLI](https://www.gatsbyjs.org/docs/)
+
+# Running the site locally:
+- install dependencies: `yarn`
+- start development server: `gatsby develop`
+
+# Deployment:
+- Production deploy: ????
+- Every time you merge, to master, the site will automatically deploy to our dev site: 
+- If you want to deploy something for testing:
+  - Install [Netlify CTL](https://github.com/netlify/netlifyctl)
+  - Build the site: `gatsby build`
+  - Deploy: `netlifyctl deploy -b public -s thirsty-swirles-43b8ca.netlify.com`
+  - Your current local build will be deployed to https://thirsty-swirles-43b8ca.netlify.com/
+
+
 # Gatsby + Netlify CMS Starter
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b654c94e-08a6-4b79-b443-7837581b1d8d/deploy-status)](https://app.netlify.com/sites/gatsby-starter-netlify-cms-ci/deploys)

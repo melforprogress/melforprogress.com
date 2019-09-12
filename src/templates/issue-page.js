@@ -1,7 +1,7 @@
 import React from 'react'
 import { FormattedMessage } from "react-intl";
 import Layout from '../components/Layout'
-import PageUnderNavbar from '../components/PageUnderNavbar'
+import PageUnderNavbar from '../components/PageUnderNavBar'
 import Issue from '../components/Issue'
 import { oneLine } from "../translations/stringFileUtils";
 import { localizedStringsKeypaths } from "../translations/es";
