@@ -1,10 +1,12 @@
 import React from 'react'
 import {FormattedMessage} from 'react-intl';
 import { localizedStringsKeypaths } from "../translations";
-import headshot from '../img/content/supercropped.jpg'
+import headshotMobile from '../img/content/Hero-mobile.jpg'
+import headshotTablet from '../img/content/Hero-desktop_tablet.jpg'
 import PageUnderNavbar from './PageUnderNavBar'
 import styles from './Billboard.module.css'
 import ActionNetworkWidget from './ActionNetworkWidget';
+import ResponsiveImage from './ResponsiveImage';
 
 // TODO:
 // This component is called "Billboard"
@@ -15,7 +17,7 @@ export default function ({children}) {
   return (
     <div className={styles.billboard}>
       <PageUnderNavbar>
-        <img id="headshot" src={headshot} />
+        <ResponsiveImage id="headshot" src={headshotMobile} sizeSrcMap={{tablet: headshotTablet}}/>
         {children}
         <div className={styles.actionNetworkSection}>
           <div style={{textAlign: 'center'}} className="title">
