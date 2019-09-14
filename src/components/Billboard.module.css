@@ -5,15 +5,24 @@
 
 .action-network-section {
   display: flex;
+  padding: 5px;
   justify-content: center;
   align-items: center;
 }
 
 @media screen and (min-width: 768px) {
   .hero--image {
-    width: 100%;
-    max-width: 1345px;
     height: 460px;
-    background-position: center;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .action-network-section {
+    position: absolute;
+    width: 45%;
+    right: 1rem;
+    top: 150px;
   }
 }
+
+

@@ -15,7 +15,6 @@ const TemplateWrapper = ({ children }) => {
           <html lang="en" />
           <title>{title}</title>
           <meta name="description" content={description} />
-          <link href={'https://actionnetwork.org/css/style-embed-v3.css'} rel={'stylesheet'} type={'text/css'} />
           <link rel="stylesheet" href="https://use.typekit.net/fcx7eur.css"></link>
           <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet"></link>
           <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"></link>
@@ -27,9 +26,9 @@ const TemplateWrapper = ({ children }) => {
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:site" content="@melforprogress" />
           <meta name="twitter:creator" content="@melforprogress" />
-          <meta property="og:type" content="website" /> 
-          
-          <meta property="og:description" content="Mel Gagarin is running to represent New York’s 6th Congressional 
+          <meta property="og:type" content="website" />
+
+          <meta property="og:description" content="Mel Gagarin is running to represent New York’s 6th Congressional
           District to put people before politics, human dignity above corporate greed, and the needs of the many
            above the benefit of the wealthy and the powerful."/>
           <meta property="og:title" content={title} />

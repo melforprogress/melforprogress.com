@@ -1,0 +1,61 @@
+$transparentPaper: rgba(242, 239, 231, .6)
+$violet: #73308b
+$white: white
+$black: #2b2523
+
+%screenReaderOnly
+    position: absolute
+    left: -10000px
+    top: auto
+    width: 1px
+    height: 1px
+    overflow: hidden
+
+#can-form-area-join-our-campaign-for-progress-2
+    display: flex
+    width: 100%
+    justify-content: center
+    background-color: $transparentPaper
+    list-style: none
+    padding: 0 2rem 2rem 2rem
+    max-width: 330px
+
+// Hide Supported By
+#can-form-area-join-our-campaign-for-progress-2 #action_info
+    display: none
+
+// Hide Action Network Logo
+#can-form-area-join-our-campaign-for-progress-2 #logo_wrap
+    display: none
+
+#can-form-area-join-our-campaign-for-progress-2 .can_embed form input
+    padding: .5rem
+    margin-top: 1.5rem
+    border: none
+    width: 100%
+    border-radius: .2rem
+    font-size: .8rem
+    box-shadow:  0 0 2px 0 $black
+
+#can-form-area-join-our-campaign-for-progress-2 form label
+    @extend %screenReaderOnly
+
+#can-form-area-join-our-campaign-for-progress-2 .can_embed form input[type="submit"]
+    background-color: $violet
+    text-transform: uppercase
+    color: $white
+    font-weight: bold
+    font-size: .9rem
+
+#action-network-section .can_embed form input[type="submit"]:hover
+    background-color: $white
+    color: $violet
+
+#can-form-area-join-our-campaign-for-progress-2.loaded .ajax-loading
+    display: none
+
+#can-form-area-join-our-campaign-for-progress-2 .hide
+    display: none
+
+#can-form-area-join-our-campaign-for-progress-2 .can_embed
+    width: 100%

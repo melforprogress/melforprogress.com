@@ -1,5 +1,6 @@
 import React from 'react'
 import Script from 'react-load-script'
+import './actionNetwork.sass'
 
 export default class ActionNetworkWidget extends React.Component {
   constructor(props) {
@@ -17,14 +18,14 @@ export default class ActionNetworkWidget extends React.Component {
   }
   render(){
     return (
-      <div>
+      <>
         {/* add random number to script URL cos otherwise the widget won't be inserted if this page is loaded a second time */}
         <Script
           url={`https://actionnetwork.org/widgets/v3/form/join-our-campaign-for-progress-2?format=js&source=widget&hash=${this.state.randomHash}`}
           onLoad={this.handleFormLoaded.bind(this)}
         />
         <div id='can-form-area-join-our-campaign-for-progress-2'></div>
-      </div>
+      </>
     )
   }
 }
