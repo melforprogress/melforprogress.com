@@ -28,16 +28,17 @@ $black: #2b2523
 #can-form-area-join-our-campaign-for-progress-2 #logo_wrap
     display: none
 
-#can-form-area-join-our-campaign-for-progress-2 .can_embed form input
-    padding: .5rem
-    margin-top: 1.5rem
-    border: none
-    width: 100%
-    border-radius: .2rem
-    font-size: .8rem
-    box-shadow:  0 0 2px 0 $black
+#can-form-area-join-our-campaign-for-progress-2 .can_embed form
+    input[type="text"],input[type="email"],input[type="submit"]
+        padding: .5rem
+        margin-top: 1.5rem
+        border: none
+        width: 100%
+        border-radius: .2rem
+        font-size: .8rem
+        box-shadow:  0 0 2px 0 $black
 
-#can-form-area-join-our-campaign-for-progress-2 form label
+#can-form-area-join-our-campaign-for-progress-2 form .core_field label
     @extend %screenReaderOnly
 
 #can-form-area-join-our-campaign-for-progress-2 .can_embed form input[type="submit"]
@@ -54,8 +55,16 @@ $black: #2b2523
 #can-form-area-join-our-campaign-for-progress-2.loaded .ajax-loading
     display: none
 
-#can-form-area-join-our-campaign-for-progress-2 .hide
-    display: none
+#can-form-area-join-our-campaign-for-progress-2
+    .hide, .international_link
+        display: none
 
 #can-form-area-join-our-campaign-for-progress-2 .can_embed
     width: 100%
+
+#can-form-area-join-our-campaign-for-progress-2 #form_col2
+    display: flex
+    flex-direction: column-reverse
+
+    #d_sharing
+        margin-top: 20px
