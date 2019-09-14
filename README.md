@@ -8,7 +8,8 @@
 
 # Deployment:
 - Production deploy: ????
-- Every time you merge, to master, the site will automatically deploy to our dev site: 
+- Every time you merge, to master, the site will automatically deploy to our dev site: https://mel-for-progress.netlify.com/
+- This should also generate deploy previews on every PR (look in the git integrations for the link)
 - If you want to deploy something for testing:
   - Install [Netlify CTL](https://github.com/netlify/netlifyctl)
   - Build the site: `gatsby build`
