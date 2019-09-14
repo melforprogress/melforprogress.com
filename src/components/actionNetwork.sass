@@ -11,6 +11,20 @@ $black: #2b2523
     height: 1px
     overflow: hidden
 
+%inputStyles
+    padding: .5rem
+    border: none
+    width: 100%
+    border-radius: .2rem
+    font-size: .8rem
+    box-shadow:  0 0 2px 0 $black
+
+html.can_embed-html
+    margin: 0
+    padding: 0
+    height: auto
+    max-width: 100%
+
 #can-form-area-join-our-campaign-for-progress-2
     display: flex
     width: 100%
@@ -20,51 +34,218 @@ $black: #2b2523
     padding: 0 2rem 2rem 2rem
     max-width: 330px
 
-// Hide Supported By
-#can-form-area-join-our-campaign-for-progress-2 #action_info
-    display: none
-
-// Hide Action Network Logo
-#can-form-area-join-our-campaign-for-progress-2 #logo_wrap
-    display: none
-
-#can-form-area-join-our-campaign-for-progress-2 .can_embed form
-    input[type="text"],input[type="email"],input[type="submit"]
-        padding: .5rem
-        margin-top: 1.5rem
-        border: none
-        width: 100%
-        border-radius: .2rem
-        font-size: .8rem
-        box-shadow:  0 0 2px 0 $black
-
-#can-form-area-join-our-campaign-for-progress-2 form .core_field label
-    @extend %screenReaderOnly
-
-#can-form-area-join-our-campaign-for-progress-2 .can_embed form input[type="submit"]
-    background-color: $violet
-    text-transform: uppercase
-    color: $white
-    font-weight: bold
-    font-size: .9rem
-
-#action-network-section .can_embed form input[type="submit"]:hover
-    background-color: $white
-    color: $violet
-
-#can-form-area-join-our-campaign-for-progress-2.loaded .ajax-loading
-    display: none
-
-#can-form-area-join-our-campaign-for-progress-2
-    .hide, .international_link
+    // Hide things that should be hidden
+        // Country selector
+        // Supported By
+        // Action Network Logo
+    .hide, .international_link, #action_info, #logo_wrap
         display: none
 
-#can-form-area-join-our-campaign-for-progress-2 .can_embed
-    width: 100%
+    #form_col2
+        display: flex
+        flex-direction: column-reverse
 
-#can-form-area-join-our-campaign-for-progress-2 #form_col2
-    display: flex
-    flex-direction: column-reverse
+        #d_sharing
+            margin-top: 20px
 
-    #d_sharing
-        margin-top: 20px
+    .can_embed
+        width: 100%
+
+        form
+            input[type="text"],input[type="email"],input[type="submit"]
+                @extend %inputStyles
+                padding: .5rem
+                margin-top: 1.5rem
+                font-size: .8rem
+
+            .core_field label
+                @extend %screenReaderOnly
+
+            input[type="submit"]
+                cursor: pointer
+                background-color: $violet
+                text-transform: uppercase
+                color: $white
+                font-weight: bold
+                font-size: .9rem
+
+            input[type="submit"]:hover
+                background-color: $white
+                color: $violet
+
+        // Hide weird duplicate form
+        #can_embed_form_inner>form
+            display: none
+
+        #can_embed_form_inner>form:first-of-type
+            display: initial
+
+        #action_welcome_message
+            margin-top: 1rem
+
+        #can_thank_you
+            padding: 1rem
+
+        .share_button
+            border-radius: .2rem
+
+        .can_thank_you-block
+            input, textarea
+                @extend %inputStyles
+                padding: 1rem
+
+            #embed_options,
+            #embed_toggle-open,
+            #embed_toggle-close
+                margin-top: 15px!important
+                display: none!important
+
+        // Copied from vendor css
+        #can_embed_form
+            #d_sharing
+                display: block!important
+                line-height: 15px!important
+                font-size: 11px!important
+                color: #909090!important
+                border-top: 1px dotted #d6d6d6!important
+                padding: 20px 0 0!important
+                margin: 0 0 10px!important
+
+                input
+                    display: inline-block!important
+                    height: auto!important
+                    line-height: 19px!important
+                    width: auto!important
+                    float: none!important
+
+                label
+                    display: inline-block!important
+                    height: auto!important
+                    line-height: 19px!important
+                    width: auto!important
+                    float: none!important
+                    position: relative!important
+                    padding-left: 20px!important
+
+                input
+                    position: absolute!important
+                    left: 0!important
+                    top: 0!important
+
+                ul
+                    margin-bottom: -10px!important
+                    padding: 0!important
+
+                ul li
+                    margin-bottom: 10px!important
+
+            #can_sidebar #d_sharing input
+                top: 0!important
+
+            .can_thank_you-block
+                box-sizing: border-box!important
+                margin-bottom: 20px!important
+
+        #can_embed_form .can_thank_you-block:first-child>label.graytext
+            position: relative!important
+            left: 9px!important
+            top: 13px!important
+            font-size: 11px!important
+            color: #666!important
+            padding: 0 3px!important
+            z-index: 9999!important
+            transition: all .1s linear!important
+            width: auto!important
+            text-transform: uppercase!important
+            z-index: 99!important
+            letter-spacing: .5px!important
+            white-space: nowrap!important
+            overflow: hidden!important
+            max-width: calc(100% - 17px)!important
+            float: left!important
+
+        #can_embed_form .can_thank_you-block:first-child>label.graytext:after
+            content: ""!important
+            display: block!important
+            height: 8px!important
+            bottom: 3px!important
+            background-color: #fff!important
+            width: 100%!important
+            position: absolute!important
+            left: 0!important
+            z-index: -1!important
+
+        #can_embed_form #referral_code_select_wrap+.can_thank_you-block>label.graytext
+            position: relative!important
+            left: 9px!important
+            top: 13px!important
+            font-size: 11px!important
+            color: #666!important
+            padding: 0 3px!important
+            z-index: 9999!important
+            transition: all .1s linear!important
+            width: auto!important
+            text-transform: uppercase!important
+            z-index: 99!important
+            letter-spacing: .5px!important
+            white-space: nowrap!important
+            overflow: hidden!important
+            max-width: calc(100% - 17px)!important
+            float: left!important
+
+        #can_embed_form #referral_code_select_wrap+.can_thank_you-block>label.graytext:after
+            content: ""!important
+            display: block!important
+            height: 8px!important
+            bottom: 3px!important
+            background-color: #fff!important
+            width: 100%!important
+            position: absolute!important
+            left: 0!important
+            z-index: -1!important
+
+        #can_embed_form.can_768 .can_thank_you-block
+            float: left!important
+            width: 31%!important
+            margin-bottom: 40px!important
+            margin-right: 3.5%!important
+
+        #can_embed_form.can_768 .can_thank_you-block:last-child
+            margin-right: 0!important
+
+        #can_embed_form.can_768 .can_thank_you-block.two_margin-block
+            margin-left: 5%!important
+            margin-right: 5%!important
+
+        #can_embed_form .can_thank_you-block .share_button
+            width: 48%!important
+            margin-right: 4%!important
+            display: block!important
+            float: left!important
+            color: #fff!important
+            text-align: center!important
+            line-height: 40px!important
+            text-decoration: none!important
+            letter-spacing: 2px!important
+            font-size: .8em!important
+            text-transform: uppercase!important
+
+        #can_embed_form .can_thank_you-block .share_button.share-facebook
+            background-color: #335795!important
+
+        #can_embed_form .can_thank_you-block .share_button.share-facebook:hover
+            background-color: #4f74bf!important
+
+        #can_embed_form .can_thank_you-block .share_button.share-twitter
+            background-color: #00aced!important
+            margin-right: 0!important
+
+        #can_embed_form .can_thank_you-block .share_button.share-twitter:hover
+            background-color: #39c7ff!important
+
+        #can_embed_form .can_thank_you-block .share_button.share-google
+            display: none!important
+
+// Hide loading spinner after load
+#can-form-area-join-our-campaign-for-progress-2.loaded .ajax-loading
+    display: none
