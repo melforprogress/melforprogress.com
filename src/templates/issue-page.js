@@ -1,10 +1,10 @@
 import React from 'react'
-import { FormattedMessage } from "react-intl";
+import { FormattedMessage } from 'react-intl'
 import Layout from '../components/Layout'
 import PageUnderNavbar from '../components/PageUnderNavBar'
 import Issue from '../components/Issue'
-import { oneLine } from "../translations/stringFileUtils";
-import { localizedStringsKeypaths } from "../translations/es";
+import { oneLine } from '../translations/stringFileUtils'
+import { localizedStringsKeypaths } from '../translations/es'
 
 const issuesDefaults = [
   {
@@ -26,7 +26,7 @@ const issuesDefaults = [
             opportunities to local labor at prevailing wages and guarantees high safety standards
             for workers.', 'By refusing contributions from all corporations including real estate,
              Mel can be trusted to fight to keep housing in reach for working class families.`),
-    ]
+    ],
   },
   {
     title: 'Immigration Justice',
@@ -43,8 +43,8 @@ const issuesDefaults = [
         inhumane acts against refugees and immigrants.`),
       oneLine(`By reforming our immigration infrastructure, Mel believes that we can keep
         families together, build safer communities, and restore America’s promise as a land of
-        refuge and opportunity.`)
-    ]
+        refuge and opportunity.`),
+    ],
   },
   {
     title: 'Universal Basic Income',
@@ -57,7 +57,7 @@ const issuesDefaults = [
         to struggle with wage stagnation and income inequality. Investing in Universal Basic Income
         experiments can reduce poverty, create opportunities for new types of work, and reinforce a
         sense of dignity in people’s lives.`),
-    ]
+    ],
   },
   {
     title: 'Support Seniors',
@@ -73,9 +73,9 @@ const issuesDefaults = [
         Whether subsidizing home care services, meeting the challenges of end-of-life care, or
         improving the support of assisted living facilities, Mel believes our seniors are owed
         respect and dignity in their golden years, regardless of financial circumstances.`),
-    ]
+    ],
   },
-];
+]
 
 export default function() {
   return (
@@ -83,43 +83,31 @@ export default function() {
       <PageUnderNavbar>
         <section className="section section--gradient">
           <div className="content">
-            <div className="title" style={{textAlign: 'center'}}>
+            <div className="title" style={{ textAlign: 'center' }}>
               <span class="underlined">
                 <FormattedMessage
                   id={localizedStringsKeypaths.issues.title}
-                  defaultMessage='Policy for the People'
+                  defaultMessage="Policy for the People"
                 />
               </span>
             </div>
             <>
-              {
-                issuesDefaults.map((example, exampleIdx) =>
-                  <Issue
-                    title={
-                      <FormattedMessage
-                        id={
-                          localizedStringsKeypaths.issues.examples[exampleIdx].title
-                        }
-                        defaultMessage={example.title}
-                      />
-                    }
-                    paragraphs={
-                      example.text.map(
-                        ((paragraph, paragraphIdx) =>
-                          <FormattedMessage
-                            id={
-                              localizedStringsKeypaths.issues
-                                .examples[exampleIdx].text[paragraphIdx]
-                            }
-                            defaultMessage={
-                              paragraph
-                            }
-                          />
-                        )
-                      )
-                    }
-                  />
-                )}
+              {issuesDefaults.map((example, exampleIdx) => (
+                <Issue
+                  title={
+                    <FormattedMessage
+                      id={localizedStringsKeypaths.issues.examples[exampleIdx].title}
+                      defaultMessage={example.title}
+                    />
+                  }
+                  paragraphs={example.text.map((paragraph, paragraphIdx) => (
+                    <FormattedMessage
+                      id={localizedStringsKeypaths.issues.examples[exampleIdx].text[paragraphIdx]}
+                      defaultMessage={paragraph}
+                    />
+                  ))}
+                />
+              ))}
             </>
           </div>
         </section>

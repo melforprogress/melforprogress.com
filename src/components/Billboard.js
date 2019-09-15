@@ -1,12 +1,12 @@
-import React from 'react';
-import { FormattedMessage } from 'react-intl';
-import { localizedStringsKeypaths } from '../translations';
-import headshotMobile from '../img/content/Hero-mobile.png';
-import headshotTablet from '../img/content/Hero-desktop_tablet.jpg';
-import PageUnderNavbar from './PageUnderNavBar';
-import styles from './Billboard.module.css';
-import ActionNetworkWidget from './ActionNetworkWidget';
-import ResponsiveImage from './ResponsiveImage';
+import React from 'react'
+import { FormattedMessage } from 'react-intl'
+import { localizedStringsKeypaths } from '../translations'
+import headshotMobile from '../img/content/Hero-mobile.png'
+import headshotTablet from '../img/content/Hero-desktop_tablet.jpg'
+import PageUnderNavbar from './PageUnderNavBar'
+import styles from './Billboard.module.css'
+import ActionNetworkWidget from './ActionNetworkWidget'
+import ResponsiveImage from './ResponsiveImage'
 
 // TODO:
 // This component is called "Billboard"
@@ -29,5 +29,5 @@ export default function({ children }) {
         {children}
       </PageUnderNavbar>
     </div>
-  );
+  )
 }

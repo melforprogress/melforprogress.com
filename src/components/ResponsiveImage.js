@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 
 const sources = {
   tablet: '(min-width: 768px)',
-};
+}
 
 export default function({ sizeSrcMap, src, ...props }) {
   return (
@@ -12,5 +12,5 @@ export default function({ sizeSrcMap, src, ...props }) {
       ))}
       <img src={src} {...props} />
     </picture>
-  );
+  )
 }

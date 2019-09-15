@@ -1,11 +1,10 @@
 import React from 'react'
-import {IntlProvider, addLocaleData } from "react-intl"
-import es from 'react-intl/locale-data/es';
+import { IntlProvider, addLocaleData } from 'react-intl'
+import es from 'react-intl/locale-data/es'
 
-import { getLocalizedStrings } from "../translations";
+import { getLocalizedStrings } from '../translations'
 
-addLocaleData([...es]);
-
+addLocaleData([...es])
 
 const WithIntl = ({ children }) => {
   // TODO fix this
@@ -17,16 +16,15 @@ const WithIntl = ({ children }) => {
     <IntlProvider locale={'en'} messages={getLocalizedStrings(locale)}>
       {children}
     </IntlProvider>
-  );
-};
+  )
+}
 
-const toLocale = (locale) => {
+const toLocale = locale => {
   const dash_index = locale.indexOf('-')
-  if (dash_index >= 0)
-  {
+  if (dash_index >= 0) {
     return locale.substring(0, dash_index)
   }
   return locale
-};
+}
 
-export default WithIntl;
+export default WithIntl
