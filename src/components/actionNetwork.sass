@@ -101,6 +101,15 @@ html.can_embed-html
                 margin-top: 15px!important
                 display: none!important
 
+        // Hide form about referral code after signup
+        #can_embed_form.can_thank_you_wrap.thank_you_v3
+           #referral_code_select_wrap
+              display: none
+
+        // Label for Opt-in checkbox
+        #can_embed_form #d_sharing label
+            color: $black
+
         // Copied from vendor css
         #can_embed_form
             #d_sharing
