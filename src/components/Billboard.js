@@ -1,7 +1,7 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import { localizedStringsKeypaths } from '../translations';
-import headshotMobile from '../img/content/Hero-mobile.jpg';
+import headshotMobile from '../img/content/Hero-mobile.png';
 import headshotTablet from '../img/content/Hero-desktop_tablet.jpg';
 import PageUnderNavbar from './PageUnderNavBar';
 import styles from './Billboard.module.css';
@@ -15,7 +15,7 @@ import ResponsiveImage from './ResponsiveImage';
 // (i.e., when there won't be merge conflicts.)
 export default function({ children }) {
   return (
-    <div className={styles.billboard + ' container'}>
+    <div className={styles.billboard}>
       <PageUnderNavbar>
         <ResponsiveImage
           id="headshot"
