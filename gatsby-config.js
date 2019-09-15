@@ -3,8 +3,7 @@ var proxy = require('http-proxy-middleware')
 module.exports = {
   siteMetadata: {
     title: 'Mel for Progress',
-    description:
-      'Mel Gagarin is running for Congress to represent NY-6',
+    description: 'Mel Gagarin is running for Congress to represent NY-6',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -77,7 +76,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-144378671-1'
+        trackingId: 'UA-144378671-1',
       },
     },
     'gatsby-plugin-netlify', // make sure to keep it last in the array

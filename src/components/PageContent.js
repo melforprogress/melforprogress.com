@@ -1,7 +1,5 @@
 import React from 'react'
 
-export default function(props){
-  return <div className="page-content">
-    {props.children}
-  </div>
+export default function(props) {
+  return <div className="page-content">{props.children}</div>
 }
