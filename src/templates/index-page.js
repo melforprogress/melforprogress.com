@@ -3,12 +3,11 @@ import PropTypes from 'prop-types'
 
 import Layout from '../components/Layout'
 import Billboard from '../components/Billboard'
-import { FormattedMessage } from "react-intl";
-import { localizedStringsKeypaths } from "../translations/es";
-import { oneLine } from "../translations/stringFileUtils";
+import { FormattedMessage } from 'react-intl'
+import { localizedStringsKeypaths } from '../translations/es'
+import { oneLine } from '../translations/stringFileUtils'
 
-export const IndexPageTemplate = ({
-}) => (
+export const IndexPageTemplate = ({}) => (
   <div>
     <Billboard>
       <div className="container">
@@ -16,8 +15,8 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
-                <div className="content" >
-                  <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                <div className="content">
+                  <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                     <div className="title">
                       <span className="underlined">
                         <FormattedMessage
@@ -65,7 +64,7 @@ export const IndexPageTemplate = ({
       </div>
     </Billboard>
   </div>
-);
+)
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -80,11 +79,9 @@ IndexPageTemplate.propTypes = {
 }
 
 const IndexPage = () => {
-
   return (
     <Layout>
-      <IndexPageTemplate
-      />
+      <IndexPageTemplate />
     </Layout>
   )
 }

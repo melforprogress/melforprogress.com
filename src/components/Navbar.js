@@ -1,11 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
-import {FormattedMessage} from 'react-intl';
-import { localizedStringsKeypaths } from "../translations";
+import { FormattedMessage } from 'react-intl'
+import { localizedStringsKeypaths } from '../translations'
 import desktop_logo from '../img/content/mel-logo-web-desktop.png'
 import mobile_logo from '../img/content/mel-logo-web-mobile.png'
-
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -36,7 +35,6 @@ const Navbar = class extends React.Component {
     )
   }
 
-
   render() {
     return (
       <nav
@@ -64,41 +62,37 @@ const Navbar = class extends React.Component {
               <span />
             </div>
           </div>
-          <div
-            id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
-          >
+          <div id="navMenu" className={`navbar-menu ${this.state.navBarActiveClass}`}>
             <div className="navbar-start">
               <Link className="navbar-item navbar-link" to="/">
-                <FormattedMessage
-                  id={localizedStringsKeypaths.home.title}
-                  defaultMessage='Home'
-                />
+                <FormattedMessage id={localizedStringsKeypaths.home.title} defaultMessage="Home" />
               </Link>
               <Link className="navbar-item navbar-link" to="/issues">
                 <FormattedMessage
                   id={localizedStringsKeypaths.issues.title}
-                  defaultMessage='Issues'
+                  defaultMessage="Issues"
                 />
               </Link>
-              <OutboundLink className="navbar-item navbar-link"
-                    href="https://act.melforprogress.com/local?filter%5Blocation%5D=queens&page=1"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+              <OutboundLink
+                className="navbar-item navbar-link"
+                href="https://act.melforprogress.com/local"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FormattedMessage
                   id={localizedStringsKeypaths.organize.title}
-                  defaultMessage='Organize'
+                  defaultMessage="Organize"
                 />
               </OutboundLink>
-              <OutboundLink className="navbar-item navbar-link donate"
-                    href="https://secure.actblue.com/donate/melforprogress"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+              <OutboundLink
+                className="navbar-item navbar-link donate"
+                href="https://secure.actblue.com/donate/melforprogress"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FormattedMessage
                   id={localizedStringsKeypaths.donate.title}
-                  defaultMessage='Donate'
+                  defaultMessage="Donate"
                 />
               </OutboundLink>
             </div>

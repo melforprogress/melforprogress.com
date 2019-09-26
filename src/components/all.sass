@@ -1,7 +1,7 @@
 // Config vars
 $paper: #f2efe7
-$crimson: #c41d4a;
-$leaf-green: #00b551;
+$crimson: #c41d4a
+$leaf-green: #00b551
 $light-purple: #C4C0D9
 $light-blue: #b9d5fd
 $title-blue: #0398fc
@@ -16,11 +16,19 @@ $primary-invert: $light-purple
 $secondary: $light-blue
 $black: #2b2523
 $link-color-on-light: $sky-blue
-$violet: #73308b;
+$violet: #73308b
 $light-violet: red
 $serif: 'times new roman'
 $sans-serif: 'comic sans'
 $lightgray: 'lightgray'
+
+%screenReaderOnly
+  position: absolute
+  left: -10000px
+  top: auto
+  width: 1px
+  height: 1px
+  overflow: hidden
 
 body,
 button,
@@ -72,7 +80,7 @@ textarea
     margin-bottom: -10px
     display: block
   .logo .desktop
-    display: none 
+    display: none
 
 
 .navbar .navbar-menu
@@ -194,14 +202,14 @@ body
   height: 5rem
   width: 70px
 
-.navbar-burger span 
+.navbar-burger span
   width: 45px
   left: calc(50% - 30px)
   height: 3px
 .content .title
   margin-bottom: 2rem
 
-.navbar-burger span:nth-child(1) 
+.navbar-burger span:nth-child(1)
     top: calc(50% - 12px)
 
 .navbar-burger span:nth-child(2)
@@ -209,7 +217,7 @@ body
 
 .navbar-burger span:nth-child(3)
   top: calc(50% + 10px)
-  
+
 .navbar-burger.is-active span:nth-child(1)
     transform: translateY(13px) rotate(45deg);
 
@@ -234,18 +242,6 @@ a.navbar-link:hover
   padding-top: 24px
   padding-bottom: 24px
 
-
-// responsiveness
-+desktop
-  #billboard
-  display: flex
-  flex-direction: column
-
-  #can-form-area-join-our-campaign-for-progress-2
-    width: 100%
-    position: absolute
-    top: 60px
-
 +touch
   section
     padding-top: 0 !important
@@ -257,12 +253,9 @@ a.navbar-link:hover
     display: flex
     flex-direction: column
 
-    #can-form-area-join-our-campaign-for-progress-2
-      display: flex
-      width: 100%
-      justify-content: center
-      width: 100%
-
 .issue
   margin-bottom: 30px
   text-align: left
+
+#can-form-area-join-our-campaign-for-progress-2 #can-embed
+  color: papayawhip
