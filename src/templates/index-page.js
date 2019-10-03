@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 
 import Layout from '../components/Layout'
 import Billboard from '../components/Billboard'
+import DonatePicker from '../components/DonatePicker'
 import { FormattedMessage } from 'react-intl'
 import { localizedStringsKeypaths } from '../translations/es'
 import { oneLine } from '../translations/stringFileUtils'
@@ -56,6 +57,7 @@ export const IndexPageTemplate = ({}) => (
                       dachshund, Chewbacca.`)}
                     />
                   </div>
+                  <DonatePicker/>
                 </div>
               </div>
             </div>

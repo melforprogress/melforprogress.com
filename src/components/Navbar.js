@@ -91,7 +91,7 @@ const Navbar = class extends React.Component {
                 rel="noopener noreferrer"
               >
                 <FormattedMessage
-                  id={localizedStringsKeypaths.donate.title}
+                  id={localizedStringsKeypaths.donate.link}
                   defaultMessage="Donate"
                 />
               </OutboundLink>
