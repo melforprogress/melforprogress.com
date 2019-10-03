@@ -1,10 +1,8 @@
 {
   "main.js": "render-page.js",
   "main.js.map": "render-page.js.map",
-  "static/Gagarin_wordmark-congress-blue-web.png": "static/Gagarin_wordmark-congress-blue-web-b100608bfa4a4db8b4d2cccf5cbb9924.png",
   "static/Hero-desktop_tablet.jpg": "static/Hero-desktop_tablet-7dd5787dea0bd79cd73fbcee38b673de.jpg",
   "static/Hero-mobile.png": "static/Hero-mobile-6592cc59ce91d6eb2d7d8257f305b546.png",
   "static/mel-logo-web-desktop.png": "static/mel-logo-web-desktop-b100608bfa4a4db8b4d2cccf5cbb9924.png",
-  "static/mel-logo-web-mobile.png": "static/mel-logo-web-mobile-20b6542a641698f39d39c9eec6081b7b.png",
-  "static/supercropped.jpg": "static/supercropped-6fc5eb8ae28588c7053b01059b4ea988.jpg"
+  "static/mel-logo-web-mobile.png": "static/mel-logo-web-mobile-20b6542a641698f39d39c9eec6081b7b.png"
 }
