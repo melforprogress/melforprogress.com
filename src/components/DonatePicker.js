@@ -15,8 +15,7 @@ const DonatePicker = class extends React.Component {
       selectedAmount: DonationAmounts[3],
     }
   }
-
-
+  
   render() {
     return (
       <div className="donate-picker--container">
@@ -66,7 +65,7 @@ const Select = ({ amount, isSelected, ...props }) => console.log('isSelected', i
   </button>
 
 Select.propTypes = {
-                  amount: PropTypes.number,
+  amount: PropTypes.number,
   isSelected: PropTypes.bool,
 };
 

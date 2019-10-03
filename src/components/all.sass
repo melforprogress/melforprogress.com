@@ -30,6 +30,10 @@ $lightgray: 'lightgray'
   height: 1px
   overflow: hidden
 
+%transition
+  -webkit-transition: all .25s ease
+  transition: all .25s ease
+
 body,
 button,
 input,
@@ -96,14 +100,17 @@ textarea
   font-weight: $font-weight-very-strong
 
   &.navbar-item
+    @extend %transition
     &:hover
       span
+        @extend %transition
         color: $black
         border-bottom: 3px solid $sky-blue
     &::after
       display: none
 
     &.donate
+      @extend %transition
       color: $sky-blue
       &:hover
         span
@@ -127,6 +134,7 @@ textarea
 
 // Helper Classes
 .btn
+  @extend %transition
   display: inline-block
   padding: 12px 16px 10px
   font-size: 18px
@@ -140,8 +148,6 @@ textarea
   text-align: center
   -webkit-box-shadow: inset 0 0 0 2px #CC3700
   box-shadow: inset 0 0 0 2px #f40
-  -webkit-transition: all .15s ease
-  transition: all .15s ease
 
 .margin-top-0
   margin-top: 0 !important
@@ -235,8 +241,10 @@ body
   margin-right: 0
   margin-left: auto
 
-a.navbar-link:hover
-  color: $sky-blue
+a.navbar-link
+  @extend %transition
+  &:hover
+    color: $sky-blue
 
 .section
   padding-top: 24px
@@ -261,6 +269,7 @@ a.navbar-link:hover
   text-align: left
 
 .button--primary
+  @extend %transition
   cursor: pointer
   background-color: $sky-blue
   text-transform: uppercase
@@ -271,13 +280,12 @@ a.navbar-link:hover
   text-decoration: none
   font-weight: 700
   text-align: center
-  -webkit-transition: all .15s ease
-  transition: all .15s ease
   padding: 10px 30px
 
-button--primary:hover
-  background-color: $white
-  color: $sky-blue
+  &:hover
+    background-color: $white
+    color: $sky-blue
+    box-shadow: inset 0px 0px 0px 2px $sky-blue
 
 // Donate module
 .donate-picker--container
@@ -293,6 +301,7 @@ button--primary:hover
     flex-wrap: wrap
 
     .donate-picker--select
+      @extend %transition
       -webkit-border-radius: 100%
       -moz-border-radius: 100%
       border-radius: 100%
@@ -306,12 +315,10 @@ button--primary:hover
       align-items: center
       justify-content: center
       margin: 20px;
-      -webkit-transition: all .15s ease
-      transition: all .15s ease
+
+      &:hover
+        border: 4px solid $sky-blue
 
     .donate-picker--select--selected
       background-color: $sky-blue
       color: $white
-
-    .donate-picker--select:hover
-      border: 4px solid $sky-blue

@@ -20,6 +20,10 @@ $black: #2b2523
     box-shadow:  0 0 2px 0 $black
     -webkit-appearance: none
 
+%transition
+    -webkit-transition: all .25s ease
+    transition: all .25s ease
+
 html.can_embed-html
     margin: 0
     padding: 0
@@ -63,6 +67,7 @@ html.can_embed-html
                 @extend %screenReaderOnly
 
             input[type="submit"]
+                @extend %transition
                 cursor: pointer
                 background-color: $violet
                 text-transform: uppercase
