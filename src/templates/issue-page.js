@@ -1,81 +1,109 @@
 import React from 'react'
-import { FormattedMessage } from 'react-intl'
+import { FormattedMessage } from "react-intl";
 import Layout from '../components/Layout'
 import PageUnderNavbar from '../components/PageUnderNavBar'
 import Issue from '../components/Issue'
-import { oneLine } from '../translations/stringFileUtils'
-import { localizedStringsKeypaths } from '../translations/es'
+import { oneLine } from "../translations/stringFileUtils";
+import { localizedStringsKeypaths } from "../translations/es";
 
 const issuesDefaults = [
   {
     title: 'Affordable Housing for All',
     text: [
-      oneLine(`Mel believes that housing is a human right and that access to affordable
-            housing should be a national priority. While an improving economy has benefited real
-            estate and land development corporations, wages are not keeping up with rising housing
-            prices and rent. In Queens alone, countless working families are being priced out of
-            their neighborhoods, and the number of people experiencing homelessness is increasing.
-            When the scales are tipped in favor of wealthy developers, a new vision for social housing
-            in America is necessary. Expanding on the recommendations of the People’s Policy Project,
-            Mel will introduce legislation to create 25 million new environmentally sustainable social
-            housing units by 2050, and create affordable housing for all.`),
-      oneLine(`He supports expanding funding for existing programs, creating guaranteed
-            housing with wrap around services to address homelessness, desegregating poverty by
-            making housing accessible to all, and lifting barriers to housing for justice involved
-            individuals. Furthermore, Mel will ensure that this legislation provides employment
-            opportunities to local labor at prevailing wages and guarantees high safety standards
-            for workers.', 'By refusing contributions from all corporations including real estate,
-             Mel can be trusted to fight to keep housing in reach for working class families.`),
-    ],
+      oneLine(`A housing guarantee affirms Mel’s belief that housing is a human right. While an improving economy has benefited real estate and land development corporations, wages are not keeping up with rising housing prices and rent. In Queens alone, countless working families are being priced out of their neighborhoods, and the number of people experiencing homelessness is increasing. `),
+      oneLine(`When the scales are tipped in favor of wealthy developers, a new vision for social housing in America is necessary. Mel will introduce legislation to create 25 million new social housing units by 2050 building upon recommendations by the People’s Policy Project and The People’s Action Homes Guarantee. `),
+	  oneLine(`This comprehensive plan aims to meet the sustainability goals of the Green New Deal, create new jobs that pay prevailing wages, desegregate poverty, eliminate re-entry barriers for formerly incarcerated people, and create housing that is affordable to all. `),
+    ]
+  },
+  {
+    title: 'Golden Years Security Act',
+    text: [
+      oneLine(`Mel believes our elders are owed respect and dignity in their golden years, regardless of their or their family’s financial circumstances.`),
+      oneLine(`For many Americans, the ability to enjoy retirement has become increasingly difficult with rising costs of housing and healthcare. Elders who are retired should not be priced out of their homes or be unable to afford long-term quality healthcare. We need to expand the social safety net to fill in the current gaps between Medicare, Medicaid, and Social Security. `),
+	  oneLine(`Mel believes that everyone deserves to live out their golden years in dignity and will introduce the Golden Years Security Act to make sure that the basic needs of our elders are met: from preventing discrimination of LGBTQIA+ elders in nursing facilities to addressing the specialized medical needs that our current infrastructure fails to. The Golden Years Security Act will also subsidize and expand home care services, increase the number of union nurses and caretakers, provide resources to train caretakers, meet the challenges of end-of-life care, and help families that must choose assisted living facilities.`),
+    ]
+  },
+  {
+    title: 'Green New Deal',
+    text: [
+      oneLine(`Climate change is the defining challenge of our time. Yet as global temperatures continue to rise and extreme weather events become more frequent, vulnerable front-line communities are forced to wait for insufficient market-based solutions. A Green New Deal is not only a possibility, it is now a necessity.`),
+      oneLine(`Mel can be trusted to implement bold policies to reform our failing energy infrastructure because he is the only candidate pledging to reject contributions from fossil fuel executives, lobbyists and their front groups.`),
+      oneLine(`To start, he will fight for public ownership of utilities to ensure critical access to basic utilities are not at the mercy of for-profit corporations who continue to hike rates while our communities face outages. In an ever-digitized world, access to the internet is a necessity. Mel will fight for a public option to the internet to end the stranglehold monopolies have on Queens’ residents on-line access, creating new jobs for local labor and providing high internet access to all communities.`),
+	  oneLine(`Mel will lead on policies to ensure workers can transition into new sectors and working families can earn a livable wage. He supports a federal jobs guarantee and jobs training for workers to transition into the new economy, because workers are at the heart of our economy and should be valued as such.`),
+    ]
+  },
+  {
+    title: 'Medicare for All',
+    text: [
+      oneLine(`In the 1970s, when other countries around the world had implemented or were implementing national health insurance plans, we put our health in the hands of private enterprise. Decades, and billions of lobbying dollars, later, the results are clear: the United States spends far more on healthcare than any other nation, with significantly worse outcomes — including the highest maternal mortality rate in the developed world.`),
+      oneLine(`Executive salaries and compensation packages in the pharmaceutical and health insurance industries are astronomical, while medical bills steadfastly remain the leading cause of bankruptcy in this country. Over 30 million Americans remain uninsured, while tens of millions with coverage still face inadequate or denied care. Healthcare is a right, not a privilege, and it’s time to focus on the American people and their health over the profits of billion-dollar corporations.`),
+	  oneLine(`Mel supports Medicare for All — a federal universal single-payer program. No longer will our health be weighed against the balance sheets of massive corporations; with a single-payer program, all residents of the United States will be covered for their medical services, including doctor, hospital, preventative, long-term care, mental health, reproductive health care, dental, vision, prescription drug and medical supply costs. Eliminating co-pays, premiums, and deductibles means that lower- and middle-income Americans will no longer have to weigh the cost of paying for life-saving medicine against feeding their families.`),
+    ]
+  },
+  {
+    title: 'Funding Universal Basic Income Experiments',
+    text: [
+      oneLine(`Rapid technological innovation has already changed American employment. Advances in automation, artificial intelligence and deep machine learning, continues to eviscerate opportunities for work and is contributing to an already-growing gig economy. As temporary, part-time, and non-traditional jobs redefine the labor market, Mel believes that we need to enable people to live better lives, not leave them to struggle with wage stagnation and income inequality.`),
+      oneLine(`Investing in Universal Basic Income experiments can reduce poverty, begin to address the race and gender wealth gap, create opportunities for new types of work, and reinforce a sense of dignity in people’s lives. A basic level of financial stability gives people the freedom to leave a job that doesn’t treat them well, to pursue opportunities such as entrepreneurship, or to the freedom to choose a new, more fulfilling career that may be non-traditional. UBI is not only a necessity to prepare for the continuing transformation of work, but also for the millions of Americans who currently do not have financial security to lead happy and healthy lives.`),
+	  oneLine(`As a stay at home dad and the son of a single mom, Mel understands how parenthood can be an unrecognized form of labor. He believes Universal Basic Income is a way to value all types work and Mel will only champion UBI policies that will work in tandem with existing social safety nets and increased minimum wage standards. `),
+    ]
+  },
+  {
+    title: 'Public Education',
+    text: [
+      oneLine(`Mel believes, like the U.N. does, that education is a human right. Tuition and fees at public universities have ballooned over the past 30 years, leaving an entire generation of young people with an unfair choice: sacrifice higher education or take out tens of thousands of dollars in student debt. The promise of higher pay has created a vicious cycle in which students take out increasingly larger loans only to realize that median hourly wages for college graduates have not kept up.`),
+      oneLine(`Mel will fight for public colleges, universities, and trade schools throughout the country to be tuition-free. He also supports a one-time policy of all student debt cancellation, including both federal and private sector student loans. Mel will support legislation the requires the Department of Education to forgive loans guaranteed by the U.S. government, while the federal government directly purchases private student loan debt from private banks and lenders.`),
+	  oneLine(`Mel also believes that we need to properly invest in free public education from Pre-K on up. But it’s not just about throwing money at the problem, it’s about identifying successful outcomes and investing in the people that ensure them. From increasing teacher pay, to free childcare, Mel recognizes that educational outcomes are not just about schools.`),
+    ]
   },
   {
     title: 'Immigration Justice',
     text: [
-      oneLine(`The Trump administration has taken pride in policies that rip away children
-        from their families, deprive our undocumented friends and neighbors of due process and
-        dignity, and erode any accountability of immigration agencies. It’s time to shut down
-        detention centers and terminate the private prison contracts that profit off them. We must
-        abolish ICE, end the militarization of the CBP, and develop sensible policy that does not
-        restrict movement while preserving safety.`),
-      oneLine(`Mel understands that we need to act against the atrocities being committed in our
-        country. Asylum seekers should be fast-tracked and given the chance to build the better life
-        that they came here seeking. America should be a beacon of hope, not a stage for cruel and
-        inhumane acts against refugees and immigrants.`),
-      oneLine(`By reforming our immigration infrastructure, Mel believes that we can keep
-        families together, build safer communities, and restore America’s promise as a land of
-        refuge and opportunity.`),
-    ],
+      oneLine(`The Trump administration has taken pride in policies that rip away children from their families, deprive our undocumented friends and neighbors of due process and dignity, and erode any accountability of immigration agencies. It’s time to shut down detention centers and terminate all of the private prison contracts that profit off them. We must abolish ICE, end the militarization of the CBP, and develop sensible policy when it comes to our borders.`),
+      oneLine(`Mel understands that we need to act against the atrocities being committed in our country. Asylum seekers should be fast-tracked and given the chance to build the better life that they came here seeking. America should be a beacon of hope, not a stage for cruel and inhumane acts against refugees and immigrants.`),
+      oneLine(`Undocumented immigrants who were brought here as children only know America as their home. These children have grown up in America and are woven into the very fabric of our community. Mel will fight to secure DACA and DAPA, creating a path to citizenship for our DREAMer friends and neighbors. Mel is the descendant of immigrants who understands that America can and must do better for families.`),
+	  oneLine(`It’s time for America to value the work and contributions of immigrants.  By reforming our immigration infrastructure, Mel believes that we can keep families together, build safer communities, and restore America’s promise as a land of refuge and opportunity.`),
+    ]
   },
   {
-    title: 'Universal Basic Income',
+    title: 'Public Banking',
     text: [
-      oneLine(`Rapid technological innovation has already changed American employment. Automation
-        continues to eviscerate opportunities for work and is contributing to an already-growing gig
-        economy. As temporary, part-time, and non-traditional jobs redefine the meaning of career,
-        it’s time to be prepared for the future.`),
-      oneLine(`Mel understands that we need to enable people to live better lives, not leave them
-        to struggle with wage stagnation and income inequality. Investing in Universal Basic Income
-        experiments can reduce poverty, create opportunities for new types of work, and reinforce a
-        sense of dignity in people’s lives.`),
-    ],
+      oneLine(`City and state governments currently manage their finances with privately-owned banks, giving Wall Street institutions the power to speculate with public dollars, to lend money to municipalities at high interest rates, and to charge large fees for banking services. This is no surprise as private banks have a responsibility to aggressively maximize short-term profits, not invest in the best interests of the community. We need an alternative financial institution to put people before profit: public banks.`),
+      oneLine(`Public banks will answer to the public — not shareholder. By shifting the priority from shareholders to the public, public banks can both manage government finances and prioritize the needs of our communities and the public good.`),
+      oneLine(`Mel will fight for public banking because low-interest capital is necessary for a just and equitable economy. In order to thrive in communities, small business owners need access to low-interest loan alternatives — not be held hostage by outrageous rates of private loans.`),
+	  oneLine(`As a supporter of the Green New Deal, Mel believes public banking is a crucial component of decarbonizing the economy, building green infrastructure projects, and investing in clean energy alternatives. The bottom line is this: so long as the private banks have investments in industries like oil, they have no incentive to put dollars in sustainable, long-term investments into our community or the Green New Deal.`),
+    ]
   },
   {
-    title: 'Support Seniors',
+    title: 'Criminal Justice Reform',
     text: [
-      oneLine(`For many Americans, the ability to enjoy retirement has become increasingly
-        difficult with rising costs of housing and healthcare. Mel believes that everyone
-        deserves to live out their golden years in dignity. Seniors who are retired should not
-        be priced out of their homes or unable to afford long-term quality healthcare, which is
-        why Mel also supports Medicare for All.`),
-      oneLine(`Mel will introduce the Golden Years Security Act to make sure that the specialized
-        needs of our elders are met, from preventing discrimination of LGBTQIA seniors in nursing
-        facilities to addressing the urgent medical needs that our current infrastructure fails to.
-        Whether subsidizing home care services, meeting the challenges of end-of-life care, or
-        improving the support of assisted living facilities, Mel believes our seniors are owed
-        respect and dignity in their golden years, regardless of financial circumstances.`),
-    ],
+      oneLine(`There is no doubt that we have a broken criminal justice system, with black and brown communities disproportionately represented in the system. America incarcerates nearly 2.5 million individuals, the most of any developed nation. Mel will work to address our nation’s mass incarceration crisis and fight for legislation to address the root causes that fuels the system.`),
+      oneLine(`Mel is proud to have worked alongside impacted individuals fighting to eliminate barriers to higher education for currently and formerly incarcerated people. Mel knows that those closest to the problem are closest to the solution and their experiences help form his views on criminal justice reform.  The coalition that Mel worked with succeeded in seeing the introduction of the REAL Act in Congress, which would restore Pell grant access to incarcerated students (the coalition also worked with the Obama DOE which launched the Pell Pilot Program).  However, that bill still languishes in Congress despite studies that show access to higher education while incarcerated leads to lower recidivism rates and improved outcomes for impacted individuals and their families. Mel will make it a priority to fight for its passage to restore the harm done by the 1994 Crime Bill.`),
+      oneLine(`Mel believes ending cash bail must be a national priority to ensure that those that have not even been convicted of a crime are not further punished simply for being poor. Much needed reforms must be instituted to end cash bail without furthering the surveillance of individuals while awaiting trial.`),
+	  oneLine(`The rise in the incarceration rates of women are often left out of the national conversation or absorbed into the general conversation. However, the rate of incarceration for women has actually been increasing nationwide. In New York, while the rate for women has been slowly declining, it has not kept pace with the reduction of rates for men. Many women who find themselves in the system are victims of domestic abuse and prison furthers that trauma. Our jails and prisons are not mental health or counseling facilities. Mel believes the federal government must invest in diversion programs for all, but especially for women who have fewer options available to them, and that they are provided with appropriate trauma informed services.`),
+    ]
   },
-]
+  {
+    title: 'Repealing SESTA-FOSTA',
+    text: [
+      oneLine(`Another priority for Mel is the repeal of SESTA-FOSTA. This law was intended to address human trafficking, but in practice, has only made the situation worse by driving sex workers into the shadows while making it more difficult to combat legitimate traffickers. Sex work is work.`),
+      oneLine(`Mel believes that we need to decriminalize (as opposed to legalize) sex work which has led to the disproportionate targeting and prosecution of migrant workers and those in the trans community. Repealing SESTA-FOSTA and bringing sex workers into the policymaking conversation will lead to effective human trafficking legislation that is informed by those closest to the problem, while ensuring that those who rely on selling or trading sex are not prosecuted for simply trying to survive.`),
+    ]
+  },
+  {
+    title: 'Veterans',
+    text: [
+      oneLine(`As a Congressional aide, Mel worked closely with former service members as a liaison to the Department of Veteran’s Affairs. While Mel believes we need to end the forever wars, and develop foreign policy that puts mutual collaboration and cooperation at the fore, he also understands that our nation still owes a debt to those who have and continue to serve in wars they had no choice in entering. Billions are spent on Defense each fiscal year, but those dollars find themselves in the pockets of defense contractors and private corporations that make up the military industrial complex.`),
+      oneLine(`Mel will fight to ensure that the VA is properly funded, reverse legislation that makes it easier to fire VA employees, and strengthen programming that does outreach in order to provide mental health services to servicemembers. Mel will also fight to legislate permanent protections for members of the LGBTQIA community who wish to serve.`),
+    ]
+  },
+  {
+    title: 'LGBTQIA Rights',
+    text: [
+      oneLine(`Securing the rights of our LGBTQIA neighbors is vital, and isn’t a single, stand-alone issue. The LGBTQIA community is affected by all the issues addressed above, and that’s why you’ll see specific policies protecting LGBTQIA folks in issues like elder care, veterans, and repealing SESTA-FOSTA. The current administration’s assault on the LGBTQIA community is unacceptable. LGBTQIA people are still forced to fight for their rights in their towns, in congress, and in their day to day lives because they lack basic legal protections in states across the country. Federal law must provide consistent non-discrimination protections based on sexual orientation and gender identity. Mel will work tirelessly to ensure equal rights under the protection of the law to every member of this community. Mel supports the Equality Act which would provide consistent non-discrimination protections for LGBTQ people across key areas of life including education, credit, housing, public spaces, and more. He will be a champion for LGBTQIA rights, because for any of us to be truly free, we all must be. `),
+    ]
+  },
+];
 
 export default function() {
   return (
@@ -83,31 +111,43 @@ export default function() {
       <PageUnderNavbar>
         <section className="section section--gradient">
           <div className="content">
-            <div className="title" style={{ textAlign: 'center' }}>
+            <div className="title" style={{textAlign: 'center'}}>
               <span class="underlined">
                 <FormattedMessage
                   id={localizedStringsKeypaths.issues.title}
-                  defaultMessage="Policy for the People"
+                  defaultMessage='Policy for the People'
                 />
               </span>
             </div>
             <>
-              {issuesDefaults.map((example, exampleIdx) => (
-                <Issue
-                  title={
-                    <FormattedMessage
-                      id={localizedStringsKeypaths.issues.examples[exampleIdx].title}
-                      defaultMessage={example.title}
-                    />
-                  }
-                  paragraphs={example.text.map((paragraph, paragraphIdx) => (
-                    <FormattedMessage
-                      id={localizedStringsKeypaths.issues.examples[exampleIdx].text[paragraphIdx]}
-                      defaultMessage={paragraph}
-                    />
-                  ))}
-                />
-              ))}
+              {
+                issuesDefaults.map((example, exampleIdx) =>
+                  <Issue
+                    title={
+                      <FormattedMessage
+                        id={
+                          localizedStringsKeypaths.issues.examples[exampleIdx].title
+                        }
+                        defaultMessage={example.title}
+                      />
+                    }
+                    paragraphs={
+                      example.text.map(
+                        ((paragraph, paragraphIdx) =>
+                          <FormattedMessage
+                            id={
+                              localizedStringsKeypaths.issues
+                                .examples[exampleIdx].text[paragraphIdx]
+                            }
+                            defaultMessage={
+                              paragraph
+                            }
+                          />
+                        )
+                      )
+                    }
+                  />
+                )}
             </>
           </div>
         </section>
