@@ -127,21 +127,21 @@ textarea
 
 // Helper Classes
 .btn
-    display: inline-block
-    padding: 12px 16px 10px
-    font-size: 18px
-    font-size: 1rem
-    line-height: 1.25
-    background-color: #fff
-    border-radius: .25rem
-    text-decoration: none
-    font-weight: 700
-    color: #CC3700
-    text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #CC3700
-    box-shadow: inset 0 0 0 2px #f40
-    -webkit-transition: all .15s ease
-    transition: all .15s ease
+  display: inline-block
+  padding: 12px 16px 10px
+  font-size: 18px
+  font-size: 1rem
+  line-height: 1.25
+  background-color: #fff
+  border-radius: .25rem
+  text-decoration: none
+  font-weight: 700
+  color: #CC3700
+  text-align: center
+  -webkit-box-shadow: inset 0 0 0 2px #CC3700
+  box-shadow: inset 0 0 0 2px #f40
+  -webkit-transition: all .15s ease
+  transition: all .15s ease
 
 .margin-top-0
   margin-top: 0 !important
@@ -260,5 +260,58 @@ a.navbar-link:hover
   margin-right: auto
   text-align: left
 
-#can-form-area-join-our-campaign-for-progress-2 #can-embed
-  color: papayawhip
+.button--primary
+  cursor: pointer
+  background-color: $sky-blue
+  text-transform: uppercase
+  color: $white
+  font-weight: bold
+  font-size: .9rem
+  border-radius: .25rem
+  text-decoration: none
+  font-weight: 700
+  text-align: center
+  -webkit-transition: all .15s ease
+  transition: all .15s ease
+  padding: 10px 30px
+
+button--primary:hover
+  background-color: $white
+  color: $sky-blue
+
+// Donate module
+.donate-picker--container
+  display: flex
+  flex-direction: column
+  align-items: center
+  margin-top: 30px
+
+  .donate-picker--select-container
+    display: flex
+    width: 100%
+    justify-content: center
+    flex-wrap: wrap
+
+    .donate-picker--select
+      -webkit-border-radius: 100%
+      -moz-border-radius: 100%
+      border-radius: 100%
+      border: 2px solid $sky-blue
+      color: $black
+      font-size: 30px
+      font-weight: 600
+      width: 120px
+      height: 120px
+      display: flex
+      align-items: center
+      justify-content: center
+      margin: 20px;
+      -webkit-transition: all .15s ease
+      transition: all .15s ease
+
+    .donate-picker--select--selected
+      background-color: $sky-blue
+      color: $white
+
+    .donate-picker--select:hover
+      border: 4px solid $sky-blue

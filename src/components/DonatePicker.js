@@ -19,7 +19,7 @@ const DonatePicker = class extends React.Component {
 
   render() {
     return (
-      <>
+      <div className="donate-picker--container">
         <Title>
           <FormattedMessage
             id={localizedStringsKeypaths.donate.header}
@@ -31,8 +31,8 @@ const DonatePicker = class extends React.Component {
           defaultMessage={oneLine(`Mel is not accepting donations from corporate PACs, real estate developers, or the
             fossil fuel industry, so as a congressman he will answer to his neighbors, not to special interest groups.`)}
         /></p>
-        <div>
-          {DonationAmounts.map(amount =>
+        <div className="donate-picker--select-container">
+          {DonationAmounts.map(amount => console.log('amount', amount, this.state.selectedAmount, this.state.selectedAmount === amount) ||
             <Select
               key={amount}
               amount={amount}
@@ -42,7 +42,7 @@ const DonatePicker = class extends React.Component {
           )}
         </div>
         <OutboundLink
-          className=""
+          className="button--primary"
           href={`https://secure.actblue.com/donate/melforprogress?amount=${this.state.selectedAmount}`}
           target="_blank"
           rel="noopener noreferrer"
@@ -52,13 +52,18 @@ const DonatePicker = class extends React.Component {
             defaultMessage="Donate"
           />
         </OutboundLink>
-      </>
+      </div>
     )
   }
 }
 
-const Select = ({ amount, isSelected, ...props }) =>
-  <div {...props} style={{background: isSelected ? 'blue' : 'red'}}>${amount}</div>
+const Select = ({ amount, isSelected, ...props }) => console.log('isSelected', isSelected) ||
+  <button
+    {...props}
+    className={`donate-picker--select ${isSelected ? 'donate-picker--select--selected' : ''}`}
+  >
+    ${amount}
+  </button>
 
 Select.propTypes = {
                   amount: PropTypes.number,
