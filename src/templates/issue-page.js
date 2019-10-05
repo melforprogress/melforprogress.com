@@ -5,10 +5,29 @@ import PageUnderNavbar from '../components/PageUnderNavBar'
 import Issue from '../components/Issue'
 import { oneLine } from "../translations/stringFileUtils";
 import { localizedStringsKeypaths } from "../translations/es";
+import Housing_bug from '../img/content/policies/Policy-Housing.png'
+import GoldenYears_bug from '../img/content/policies/Policy-GoldenYears.png'
+import GreenNewDeal_bug from '../img/content/policies/Policy-GreenNewDeal.png'
+import M4A_bug from '../img/content/policies/Policy-M4A.png'
+import Women_bug from '../img/content/policies/Policy-Women.png'
+import UBI_bug from '../img/content/policies/Policy-UBI.png'
+import Banking_bug from '../img/content/policies/Policy-Banking.png'
+import Campaigns_bug from '../img/content/policies/Policy-CampaignFin.png'
+import Education_bug from '../img/content/policies/Policy-Education.png'
+import Justice_bug from '../img/content/policies/Policy-Justice.png'
+import LGBT_bug from '../img/content/policies/Policy-LGBT.png'
+import Peace_bug from '../img/content/policies/Policy-Peace.png'
+import Immigration_bug from '../img/content/policies/Policy-Immigration.png'
+import Privacy_bug from '../img/content/policies/Policy-Privacy.png'
+import SESTA_bug from '../img/content/policies/Policy-SESTA.png'
+import Veterans_bug from '../img/content/policies/Policy-Veterans.png'
+
+
 
 const issuesDefaults = [
   {
     title: 'Affordable Housing for All',
+    bugurl: Housing_bug,
     text: [
       oneLine(`A housing guarantee affirms Mel’s belief that housing is a human right. While an improving economy has benefited real estate and land development corporations, wages are not keeping up with rising housing prices and rent. In Queens alone, countless working families are being priced out of their neighborhoods, and the number of people experiencing homelessness is increasing. `),
       oneLine(`When the scales are tipped in favor of wealthy developers, a new vision for social housing in America is necessary. Mel will introduce legislation to create 25 million new social housing units by 2050 building upon recommendations by the People’s Policy Project and The People’s Action Homes Guarantee. `),
@@ -17,6 +36,7 @@ const issuesDefaults = [
   },
   {
     title: 'Golden Years Security Act',
+    bugurl: GoldenYears_bug,
     text: [
       oneLine(`Mel believes our elders are owed respect and dignity in their golden years, regardless of their or their family’s financial circumstances.`),
       oneLine(`For many Americans, the ability to enjoy retirement has become increasingly difficult with rising costs of housing and healthcare. Elders who are retired should not be priced out of their homes or be unable to afford long-term quality healthcare. We need to expand the social safety net to fill in the current gaps between Medicare, Medicaid, and Social Security. `),
@@ -25,6 +45,7 @@ const issuesDefaults = [
   },
   {
     title: 'Green New Deal',
+    bugurl: GreenNewDeal_bug,
     text: [
       oneLine(`Climate change is the defining challenge of our time. Yet as global temperatures continue to rise and extreme weather events become more frequent, vulnerable front-line communities are forced to wait for insufficient market-based solutions. A Green New Deal is not only a possibility, it is now a necessity.`),
       oneLine(`Mel can be trusted to implement bold policies to reform our failing energy infrastructure because he is the only candidate pledging to reject contributions from fossil fuel executives, lobbyists and their front groups.`),
@@ -34,6 +55,7 @@ const issuesDefaults = [
   },
   {
     title: 'Medicare for All',
+    bugurl: M4A_bug,
     text: [
       oneLine(`In the 1970s, when other countries around the world had implemented or were implementing national health insurance plans, we put our health in the hands of private enterprise. Decades, and billions of lobbying dollars, later, the results are clear: the United States spends far more on healthcare than any other nation, with significantly worse outcomes — including the highest maternal mortality rate in the developed world.`),
       oneLine(`Executive salaries and compensation packages in the pharmaceutical and health insurance industries are astronomical, while medical bills steadfastly remain the leading cause of bankruptcy in this country. Over 30 million Americans remain uninsured, while tens of millions with coverage still face inadequate or denied care. Healthcare is a right, not a privilege, and it’s time to focus on the American people and their health over the profits of billion-dollar corporations.`),
@@ -42,6 +64,7 @@ const issuesDefaults = [
   },
   {
     title: 'Women’s Rights',
+    bugurl: Women_bug,
     text: [
       oneLine(`Mel understands that women’s issues aren’t singular and are affected by the intersection of policy and social norms. Smart policy across multiple areas is needed to correct for the disproportionate burden our society places on women.`),
       oneLine(`Mel supports the unrestricted right to reproductive health care. Conservative state legislatures have stretched the boundaries of federal law and unleashed a cornucopia of impediments to make it functionally and materially impossible, if not technically illegal, to obtain essential healthcare. Mel will work to codify the protections of Roe v. Wade, and use federal legislation to protect pregnant people and healthcare workers. Mel will work to repeal the Hyde Amendment, and supports the EACH Woman Act of 2019, which aims to ensure affordable abortion coverage and care for all.`),
@@ -52,6 +75,7 @@ const issuesDefaults = [
   },
   {
     title: 'Funding Universal Basic Income Experiments',
+    bugurl: UBI_bug,
     text: [
       oneLine(`Rapid technological innovation has already changed American employment. Advances in automation, artificial intelligence and deep machine learning, continues to eviscerate opportunities for work and is contributing to an already-growing gig economy. As temporary, part-time, and non-traditional jobs redefine the labor market, Mel believes that we need to enable people to live better lives, not leave them to struggle with wage stagnation and income inequality.`),
       oneLine(`Investing in Universal Basic Income experiments can reduce poverty, begin to address the race and gender wealth gap, create opportunities for new types of work, and reinforce a sense of dignity in people’s lives. A basic level of financial stability gives people the freedom to leave a job that doesn’t treat them well, to pursue opportunities such as entrepreneurship, or to the freedom to choose a new, more fulfilling career that may be non-traditional. UBI is not only a necessity to prepare for the continuing transformation of work, but also for the millions of Americans who currently do not have financial security to lead happy and healthy lives.`),
@@ -60,6 +84,7 @@ const issuesDefaults = [
   },
   {
     title: 'Public Education',
+    bugurl: Education_bug,
     text: [
       oneLine(`Mel believes, like the U.N. does, that education is a human right. Tuition and fees at public universities have ballooned over the past 30 years, leaving an entire generation of young people with an unfair choice: sacrifice higher education or take out tens of thousands of dollars in student debt. The promise of higher pay has created a vicious cycle in which students take out increasingly larger loans only to realize that median hourly wages for college graduates have not kept up.`),
       oneLine(`Mel will fight for public colleges, universities, and trade schools throughout the country to be tuition-free. He also supports a one-time policy of all student debt cancellation, including both federal and private sector student loans. Mel will support legislation the requires the Department of Education to forgive loans guaranteed by the U.S. government, while the federal government directly purchases private student loan debt from private banks and lenders.`),
@@ -68,6 +93,7 @@ const issuesDefaults = [
   },
   {
     title: 'Immigration Justice',
+    bugurl: Immigration_bug,
     text: [
       oneLine(`The Trump administration has taken pride in policies that rip away children from their families, deprive our undocumented friends and neighbors of due process and dignity, and erode any accountability of immigration agencies. It’s time to shut down detention centers and terminate all of the private prison contracts that profit off them. We must abolish ICE, end the militarization of the CBP, and develop sensible policy when it comes to our borders.`),
       oneLine(`Mel understands that we need to act against the atrocities being committed in our country. Asylum seekers should be fast-tracked and given the chance to build the better life that they came here seeking. America should be a beacon of hope, not a stage for cruel and inhumane acts against refugees and immigrants.`),
@@ -77,6 +103,7 @@ const issuesDefaults = [
   },
   {
     title: 'Public Banking',
+    bugurl: Banking_bug,
     text: [
       oneLine(`City and state governments currently manage their finances with privately-owned banks, giving Wall Street institutions the power to speculate with public dollars, to lend money to municipalities at high interest rates, and to charge large fees for banking services. This is no surprise as private banks have a responsibility to aggressively maximize short-term profits, not invest in the best interests of the community. We need an alternative financial institution to put people before profit: public banks.`),
       oneLine(`Public banks will answer to the public — not shareholder. By shifting the priority from shareholders to the public, public banks can both manage government finances and prioritize the needs of our communities and the public good.`),
@@ -86,6 +113,7 @@ const issuesDefaults = [
   },
   {
     title: 'Criminal Justice Reform',
+    bugurl: Justice_bug,
     text: [
       oneLine(`There is no doubt that we have a broken criminal justice system, with black and brown communities disproportionately represented in the system. America incarcerates nearly 2.5 million individuals, the most of any developed nation. Mel will work to address our nation’s mass incarceration crisis and fight for legislation to address the root causes that fuels the system.`),
       oneLine(`Mel is proud to have worked alongside impacted individuals fighting to eliminate barriers to higher education for currently and formerly incarcerated people. Mel knows that those closest to the problem are closest to the solution and their experiences help form his views on criminal justice reform.  The coalition that Mel worked with succeeded in seeing the introduction of the REAL Act in Congress, which would restore Pell grant access to incarcerated students (the coalition also worked with the Obama DOE which launched the Pell Pilot Program).  However, that bill still languishes in Congress despite studies that show access to higher education while incarcerated leads to lower recidivism rates and improved outcomes for impacted individuals and their families. Mel will make it a priority to fight for its passage to restore the harm done by the 1994 Crime Bill.`),
@@ -95,6 +123,7 @@ const issuesDefaults = [
   },
   {
     title: 'Repealing SESTA-FOSTA',
+    bugurl: SESTA_bug,
     text: [
       oneLine(`Another priority for Mel is the repeal of SESTA-FOSTA. This law was intended to address human trafficking, but in practice, has only made the situation worse by driving sex workers into the shadows while making it more difficult to combat legitimate traffickers. Sex work is work.`),
       oneLine(`Mel believes that we need to decriminalize (as opposed to legalize) sex work which has led to the disproportionate targeting and prosecution of migrant workers and those in the trans community. Repealing SESTA-FOSTA and bringing sex workers into the policymaking conversation will lead to effective human trafficking legislation that is informed by those closest to the problem, while ensuring that those who rely on selling or trading sex are not prosecuted for simply trying to survive.`),
@@ -102,6 +131,7 @@ const issuesDefaults = [
   },
   {
     title: 'Veterans',
+    bugurl: Veterans_bug,
     text: [
       oneLine(`As a Congressional aide, Mel worked closely with former service members as a liaison to the Department of Veteran’s Affairs. While Mel believes we need to end the forever wars, and develop foreign policy that puts mutual collaboration and cooperation at the fore, he also understands that our nation still owes a debt to those who have and continue to serve in wars they had no choice in entering. Billions are spent on Defense each fiscal year, but those dollars find themselves in the pockets of defense contractors and private corporations that make up the military industrial complex.`),
       oneLine(`Mel will fight to ensure that the VA is properly funded, reverse legislation that makes it easier to fire VA employees, and strengthen programming that does outreach in order to provide mental health services to servicemembers. Mel will also fight to legislate permanent protections for members of the LGBTQIA community who wish to serve.`),
@@ -109,12 +139,14 @@ const issuesDefaults = [
   },
   {
     title: 'LGBTQIA Rights',
+    bugurl: LGBT_bug,
     text: [
       oneLine(`Securing the rights of our LGBTQIA neighbors is vital, and isn’t a single, stand-alone issue. The LGBTQIA community is affected by all the issues addressed above, and that’s why you’ll see specific policies protecting LGBTQIA folks in issues like elder care, veterans, and repealing SESTA-FOSTA. The current administration’s assault on the LGBTQIA community is unacceptable. LGBTQIA people are still forced to fight for their rights in their towns, in congress, and in their day to day lives because they lack basic legal protections in states across the country. Federal law must provide consistent non-discrimination protections based on sexual orientation and gender identity. Mel will work tirelessly to ensure equal rights under the protection of the law to every member of this community. Mel supports the Equality Act which would provide consistent non-discrimination protections for LGBTQ people across key areas of life including education, credit, housing, public spaces, and more. He will be a champion for LGBTQIA rights, because for any of us to be truly free, we all must be. `),
     ]
   },
   {
     title: 'Data & Privacy Protections',
+    bugurl: Privacy_bug,
     text: [
       oneLine(`In an ever-digitizing world, we are one click away from handing over our personal information with no regulation of platforms to protect our data and our privacy. Mel believes we need members of Congress who are keeping pace with the advances in technological innovation and being proactive in crafting legislation that defends our 4th Amendment rights to privacy.`),
       oneLine(`From facial recognition technology to foreign interference in our elections, leaving our digital landscape to be self-regulated by the corporations cannot be the norm. Using the E.U. as a model is a first-step in crafting meaningful data & privacy protection legislation to shield users from being exploited and commodified by the technologies they use.`),
@@ -122,6 +154,7 @@ const issuesDefaults = [
   },
   {
     title: 'Publicly Financed Campaigns',
+    bugurl: Campaigns_bug,
     text: [
       oneLine(`The Supreme Court’s decision in Citizens United opened the door to the influx of dark money and unregulated spending in our campaigns. Equating money with speech and defining corporations as people, the decision stifled the democratic process by drowning out the voices of individuals across the country. `),
       oneLine(`In New York City, first-time and grassroots candidates running for city elected positions can participate in the city’s matching funds program. Mel has long believed that we need to have publicly financed campaigns on the federal level. Each election cycle millions of dollars are spent on advertisements, consultants, and an entire cottage industry that has developed around campaigns that drowns out meaningful debate and careful analysis of candidates’ actual policies. By creating a federal campaign finance program that sets limits on spending and raising, our elections will be fairer and more accessible to candidates and voters alike.`),
@@ -136,7 +169,7 @@ export default function() {
         <section className="section section--gradient">
           <div className="content">
             <div className="title" style={{textAlign: 'center'}}>
-              <span class="underlined">
+              <span className="underlined">
                 <FormattedMessage
                   id={localizedStringsKeypaths.issues.title}
                   defaultMessage='Policy for the People'
@@ -147,14 +180,7 @@ export default function() {
               {
                 issuesDefaults.map((example, exampleIdx) =>
                   <Issue
-                    title={
-                      <FormattedMessage
-                        id={
-                          localizedStringsKeypaths.issues.examples[exampleIdx].title
-                        }
-                        defaultMessage={example.title}
-                      />
-                    }
+                    title={example.title}
                     paragraphs={
                       example.text.map(
                         ((paragraph, paragraphIdx) =>
@@ -170,6 +196,7 @@ export default function() {
                         )
                       )
                     }
+                    bugurl={example.bugurl}
                   />
                 )}
             </>
