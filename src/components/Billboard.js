@@ -1,6 +1,4 @@
 import React from 'react'
-import { FormattedMessage } from 'react-intl'
-import { localizedStringsKeypaths } from '../translations'
 import headshotMobile from '../img/content/Hero-mobile.png'
 import headshotTablet from '../img/content/Hero-desktop_tablet.jpg'
 import PageUnderNavbar from './PageUnderNavBar'

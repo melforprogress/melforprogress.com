@@ -157,7 +157,10 @@ const localizedStrings = {
     ],
   },
   donate: {
-    title: 'Donate',
+    header: 'A Grassroots Campaign',
+    description: oneLine(`Mel is not accepting donations from corporate PACs, real estate developers, or the
+      fossil fuel industry, so as a congressman he will answer to his neighbors, not to special interest groups.`),
+    link: 'Donate',
   },
   join: {
     header: 'Join Our Campaign for Progress!',
