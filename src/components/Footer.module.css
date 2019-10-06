@@ -1,9 +1,11 @@
 .paid-for-message {
   border: 1px solid;
   width: auto;
+  font-size: 12px;
+  text-transform: uppercase;
   padding: 7px;
   display: inline-block;
-  margin: 8px 7px 5px 7px;
+  margin: 24px 7px 5px 7px;
 }
 
 .footer-info {
