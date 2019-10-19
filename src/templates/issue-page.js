@@ -4,6 +4,7 @@ import Layout from '../components/Layout'
 import PageUnderNavbar from '../components/PageUnderNavBar'
 import Issue from '../components/Issue'
 import { oneLine } from "../translations/stringFileUtils";
+import { Link } from 'gatsby'
 import { localizedStringsKeypaths } from "../translations/es";
 import Housing_bug from '../img/content/policies/Policy-Housing.png'
 import GoldenYears_bug from '../img/content/policies/Policy-GoldenYears.png'
@@ -27,6 +28,7 @@ import Veterans_bug from '../img/content/policies/Policy-Veterans.png'
 const issuesDefaults = [
   {
     title: 'Affordable Housing for All',
+    id: 'Housing',
     bugurl: Housing_bug,
     text: [
       oneLine(`A housing guarantee affirms Mel’s belief that housing is a human right. While an improving economy has benefited real estate and land development corporations, wages are not keeping up with rising housing prices and rent. In Queens alone, countless working families are being priced out of their neighborhoods, and the number of people experiencing homelessness is increasing. `),
@@ -36,6 +38,7 @@ const issuesDefaults = [
   },
   {
     title: 'Golden Years Security Act',
+    id: 'GoldenYears',
     bugurl: GoldenYears_bug,
     text: [
       oneLine(`Mel believes our elders are owed respect and dignity in their golden years, regardless of their or their family’s financial circumstances.`),
@@ -45,6 +48,7 @@ const issuesDefaults = [
   },
   {
     title: 'Green New Deal',
+    id: 'GND',
     bugurl: GreenNewDeal_bug,
     text: [
       oneLine(`Climate change is the defining challenge of our time. Yet as global temperatures continue to rise and extreme weather events become more frequent, vulnerable front-line communities are forced to wait for insufficient market-based solutions. A Green New Deal is not only a possibility, it is now a necessity.`),
@@ -55,6 +59,7 @@ const issuesDefaults = [
   },
   {
     title: 'Medicare for All',
+    id: 'm4a',
     bugurl: M4A_bug,
     text: [
       oneLine(`In the 1970s, when other countries around the world had implemented or were implementing national health insurance plans, we put our health in the hands of private enterprise. Decades, and billions of lobbying dollars, later, the results are clear: the United States spends far more on healthcare than any other nation, with significantly worse outcomes — including the highest maternal mortality rate in the developed world.`),
@@ -64,6 +69,7 @@ const issuesDefaults = [
   },
   {
     title: 'Women’s Rights',
+    id: 'WomensRights',
     bugurl: Women_bug,
     text: [
       oneLine(`Mel understands that women’s issues aren’t singular and are affected by the intersection of policy and social norms. Smart policy across multiple areas is needed to correct for the disproportionate burden our society places on women.`),
@@ -75,6 +81,7 @@ const issuesDefaults = [
   },
   {
     title: 'Funding Universal Basic Income Experiments',
+    id: 'UBI',
     bugurl: UBI_bug,
     text: [
       oneLine(`Rapid technological innovation has already changed American employment. Advances in automation, artificial intelligence and deep machine learning, continues to eviscerate opportunities for work and is contributing to an already-growing gig economy. As temporary, part-time, and non-traditional jobs redefine the labor market, Mel believes that we need to enable people to live better lives, not leave them to struggle with wage stagnation and income inequality.`),
@@ -84,6 +91,7 @@ const issuesDefaults = [
   },
   {
     title: 'Public Education',
+    id: 'Edu',
     bugurl: Education_bug,
     text: [
       oneLine(`Mel believes, like the U.N. does, that education is a human right. Tuition and fees at public universities have ballooned over the past 30 years, leaving an entire generation of young people with an unfair choice: sacrifice higher education or take out tens of thousands of dollars in student debt. The promise of higher pay has created a vicious cycle in which students take out increasingly larger loans only to realize that median hourly wages for college graduates have not kept up.`),
@@ -93,6 +101,7 @@ const issuesDefaults = [
   },
   {
     title: 'Immigration Justice',
+    id: 'Immigration',
     bugurl: Immigration_bug,
     text: [
       oneLine(`The Trump administration has taken pride in policies that rip away children from their families, deprive our undocumented friends and neighbors of due process and dignity, and erode any accountability of immigration agencies. It’s time to shut down detention centers and terminate all of the private prison contracts that profit off them. We must abolish ICE, end the militarization of the CBP, and develop sensible policy when it comes to our borders.`),
@@ -103,6 +112,7 @@ const issuesDefaults = [
   },
   {
     title: 'Public Banking',
+    id: 'Banking',
     bugurl: Banking_bug,
     text: [
       oneLine(`City and state governments currently manage their finances with privately-owned banks, giving Wall Street institutions the power to speculate with public dollars, to lend money to municipalities at high interest rates, and to charge large fees for banking services. This is no surprise as private banks have a responsibility to aggressively maximize short-term profits, not invest in the best interests of the community. We need an alternative financial institution to put people before profit: public banks.`),
@@ -113,6 +123,7 @@ const issuesDefaults = [
   },
   {
     title: 'Criminal Justice Reform',
+    id: 'Justice',
     bugurl: Justice_bug,
     text: [
       oneLine(`There is no doubt that we have a broken criminal justice system, with black and brown communities disproportionately represented in the system. America incarcerates nearly 2.5 million individuals, the most of any developed nation. Mel will work to address our nation’s mass incarceration crisis and fight for legislation to address the root causes that fuels the system.`),
@@ -123,6 +134,7 @@ const issuesDefaults = [
   },
   {
     title: 'Repealing SESTA-FOSTA',
+    id: 'SESTA',
     bugurl: SESTA_bug,
     text: [
       oneLine(`Another priority for Mel is the repeal of SESTA-FOSTA. This law was intended to address human trafficking, but in practice, has only made the situation worse by driving sex workers into the shadows while making it more difficult to combat legitimate traffickers. Sex work is work.`),
@@ -131,6 +143,7 @@ const issuesDefaults = [
   },
   {
     title: 'Veterans',
+    id: 'Veterans',
     bugurl: Veterans_bug,
     text: [
       oneLine(`As a Congressional aide, Mel worked closely with former service members as a liaison to the Department of Veteran’s Affairs. While Mel believes we need to end the forever wars, and develop foreign policy that puts mutual collaboration and cooperation at the fore, he also understands that our nation still owes a debt to those who have and continue to serve in wars they had no choice in entering. Billions are spent on Defense each fiscal year, but those dollars find themselves in the pockets of defense contractors and private corporations that make up the military industrial complex.`),
@@ -139,6 +152,7 @@ const issuesDefaults = [
   },
   {
     title: 'LGBTQIA Rights',
+    id: 'LGBT',
     bugurl: LGBT_bug,
     text: [
       oneLine(`Securing the rights of our LGBTQIA neighbors is vital, and isn’t a single, stand-alone issue. The LGBTQIA community is affected by all the issues addressed above, and that’s why you’ll see specific policies protecting LGBTQIA folks in issues like elder care, veterans, and repealing SESTA-FOSTA. The current administration’s assault on the LGBTQIA community is unacceptable. LGBTQIA people are still forced to fight for their rights in their towns, in congress, and in their day to day lives because they lack basic legal protections in states across the country. Federal law must provide consistent non-discrimination protections based on sexual orientation and gender identity. Mel will work tirelessly to ensure equal rights under the protection of the law to every member of this community. Mel supports the Equality Act which would provide consistent non-discrimination protections for LGBTQ people across key areas of life including education, credit, housing, public spaces, and more. He will be a champion for LGBTQIA rights, because for any of us to be truly free, we all must be. `),
@@ -146,6 +160,7 @@ const issuesDefaults = [
   },
   {
     title: 'Data & Privacy Protections',
+    id: 'Privacy',
     bugurl: Privacy_bug,
     text: [
       oneLine(`In an ever-digitizing world, we are one click away from handing over our personal information with no regulation of platforms to protect our data and our privacy. Mel believes we need members of Congress who are keeping pace with the advances in technological innovation and being proactive in crafting legislation that defends our 4th Amendment rights to privacy.`),
@@ -154,6 +169,7 @@ const issuesDefaults = [
   },
   {
     title: 'Publicly Financed Campaigns',
+    id: 'Campaigns',
     bugurl: Campaigns_bug,
     text: [
       oneLine(`The Supreme Court’s decision in Citizens United opened the door to the influx of dark money and unregulated spending in our campaigns. Equating money with speech and defining corporations as people, the decision stifled the democratic process by drowning out the voices of individuals across the country. `),
@@ -176,11 +192,23 @@ export default function() {
                 />
               </span>
             </div>
+            <div className="issue_links">
+                {
+                  issuesDefaults.map((example, exampleIdx) =>
+                    <Link className="issue_link" to={`/issues/#${example.id}`}>
+                <FormattedMessage
+                  id = {example.title}
+                  defaultMessage={example.title}
+                />
+              </Link>
+                )}
+            </div>
             <>
               {
                 issuesDefaults.map((example, exampleIdx) =>
                   <Issue
                     title={example.title}
+                    id={example.id}
                     paragraphs={
                       example.text.map(
                         ((paragraph, paragraphIdx) =>
