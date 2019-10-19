@@ -276,12 +276,13 @@ a.navbar-link
   text-align: center
   font-weight: 800
   font-size: 16px
+  @media only screen and (max-width: 785px)
+   display: none
+
 
 .issue_link
   color: $sky-blue
   margin: 0 8px
-
-
 
 .issue
   margin-bottom: 30px
@@ -289,6 +290,11 @@ a.navbar-link
   margin-left: auto
   margin-right: auto
   text-align: left
+
+.anchor
+  position: relative
+  display: block
+  top: -130px
 
 .button--primary
   @extend %transition

@@ -195,7 +195,7 @@ export default function() {
             <div className="issue_links">
                 {
                   issuesDefaults.map((example, exampleIdx) =>
-                    <Link className="issue_link" to={`#$example.id}`}>
+                    <Link className="issue_link" to={`/issues/#${example.id}`}>
                 <FormattedMessage
                   id = {example.title}
                   defaultMessage={example.title}
