@@ -1,12 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-
 import Layout from '../components/Layout'
 import Billboard from '../components/Billboard'
 import DonatePicker from '../components/DonatePicker'
 import { FormattedMessage } from 'react-intl'
 import { localizedStringsKeypaths } from '../translations/es'
 import { oneLine } from '../translations/stringFileUtils'
+import { Link } from 'gatsby'
+import Housing_bug from '../img/content/policies/Policy-Housing.png'
+import GoldenYears_bug from '../img/content/policies/Policy-GoldenYears.png'
+import GreenNewDeal_bug from '../img/content/policies/Policy-GreenNewDeal.png'
+import M4A_bug from '../img/content/policies/Policy-M4A.png'
 
 export const IndexPageTemplate = ({}) => (
   <div>
@@ -14,7 +18,7 @@ export const IndexPageTemplate = ({}) => (
       <div className="container">
         <div className="section">
           <div className="columns">
-            <div className="column is-10 is-offset-1">
+            <div>
               <div className="content">
                 <div className="content">
                   <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -54,8 +58,110 @@ export const IndexPageTemplate = ({}) => (
                       class people, people of color, immigrants, the elderly, and our future.  He won’t be accepting any money from
                       corporations, the fossil fuel industry or real estate developers. The only interests he will ever answer to are those
                       of neighbors in the district. Mel lives in Kew Gardens with his wife Aleda, their three beautiful children, and their
-                      dachshund, Chewbacca.`)}
+                      dachshund, Chewbacca. `)}
                     />
+                  </div>
+                  <br />
+                  <div className="content">
+                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                      <div className="title">
+                       <span className="underlined">
+                          <FormattedMessage
+                            id={localizedStringsKeypaths.home.about.header}
+                            defaultMessage="Policy for the People"
+                          />
+                        </span>
+                      </div>
+                    </div>
+                    <div className="intro_para">
+                    <FormattedMessage
+                      id={localizedStringsKeypaths.home.about.summary}
+                      defaultMessage={oneLine(`Mel advocates for a government that puts people before politics, human interest above corporate
+                        greed, and the needs of the many above the benefit of the wealthy and powerful. `)}
+                    />
+                    <Link className="readmore" to="/issues">
+                        <FormattedMessage
+                          id = "issues.readmore"
+                          defaultMessage="Read Mel’s Platform&nbsp;>"
+                        />
+                      </Link>
+                    </div>
+                    <div className="issue_teaser">
+                      <div className="issue-bug_container">
+                      <img className="issue-bug_teaser" src={Housing_bug} />
+                      </div>
+                      <div className="issue_blurb">
+                        <FormattedMessage
+                        id={localizedStringsKeypaths.home.about.summary}
+                        defaultMessage={oneLine(`Housing is a human right and guaranteed affordable housing should be a national priority. `)}
+                          />
+                      <Link className="readmore" to="/issues#Housing">
+                        <FormattedMessage
+                          id = "issues.readmore"
+                          defaultMessage="Read More&nbsp;>"
+                        />
+                      </Link>
+                      </div>
+                    </div>
+                    <div className="issue_teaser">
+                      <div className="issue-bug_container">
+                      <img className="issue-bug_teaser" src={GoldenYears_bug} />
+                      </div>
+                      <div className="issue_blurb">
+                        <FormattedMessage
+                        id={localizedStringsKeypaths.home.about.summary}
+                        defaultMessage={oneLine(`Mel believes our elders are owed respect and dignity in their golden years, regardless of their or their family’s financial circumstances. `)}
+                          />
+                      <Link className="readmore" to="/issues#GoldenYears">
+                        <FormattedMessage
+                          id = "issues.readmore"
+                          defaultMessage="Read More&nbsp;>"
+                        />
+                      </Link>
+                      </div>
+                    </div>
+                    <div className="issue_teaser">
+                      <div className="issue-bug_container">
+                      <img className="issue-bug_teaser" src={GreenNewDeal_bug} />
+                      </div>
+                      <div className="issue_blurb">
+                        <FormattedMessage
+                        id={localizedStringsKeypaths.home.about.summary}
+                        defaultMessage={oneLine(`Climate change is the defining challenge of our time. Yet as global temperatures continue to rise and extreme weather events become more frequent, vulnerable front-line communities are forced to wait for insufficient market-based solutions. A Green New Deal is not only a possibility, it is now a necessity.`)}
+                          />
+                      <Link className="readmore" to="/issues#GND">
+                        <FormattedMessage
+                          id = "issues.readmore"
+                          defaultMessage="Read More&nbsp;>"
+                        />
+                      </Link>
+                      </div>
+                    </div>
+                    <div className="issue_teaser">
+                      <div className="issue-bug_container">
+                      <img className="issue-bug_teaser" src={M4A_bug} />
+                      </div>
+                      <div className="issue_blurb">
+                        <FormattedMessage
+                        id={localizedStringsKeypaths.home.about.summary}
+                        defaultMessage={oneLine(`Healthcare is a right, not a privilege, and it’s time to focus on the American people and their health over the profits of billion-dollar corporations.`)}
+                          />
+                      <Link className="readmore" to="/issues#M4A">
+                        <FormattedMessage
+                          id = "issues.readmore"
+                          defaultMessage="Read More&nbsp;>"
+                        />
+                      </Link>
+                      </div>
+                    </div>
+                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                    <Link className="readmore" to="/issues">
+                        <FormattedMessage
+                          id = "issues.readmore"
+                          defaultMessage="More Issues&nbsp;>"
+                        />
+                      </Link>
+                    </div>
                   </div>
                   <DonatePicker/>
                 </div>

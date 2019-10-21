@@ -25,7 +25,7 @@ const DonatePicker = class extends React.Component {
             defaultMessage="A Grassroots Campaign"
           />
         </Title>
-        <p><FormattedMessage
+        <p className="intro_para"><FormattedMessage
           id={localizedStringsKeypaths.donate.description}
           defaultMessage={oneLine(`Mel is not accepting donations from corporate PACs, real estate developers, or the
             fossil fuel industry, so as a congressman he will answer to his neighbors, not to special interest groups.`)}
