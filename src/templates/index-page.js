@@ -110,7 +110,7 @@ export const IndexPageTemplate = ({}) => (
                       <div className="issue_blurb">
                         <FormattedMessage
                         id={localizedStringsKeypaths.home.about.summary}
-                        defaultMessage={oneLine(`Mel believes our elders are owed respect and dignity in their golden years, regardless of their or their family’s financial circumstances. `)}
+                        defaultMessage={oneLine(`Our elders are owed respect and dignity in their golden years, regardless of their or their family’s financial circumstances. `)}
                           />
                       <Link className="readmore" to="/issues#GoldenYears">
                         <FormattedMessage
@@ -127,7 +127,7 @@ export const IndexPageTemplate = ({}) => (
                       <div className="issue_blurb">
                         <FormattedMessage
                         id={localizedStringsKeypaths.home.about.summary}
-                        defaultMessage={oneLine(`Climate change is the defining challenge of our time. Yet as global temperatures continue to rise and extreme weather events become more frequent, vulnerable front-line communities are forced to wait for insufficient market-based solutions. A Green New Deal is not only a possibility, it is now a necessity.`)}
+                        defaultMessage={oneLine(`Climate change is the defining challenge of our time. A Green New Deal is not only a possibility, it is now a necessity.`)}
                           />
                       <Link className="readmore" to="/issues#GND">
                         <FormattedMessage
