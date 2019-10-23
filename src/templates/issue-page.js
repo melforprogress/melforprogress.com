@@ -183,7 +183,7 @@ export default function() {
     <Layout>
       <PageUnderNavbar>
         <section className="section section--gradient">
-          <div className="content">
+          
             <div className="title" style={{textAlign: 'center'}}>
               <span className="underlined">
                 <FormattedMessage
@@ -196,7 +196,7 @@ export default function() {
                 {
                   issuesDefaults.map((example, exampleIdx) =>
                     <Link className="issue_link" to={`/issues/#${example.id}`}>
-                <FormattedMessage
+                <FormattedMessage 
                   id = {example.title}
                   defaultMessage={example.title}
                 />
@@ -228,7 +228,7 @@ export default function() {
                   />
                 )}
             </>
-          </div>
+          
         </section>
       </PageUnderNavbar>
     </Layout>
