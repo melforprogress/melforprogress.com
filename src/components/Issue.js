@@ -5,7 +5,7 @@ export default function(props) {
   	<div>
   	<a className="anchor" id={props.id} />
     <div className="issue">
-       <img className="issue-bug" src={props.bugurl} aria-label={props.title} />
+       <img className="issue-bug" src={props.bugurl} aria-label={props.title} alt={props.title} />
       {props.paragraphs.map(p => {
         return <p>{p}</p>
       })}
