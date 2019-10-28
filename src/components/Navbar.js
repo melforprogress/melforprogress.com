@@ -96,6 +96,17 @@ const Navbar = class extends React.Component {
                 />
               </OutboundLink>
             </div>
+              <OutboundLink
+                className="register-vote"
+                href="https://www.ny.gov/services/register-vote"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FormattedMessage
+                  id={localizedStringsKeypaths.organize.title}
+                  defaultMessage="Register to Vote"
+                />
+              </OutboundLink>
           </div>
         </div>
       </nav>
