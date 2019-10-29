@@ -98,7 +98,7 @@ const Navbar = class extends React.Component {
             </div>
               <OutboundLink
                 className="register-vote"
-                href="https://www.ny.gov/services/register-vote"
+                href="https://vote.nyc/page/register-vote"
                 target="_blank"
                 rel="noopener noreferrer"
               >
