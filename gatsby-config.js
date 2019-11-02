@@ -79,6 +79,15 @@ module.exports = {
         trackingId: 'UA-144378671-1',
       },
     },
+    {
+      resolve: `gatsby-plugin-intl`,
+      options: {
+        path: `${__dirname}/src/translations`,
+        languages: [`en`, `es`],
+        defaultLanguage: `en`,
+        prefixDefault: false, // means the default locale's routes will be without the language prefix
+      },
+    },
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
   // for avoiding CORS while developing Netlify Functions locally
