@@ -1,4 +1,4 @@
-import es from './es'
+import es from './es-keys'
 
 export const Locale = {
   English: 'en',
@@ -12,5 +12,5 @@ const localizedStrings = {
 
 const getLocalizedStrings = locale => localizedStrings[locale]
 
-export { localizedStringsKeypaths } from './es'
+export { localizedStringsKeypaths } from './es-keys'
 export { getLocalizedStrings }

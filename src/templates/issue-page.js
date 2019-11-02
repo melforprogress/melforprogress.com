@@ -5,7 +5,7 @@ import PageUnderNavbar from '../components/PageUnderNavBar'
 import Issue from '../components/Issue'
 import { oneLine } from "../translations/stringFileUtils";
 import { Link } from 'gatsby'
-import { localizedStringsKeypaths } from "../translations/es";
+import { localizedStringsKeypaths } from "../translations";
 import Housing_bug from '../img/content/policies/Policy-Housing.png'
 import GoldenYears_bug from '../img/content/policies/Policy-GoldenYears.png'
 import GreenNewDeal_bug from '../img/content/policies/Policy-GreenNewDeal.png'

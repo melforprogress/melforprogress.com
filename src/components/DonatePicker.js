@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { FormattedMessage } from 'react-intl'
 import { OutboundLink } from 'gatsby-plugin-google-analytics';
-import { localizedStringsKeypaths } from "../translations/es";
+import { localizedStringsKeypaths } from "../translations";
 import { oneLine } from "../translations/stringFileUtils";
 import { Title } from "./sharedUI"
 
