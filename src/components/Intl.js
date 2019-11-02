@@ -9,11 +9,11 @@ addLocaleData([...es])
 const WithIntl = ({ children }) => {
   // TODO fix this
   // it doesn't work with server-side rendering
-  const locale = toLocale(navigator.language);
+  const locale = toLocale( typeof window !== 'undefined' ? window.navigator.language : 'en');
   // const locale = 'en'
 
   return (
-    <IntlProvider locale={'en'} messages={getLocalizedStrings(locale)}>
+    <IntlProvider locale={locale} messages={getLocalizedStrings(locale)}>
       {children}
     </IntlProvider>
   )
