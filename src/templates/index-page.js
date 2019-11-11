@@ -170,20 +170,7 @@ export const IndexPageTemplate = ({}) => (
                   </div>
                   <DonatePicker/>
 
-////Press Section
 
-                  <div className="content">
-                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                      <div className="title">
-                       <span className="underlined">
-                          <FormattedMessage
-                            id={localizedStringsKeypaths.home.about.header}
-                            defaultMessage="In the Press"
-                          />
-                        </span>
-                      </div>
-                    </div>
-                  </div>
 
 
                 </div>
