@@ -63,7 +63,7 @@ export const IndexPageTemplate = ({}) => (
                   </div>
                   <br />
 
-//// Policies Teaser
+
 
                   <div className="content">
                     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -169,9 +169,6 @@ export const IndexPageTemplate = ({}) => (
                     </div>
                   </div>
                   <DonatePicker/>
-
-////Press Section
-
                   <div className="content">
                     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                       <div className="title">
@@ -183,9 +180,20 @@ export const IndexPageTemplate = ({}) => (
                         </span>
                       </div>
                     </div>
+                    <div className="press_clipping">
+                      <div className="press_headline">
+                      <a className="press_headline" href="https://www.cityandstateny.com/articles/politics/campaigns-elections/house-challengers-everybodys-going-be-talking-about.html">
+                        The House challengers everybody’s going to be talking about
+                        </a>
+                      </div>
+                      <div className="press_credit">
+                        City & State New York
+                      </div>
+                      <div className="press_date">
+                        November 10, 2019
+                      </div>
+                    </div>
                   </div>
-
-
                 </div>
               </div>
             </div>
