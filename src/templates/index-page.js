@@ -63,7 +63,7 @@ export const IndexPageTemplate = ({}) => (
                   </div>
                   <br />
 
-//// Policies Teaser
+
 
                   <div className="content">
                     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
