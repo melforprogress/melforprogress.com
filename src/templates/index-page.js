@@ -62,6 +62,9 @@ export const IndexPageTemplate = ({}) => (
                     />
                   </div>
                   <br />
+
+//// Policies Teaser
+
                   <div className="content">
                     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                       <div className="title">
@@ -86,72 +89,74 @@ export const IndexPageTemplate = ({}) => (
                         />
                       </Link>
                     </div>
-                    <div className="issue_teaser">
-                      <div className="issue-bug_container">
-                      <img className="issue-bug_teaser" src={Housing_bug} />
-                      </div>
-                      <div className="issue_blurb">
-                        <FormattedMessage
-                        id={localizedStringsKeypaths.home.about.summary}
-                        defaultMessage={oneLine(`Housing is a human right and guaranteed affordable housing should be a national priority. `)}
+                    <div className="issue_teaser_container">
+                      <div className="issue_teaser">
+                        <div className="issue-bug_container">
+                        <img className="issue-bug_teaser" src={Housing_bug} />
+                        </div>
+                        <div className="issue_blurb">
+                          <FormattedMessage
+                          id={localizedStringsKeypaths.home.about.summary}
+                          defaultMessage={oneLine(`Housing is a human right and guaranteed affordable housing should be a national priority. `)}
+                            />
+                        <Link className="readmore" to="/issues#Housing">
+                          <FormattedMessage
+                            id = "issues.readmore"
+                            defaultMessage="Read More&nbsp;>"
                           />
-                      <Link className="readmore" to="/issues#Housing">
-                        <FormattedMessage
-                          id = "issues.readmore"
-                          defaultMessage="Read More&nbsp;>"
-                        />
-                      </Link>
+                        </Link>
+                        </div>
                       </div>
-                    </div>
-                    <div className="issue_teaser">
-                      <div className="issue-bug_container">
-                      <img className="issue-bug_teaser" src={GoldenYears_bug} />
-                      </div>
-                      <div className="issue_blurb">
-                        <FormattedMessage
-                        id={localizedStringsKeypaths.home.about.summary}
-                        defaultMessage={oneLine(`Our elders are owed respect and dignity in their golden years, regardless of their or their family’s financial circumstances. `)}
+                      <div className="issue_teaser">
+                        <div className="issue-bug_container">
+                        <img className="issue-bug_teaser" src={GoldenYears_bug} />
+                        </div>
+                        <div className="issue_blurb">
+                          <FormattedMessage
+                          id={localizedStringsKeypaths.home.about.summary}
+                          defaultMessage={oneLine(`Our elders are owed respect and dignity in their golden years, regardless of their or their family’s financial circumstances. `)}
+                            />
+                        <Link className="readmore" to="/issues#GoldenYears">
+                          <FormattedMessage
+                            id = "issues.readmore"
+                            defaultMessage="Read More&nbsp;>"
                           />
-                      <Link className="readmore" to="/issues#GoldenYears">
-                        <FormattedMessage
-                          id = "issues.readmore"
-                          defaultMessage="Read More&nbsp;>"
-                        />
-                      </Link>
+                        </Link>
+                        </div>
                       </div>
-                    </div>
-                    <div className="issue_teaser">
-                      <div className="issue-bug_container">
-                      <img className="issue-bug_teaser" src={GreenNewDeal_bug} />
-                      </div>
-                      <div className="issue_blurb">
-                        <FormattedMessage
-                        id={localizedStringsKeypaths.home.about.summary}
-                        defaultMessage={oneLine(`Climate change is the defining challenge of our time. A Green New Deal is not only a possibility, it is now a necessity.`)}
+                      <div className="issue_teaser">
+                        <div className="issue-bug_container">
+                        <img className="issue-bug_teaser" src={GreenNewDeal_bug} />
+                        </div>
+                        <div className="issue_blurb">
+                          <FormattedMessage
+                          id={localizedStringsKeypaths.home.about.summary}
+                          defaultMessage={oneLine(`Climate change is the defining challenge of our time. A Green New Deal is not only a possibility, it is now a necessity.`)}
+                            />
+                        <Link className="readmore" to="/issues#GND">
+                          <FormattedMessage
+                            id = "issues.readmore"
+                            defaultMessage="Read More&nbsp;>"
                           />
-                      <Link className="readmore" to="/issues#GND">
-                        <FormattedMessage
-                          id = "issues.readmore"
-                          defaultMessage="Read More&nbsp;>"
-                        />
-                      </Link>
+                        </Link>
+                        </div>
                       </div>
-                    </div>
-                    <div className="issue_teaser">
-                      <div className="issue-bug_container">
-                      <img className="issue-bug_teaser" src={M4A_bug} />
-                      </div>
-                      <div className="issue_blurb">
-                        <FormattedMessage
-                        id={localizedStringsKeypaths.home.about.summary}
-                        defaultMessage={oneLine(`Healthcare is a right, not a privilege, and it’s time to focus on the American people and their health over the profits of billion-dollar corporations.`)}
+                      <div className="issue_teaser">
+                        <div className="issue-bug_container">
+                        <img className="issue-bug_teaser" src={M4A_bug} />
+                        </div>
+                        <div className="issue_blurb">
+                          <FormattedMessage
+                          id={localizedStringsKeypaths.home.about.summary}
+                          defaultMessage={oneLine(`Healthcare is a right, not a privilege, and it’s time to focus on the American people and their health over the profits of billion-dollar corporations.`)}
+                            />
+                        <Link className="readmore" to="/issues#M4A">
+                          <FormattedMessage
+                            id = "issues.readmore"
+                            defaultMessage="Read More&nbsp;>"
                           />
-                      <Link className="readmore" to="/issues#M4A">
-                        <FormattedMessage
-                          id = "issues.readmore"
-                          defaultMessage="Read More&nbsp;>"
-                        />
-                      </Link>
+                        </Link>
+                        </div>
                       </div>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -164,6 +169,10 @@ export const IndexPageTemplate = ({}) => (
                     </div>
                   </div>
                   <DonatePicker/>
+
+
+
+
                 </div>
               </div>
             </div>
