@@ -24,10 +24,12 @@ export const IndexPageTemplate = ({}) => (
                 <div className="content">
                   <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                     <div className="title">
+                      <span className="underlined">
                         <FormattedMessage
                           id={localizedStringsKeypaths.home.about.header}
                           defaultMessage="Mel Gagarin Is Running for Congress"
                         />
+                      </span>
                     </div>
                   </div>
                   <div>
@@ -67,10 +69,12 @@ export const IndexPageTemplate = ({}) => (
                   <div className="content">
                     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                       <div className="title">
+                       <span className="underlined">
                           <FormattedMessage
                             id={localizedStringsKeypaths.home.about.header}
                             defaultMessage="Policy for the People"
                           />
+                        </span>
                       </div>
                     </div>
                     <div className="intro_para">
