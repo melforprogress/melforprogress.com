@@ -169,10 +169,6 @@ export const IndexPageTemplate = ({}) => (
                     </div>
                   </div>
                   <DonatePicker/>
-
-
-
-
                 </div>
               </div>
             </div>
