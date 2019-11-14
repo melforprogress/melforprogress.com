@@ -212,10 +212,10 @@ $menu-label-color: $white-ter
     vertical-align: middle
     display: inline
 
-//span.underlined
-//  padding-bottom: 4px
-//  border-bottom: 6px solid $sky-blue
-//  line-height: 60px
+span.underlined
+  padding-bottom: 4px
+  border-bottom: 6px solid $sky-blue
+  line-height: 60px
 
 @import "~bulma/bulma"
 
@@ -267,8 +267,17 @@ p
   margin-bottom: 25px
   font-size: 3rem !important
   font-weight: 600
-  padding-bottom: 8px
-  border-bottom: 6px solid $sky-blue
+  @media only screen and (max-width: 768px)
+    font-size: 2.5rem !important
+
+.page_title
+  color: $black !important
+  margin-bottom: 25px
+  font-size: 3rem !important
+  display: block
+  margin-left: auto
+  margin-right: auto
+  font-weight: 600
   @media only screen and (max-width: 768px)
     font-size: 2.5rem !important
 
