@@ -7,6 +7,7 @@ import { FormattedMessage } from 'react-intl'
 import { localizedStringsKeypaths } from '../translations/es'
 import { oneLine } from '../translations/stringFileUtils'
 import { Link } from 'gatsby'
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import Housing_bug from '../img/content/policies/Policy-Housing.png'
 import GoldenYears_bug from '../img/content/policies/Policy-GoldenYears.png'
 import GreenNewDeal_bug from '../img/content/policies/Policy-GreenNewDeal.png'
@@ -23,12 +24,10 @@ export const IndexPageTemplate = ({}) => (
                 <div className="content">
                   <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                     <div className="title">
-                      <span className="underlined">
                         <FormattedMessage
                           id={localizedStringsKeypaths.home.about.header}
                           defaultMessage="Mel Gagarin Is Running for Congress"
                         />
-                      </span>
                     </div>
                   </div>
                   <div>
@@ -68,12 +67,10 @@ export const IndexPageTemplate = ({}) => (
                   <div className="content">
                     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                       <div className="title">
-                       <span className="underlined">
                           <FormattedMessage
                             id={localizedStringsKeypaths.home.about.header}
                             defaultMessage="Policy for the People"
                           />
-                        </span>
                       </div>
                     </div>
                     <div className="intro_para">
@@ -172,26 +169,107 @@ export const IndexPageTemplate = ({}) => (
                   <div className="content">
                     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                       <div className="title">
-                       <span className="underlined">
                           <FormattedMessage
                             id={localizedStringsKeypaths.home.about.header}
                             defaultMessage="In the Press"
                           />
-                        </span>
                       </div>
                     </div>
                     <div className="press_clipping">
                       <div className="press_headline">
-                      <a className="press_headline" href="https://www.cityandstateny.com/articles/politics/campaigns-elections/house-challengers-everybodys-going-be-talking-about.html">
+                      <OutboundLink className="press_headline"
+                        href="https://www.cityandstateny.com/articles/politics/campaigns-elections/house-challengers-everybodys-going-be-talking-about.html"
+                        target="_blank"
+                      >
                         The House challengers everybody’s going to be talking about
-                        </a>
+                      </OutboundLink>
                       </div>
+                      <div className="press_quote">
+                      &ldquo;We can’t afford to have Democrats that are going to run to the middle and play it safe, side with Republicans. And it’s not that I’m opposed to bipartisanship, but what does it get you when that bipartisanship has always been compromising Democratic values?&rdquo;
+                        <OutboundLink
+                          className="readmore"
+                          href="https://www.cityandstateny.com/articles/politics/campaigns-elections/house-challengers-everybodys-going-be-talking-about.html"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Read More >
+                        </OutboundLink>
+                      </div>
+                      <OutboundLink
+                        href="https://www.cityandstateny.com/articles/politics/campaigns-elections/house-challengers-everybodys-going-be-talking-about.html"
+                        target="_blank"
+                      >
                       <div className="press_credit">
                         City & State New York
+                        <div className="press_date">
+                          November 10, 2019
+                        </div>
                       </div>
-                      <div className="press_date">
-                        November 10, 2019
+                      </OutboundLink>
+                    </div>
+                    <div className="press_clipping">
+                      <div className="press_headline">
+                      <OutboundLink className="press_headline"
+                        href="https://www.punknews.org/article/71199/interviews-punks-on-politics-getting-to-know-mel-gagarin"
+                        target="_blank"
+                      >
+                        Punks on Politics: Getting to know Mel Gagarin
+                      </OutboundLink>
                       </div>
+                      <div className="press_quote">
+                      &ldquo;Donald Trump isn’t an anomaly. He is a natural result of a broken political and economic system that allows him to rise. This is a part of the complicity of the Democratic establishment that continues to play politics as usual...&rdquo;
+                        <OutboundLink
+                          className="readmore"
+                          href="https://www.punknews.org/article/71199/interviews-punks-on-politics-getting-to-know-mel-gagarin"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Read More >
+                        </OutboundLink>
+                      </div>
+                      <OutboundLink
+                        href="https://www.punknews.org/article/71199/interviews-punks-on-politics-getting-to-know-mel-gagarin"
+                        target="_blank"
+                      >
+                      <div className="press_credit">
+                        punknews.org
+                        <div className="press_date">
+                          November 4, 2019
+                        </div>
+                      </div>
+                      </OutboundLink>
+                    </div>
+                    <div className="press_clipping">
+                      <div className="press_headline">
+                      <OutboundLink className="press_headline"
+                        href="https://queenseagle.com/all/mel-gagarin-queens-democratic-primary-us-rep-grace-meng"
+                        target="_blank"
+                      >
+                        U.S. Rep Meng to face first primary challenge since taking office
+                      </OutboundLink>
+                      </div>
+                      <div className="press_quote">
+                      Gagarin will reject corporate donations. Meng has not. “Since 2013 our district hasn't had a choice, and I'm going to provide that choice,” Gagarin said.
+                        <OutboundLink
+                          className="readmore"
+                          href="https://queenseagle.com/all/mel-gagarin-queens-democratic-primary-us-rep-grace-meng"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Read More >
+                        </OutboundLink>
+                      </div>
+                      <OutboundLink
+                        href="https://queenseagle.com/all/mel-gagarin-queens-democratic-primary-us-rep-grace-meng"
+                        target="_blank"
+                      >
+                      <div className="press_credit">
+                        Queens Daily Eagle
+                        <div className="press_date">
+                          July 23, 2019
+                        </div>
+                      </div>
+                      </OutboundLink>
                     </div>
                   </div>
                 </div>
