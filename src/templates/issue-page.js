@@ -14,9 +14,11 @@ import Women_bug from '../img/content/policies/Policy-Women.png'
 import UBI_bug from '../img/content/policies/Policy-UBI.png'
 import Banking_bug from '../img/content/policies/Policy-Banking.png'
 import Campaigns_bug from '../img/content/policies/Policy-CampaignFin.png'
+import College_bug from '../img/content/policies/Policy-College.png'
 import Education_bug from '../img/content/policies/Policy-Education.png'
 import Justice_bug from '../img/content/policies/Policy-Justice.png'
 import LGBT_bug from '../img/content/policies/Policy-LGBT.png'
+import Marijuana_bug from '../img/content/policies/Policy-Marijuana.png'
 import Peace_bug from '../img/content/policies/Policy-Peace.png'
 import Immigration_bug from '../img/content/policies/Policy-Immigration.png'
 import Privacy_bug from '../img/content/policies/Policy-Privacy.png'
@@ -62,7 +64,7 @@ const issuesDefaults = [
     id: 'm4a',
     bugurl: M4A_bug,
     text: [
-      oneLine(`In the 1970s, when other countries around the world had implemented or were implementing national health insurance plans, we put our health in the hands of private enterprise. Decades, and billions of lobbying dollars, later, the results are clear: the United States spends far more on healthcare than any other nation, with significantly worse outcomes — including the highest maternal mortality rate in the developed world.`),
+      oneLine(`In the 1970s, when other countries around the world had implemented or were implementing national health insurance plans, we put our health in the hands of private enterprise. Decades and billions of lobbying dollars later, the results are clear: the United States spends far more on healthcare than any other nation, with significantly worse outcomes — including the highest maternal mortality rate in the developed world.`),
       oneLine(`Executive salaries and compensation packages in the pharmaceutical and health insurance industries are astronomical, while medical bills steadfastly remain the leading cause of bankruptcy in this country. Over 30 million Americans remain uninsured, while tens of millions with coverage still face inadequate or denied care. Healthcare is a right, not a privilege, and it’s time to focus on the American people and their health over the profits of billion-dollar corporations.`),
 	  oneLine(`Mel supports Medicare for All — a federal universal single-payer program. No longer will our health be weighed against the balance sheets of massive corporations; with a single-payer program, all residents of the United States will be covered for their medical services, including doctor, hospital, preventive, long-term care, mental health, reproductive health care, dental, vision, prescription drug and medical supply costs. Eliminating co-pays, premiums, and deductibles means that lower- and middle-income Americans will no longer have to weigh the cost of paying for life-saving medicine against feeding their families.`),
     ]
@@ -90,13 +92,23 @@ const issuesDefaults = [
     ]
   },
   {
-    title: 'Public Education',
-    id: 'Edu',
+    title: 'Investing in Public Education',
+    id: 'Education',
     bugurl: Education_bug,
+    text: [
+      oneLine(`Education is the cornerstone of our society; a quality education gives students access to opportunity and enables economic mobility. For too long, we’ve failed our public schools; Mel believes that we need to properly invest in free public education from Pre-K on up. But it’s not just about throwing money at the problem, it’s about identifying successful outcomes and investing in the people that ensure them. From increasing teacher pay, to free childcare, Mel recognizes that educational outcomes are not just about schools, they are also dependent on the ability of working-class people to provide for their families and build a good life. The ability of working-class families to live the lives they deserve has been sacrificed in favor of tax breaks for the wealthy, and disinvestment in our public schools is part of that same trend.`),
+      oneLine(`Teachers have gone on strike across the country, rallying for a deeper investment in public education. These are teachers who are underpaid, overworked, and paying for needed school supplies out of their own pockets because our country places too little value on their work and on the well-being of the children that they are educating. In 2019, we continue to see segregation in our K–12 schools, and with students of color and students in underserved areas suffering as a result. Mel believes that our teachers should be well compensated, that our underserved students deserve a deeper investment in their future, and that the income of a child’s parent, or their race, should not determine the quality of their education.`),
+      oneLine(`If elected, Mel will champion federal investment in our public schools, work to increase Title I funding to ensure underserved schools get the funding they need, fully fund the Department of Education's Office of Civil Rights, work to end student lunch debt and make sure all of our kids have the nourishment they need to learn, increase access to vital to ESL education, and fund school transportation.`),
+      oneLine(`Charter schools lack accountability and have drained funding from our public education system, having a disproportionate negative impact on communities of color. Mel supports a ban on for-profit charter schools as well as the NAACP’s moratorium on public funds being used to expand the charter system, until their impact has been fully audited. Furthermore, non-profit charter schools should comply with the same oversight requirements as public schools, increase parent involvement, and support efforts for teachers to unionize.`),
+    ]
+  },
+  {
+    title: 'College for All',
+    id: 'College',
+    bugurl: College_bug,
     text: [
       oneLine(`Mel believes, like the U.N. does, that education is a human right. Tuition and fees at public universities have ballooned over the past 30 years, leaving an entire generation of young people with an unfair choice: sacrifice higher education or take out tens of thousands of dollars in student debt. The promise of higher pay has created a vicious cycle in which students take out increasingly larger loans only to realize that median hourly wages for college graduates have not kept up.`),
       oneLine(`Mel will fight for public colleges, universities, and trade schools throughout the country to be tuition-free. He also supports a one-time policy of all student debt cancellation, including both federal and private sector student loans. Mel will support legislation the requires the Department of Education to forgive loans guaranteed by the U.S. government, while the federal government directly purchases private student loan debt from private banks and lenders.`),
-	  oneLine(`Mel also believes that we need to properly invest in free public education from Pre-K on up. But it’s not just about throwing money at the problem, it’s about identifying successful outcomes and investing in the people that ensure them. From increasing teacher pay, to free childcare, Mel recognizes that educational outcomes are not just about schools.`),
     ]
   },
   {
@@ -139,6 +151,14 @@ const issuesDefaults = [
     text: [
       oneLine(`Another priority for Mel is the repeal of SESTA-FOSTA. This law was intended to address human trafficking, but in practice, has only made the situation worse by driving sex workers into the shadows while making it more difficult to combat legitimate traffickers. Sex work is work.`),
       oneLine(`Mel believes that we need to decriminalize (as opposed to legalize) sex work which has led to the disproportionate targeting and prosecution of migrant workers and those in the trans community. Repealing SESTA-FOSTA and bringing sex workers into the policymaking conversation will lead to effective human trafficking legislation that is informed by those closest to the problem, while ensuring that those who rely on selling or trading sex are not prosecuted for simply trying to survive.`),
+    ]
+  },
+  {
+  title: 'Marijuana Legalization',
+    id: 'Marijuana',
+    bugurl: Marijuana_bug,
+    text: [
+      oneLine(`Mel fully supports legalizing marijuana and vacating and expunging all past marijuana-related convictions. Legalized marijuana revenue should be reinvested in the communities that have been most adversely impacted by the War on Drugs and racist broken windows policing. African-Americans are four times as likely to get arrested for marijuana as white Americans, despite both populations having similar rates of marijuana use. This has been a tool of mass incarceration, and a boon to the prison industrial complex. Corporations have profited off of the destruction of lives and communities through the criminalization of marijuana, and are now looking to profit off of its legalization. Impacted communities should be the first to benefit from legalization and the first in line to receive licenses and small business loans.`),
     ]
   },
   {
