@@ -212,6 +212,9 @@ export default function() {
                 />
               </span>
             </div>
+            <div className="intro_para">
+              Mel advocates for a government that puts people before politics, human interest above corporate greed, and the needs of the many above the benefit of the wealthy and powerful.
+            </div>
             <div className="issue_links">
                 {
                   issuesDefaults.map((example, exampleIdx) =>
