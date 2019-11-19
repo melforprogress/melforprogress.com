@@ -151,7 +151,7 @@ export const IndexPageTemplate = ({}) => (
                           id={localizedStringsKeypaths.home.about.summary}
                           defaultMessage={oneLine(`Healthcare is a right, not a privilege, and it’s time to focus on the American people and their health over the profits of billion-dollar corporations.`)}
                             />
-                        <Link className="readmore" to="/issues#M4A">
+                        <Link className="readmore" to="/issues#m4a">
                           <FormattedMessage
                             id = "issues.readmore"
                             defaultMessage="Read More&nbsp;>"
