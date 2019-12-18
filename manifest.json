@@ -1,8 +1,11 @@
 {
   "main.js": "render-page.js",
   "main.js.map": "render-page.js.map",
+  "static/BNC_logo-400px.png": "static/BNC_logo-400px-c59f7dc5c84ae12f4036613cf1be98a8.png",
+  "static/FTD_logo-200px.png": "static/FTD_logo-200px-0df453d851374b4f88dd35b6774dfec3.png",
   "static/Hero-desktop_tablet.jpg": "static/Hero-desktop_tablet-7dd5787dea0bd79cd73fbcee38b673de.jpg",
   "static/Hero-mobile.png": "static/Hero-mobile-6592cc59ce91d6eb2d7d8257f305b546.png",
+  "static/OPF_logo-200px.png": "static/OPF_logo-200px-813bc54e9479bfcc9ff32156075ccc3d.png",
   "static/Policy-Banking.png": "static/Policy-Banking-9ae155a02b77f5b02de6d601b16c5593.png",
   "static/Policy-CampaignFin.png": "static/Policy-CampaignFin-9f1fea53c20fd21046bfdc9be525ea90.png",
   "static/Policy-College.png": "static/Policy-College-f9c6d7cb0b4cfed6898d98d56416d324.png",
