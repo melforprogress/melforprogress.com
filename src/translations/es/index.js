@@ -182,6 +182,12 @@ const localizedStrings = {
   organize: {
     title: 'Organize',
   },
+  endorsements: {
+    title: 'Endorsements',
+  },
+  press: {
+    title: 'Press',
+  },
   footer: {
     inquiries: {
       general: 'General inquiries: info@melforprogress.com',
