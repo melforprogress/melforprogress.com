@@ -12,6 +12,9 @@ import Housing_bug from '../img/content/policies/Policy-Housing.png'
 import GoldenYears_bug from '../img/content/policies/Policy-GoldenYears.png'
 import GreenNewDeal_bug from '../img/content/policies/Policy-GreenNewDeal.png'
 import M4A_bug from '../img/content/policies/Policy-M4A.png'
+import BNC from '../img/content/endorsements/BNC_logo-400px.png'
+import FTD from '../img/content/endorsements/FTD_logo-200px.png'
+import OPF from '../img/content/endorsements/OPF_logo-200px.png'
 
 export const IndexPageTemplate = ({}) => (
   <div>
@@ -170,7 +173,41 @@ export const IndexPageTemplate = ({}) => (
                     </div>
                   </div>
                   <DonatePicker/>
-                  <div className="content">
+
+                  <div className="content" id="endorsements">
+                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                      <div className="title">
+                        <span className="underlined">
+                          <FormattedMessage
+                            id={localizedStringsKeypaths.home.about.header}
+                            defaultMessage="Endorsed by"
+                          />
+                        </span>
+                      </div>
+                    </div>
+                    <div className="endorsement_container">
+                      <OutboundLink className="endorsement"
+                        href="https://brandnewcongress.org/Mel-Gagarin"
+                        target="_blank"
+                      >
+                        <img className="endorsement_bug" src={BNC} alt="Brand New Congress" />
+                      </OutboundLink>
+                      <OutboundLink className="endorsement"
+                        href="http://forwardthinkingdemocracy.com/index.php/2019/12/18/forward-thinking-democracy-announces-endorsement-of-mel-gagarin-ny-06/"
+                        target="_blank"
+                      >
+                        <img className="endorsement_bug" src={FTD} alt="Forward Thinking Democracy" />
+                      </OutboundLink>
+                      <OutboundLink className="endorsement"
+                        href="https://twitter.com/ProgressiveOur/status/1161000854566113281"
+                        target="_blank"
+                      >
+                        <img className="endorsement_bug" src={OPF} alt="Our Progressive Future" />
+                      </OutboundLink>
+                    </div>
+                  </div>
+
+                  <div className="content" id="press">
                     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                       <div className="title">
                         <span className="underlined">
