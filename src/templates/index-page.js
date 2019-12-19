@@ -15,6 +15,7 @@ import M4A_bug from '../img/content/policies/Policy-M4A.png'
 import BNC from '../img/content/endorsements/BNC_logo-400px.png'
 import FTD from '../img/content/endorsements/FTD_logo-200px.png'
 import OPF from '../img/content/endorsements/OPF_logo-200px.png'
+import PFB from '../img/content/endorsements/PFB_logo.png'
 
 export const IndexPageTemplate = ({}) => (
   <div>
@@ -186,6 +187,12 @@ export const IndexPageTemplate = ({}) => (
                       </div>
                     </div>
                     <div className="endorsement_container">
+                      <OutboundLink className="endorsement"
+                        href="https://twitter.com/People4Bernie/status/1207735843911340034"
+                        target="_blank"
+                      >
+                        <img className="endorsement_bug" src={PFB} alt="The People for Bernie" />
+                      </OutboundLink>
                       <OutboundLink className="endorsement"
                         href="https://brandnewcongress.org/Mel-Gagarin"
                         target="_blank"
