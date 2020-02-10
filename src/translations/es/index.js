@@ -96,6 +96,19 @@ const localizedStrings = {
         ]
       },
       {
+        title: 'Labor',
+        text: [
+          oneLine(`Mel was born into a union household: he understands the importance of the labor movement to working families like his. He will fight to strengthen worker protections, to allow workers to organize in their workplace, and to ensure the needs of all workers are met.`),
+          oneLine(`But for too long, members of Congress have assaulted the labor movement and supported management over workers. Mel will fight for legislation that increases labor organizing rights and brings power back to the laborers. He supports the Protect the Right to Organize (PRO) Act and the Employee Free Choice Act, as well as ending “at will” employment — all of which would provide workers more freedom to effectively organize and fight for their rights without fear of retaliation and retribution from their employers.`),
+          oneLine(`Mel also supports the Raise the Wage Act and the Fight for $15 — specifically supporting legislation that will require the federal minimum wage to be set to the regional cost of living and matched to inflation. He believes in expanding paid time off and paid family leave in order to ensure needs of working families can be comfortably met. He supports the Butch Lewis Act in addition to legislation that prevents worker pensions from being cut.`),
+          oneLine(`Mel is a strong advocate for decreasing class sizes and paying our public school teachers $62K minimum and our adjuncts $7k. He is also a supporter of safe staffing at hospitals. The expansion of public sector work has historically led to well-paying jobs and careers across the country, creating opportunities for inclusive community growth.`),
+          oneLine(`As construction booms in the city, Mel understands the need for subsidies to come with reciprocity, and supports prevailing wage standards with public dollars, as well as pathways to apprenticeship and local hire. He will push to pass incentives to grow union apprenticeship programs to meet the construction industry's needs. Mel will always advocate for protecting Davis-Bacon, and expanding definitions of public works when it is possible.`),
+          oneLine(`With the amount of non-union jobs increasing every year in the private sector, Mel will fight for a whistleblower visa program that protects immigrant workers who speak out against workplace discrimination, sexual harassment, stolen wages, and unsafe working conditions.`),
+          oneLine(`There is also a need to tackle the growing crisis of misclassification and workers’ rights in the gig economy.  The gig economy does not refer just to app-based work, but also domestic work, and other non-traditional forms of employment.  Ensuring workers are classified properly, that employers pay their fair share of taxes, and that access to benefits exists is essential to the well-being of working families.  Mel will stand with workers and against employment misclassification.`),
+          oneLine(`This is a campaign aligned with the national labor movement, fully supporting workers who deserve to organize without fearing for their jobs or livelihoods.`),
+    ]
+  },
+      {
         title: 'College for All',
         text: [
           oneLine(`Mel believes, like the U.N. does, that education is a human right. Tuition and fees at public universities have ballooned over the past 30 years, leaving an entire generation of young people with an unfair choice: sacrifice higher education or take out tens of thousands of dollars in student debt. The promise of higher pay has created a vicious cycle in which students take out increasingly larger loans only to realize that median hourly wages for college graduates have not kept up.`),
