@@ -16,6 +16,7 @@ import BNC from '../img/content/endorsements/BNC_logo-400px.png'
 import FTD from '../img/content/endorsements/FTD_logo-200px.png'
 import OPF from '../img/content/endorsements/OPF_logo-200px.png'
 import PFB from '../img/content/endorsements/PFB_logo.png'
+import QUIP from '../img/content/endorsements/QUIP-transparent.png'
 
 export const IndexPageTemplate = ({}) => (
   <div>
@@ -211,6 +212,11 @@ export const IndexPageTemplate = ({}) => (
                       >
                         <img className="endorsement_bug" src={OPF} alt="Our Progressive Future" />
                       </OutboundLink>
+                      <OutboundLink className="endorsement"
+                        href="https://www.facebook.com/QUIPClub/photos/a.389336338564077/653594858804889/?type=3&theater"
+                      >
+                        <img className="endorsement_bug" src={QUIP} alt="Queens United Independent Progressives" />
+                      </OutboundLink>
                     </div>
                   </div>
 
@@ -224,6 +230,70 @@ export const IndexPageTemplate = ({}) => (
                           />
                         </span>
                       </div>
+                    </div>
+                    <div className="press_clipping">
+                      <div className="press_headline">
+                      <OutboundLink className="press_headline"
+                        href="https://www.ny1.com/nyc/all-boroughs/politics/2020/03/13/nyc-elections-2020-petitioning-to-get-on-the-ballot-new-york-coronavirus-latest"
+                        target="_blank"
+                      >
+                        NY Politicians Demand Petitioning Changes Amid Coronavirus
+                      </OutboundLink>
+                      </div>
+                      <div className="press_quote">
+                      &ldquo;Until they do that, we're still forced to comply with the law. So campaigns — both incumbents and challengers — are going to be out there collecting signatures,&rdquo; said Mel Gagarin, who is running for a House seat. &ldquo;For us, this isn't about the difficulties in petitioning; it's really about the public health and safety concern that it poses.&rdquo;
+                        <OutboundLink
+                          className="readmore"
+                          href="https://www.ny1.com/nyc/all-boroughs/politics/2020/03/13/nyc-elections-2020-petitioning-to-get-on-the-ballot-new-york-coronavirus-latest"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Read More >
+                        </OutboundLink>
+                      </div>
+                      <OutboundLink
+                        href="https://www.ny1.com/nyc/all-boroughs/politics/2020/03/13/nyc-elections-2020-petitioning-to-get-on-the-ballot-new-york-coronavirus-latest"
+                        target="_blank"
+                      >
+                      <div className="press_credit">
+                        NY1
+                        <div className="press_date">
+                          March 12, 2020
+                        </div>
+                      </div>
+                      </OutboundLink>
+                    </div>
+                    <div className="press_clipping">
+                      <div className="press_headline">
+                      <OutboundLink className="press_headline"
+                        href="https://queenseagle.com/all/coronavirus-queens-pols-cancel-petitioning-in-person-campaigning"
+                        target="_blank"
+                      >
+                        Coronavirus prompts Queens pols to cancel petitioning and in-person campaigning
+                      </OutboundLink>
+                      </div>
+                      <div className="press_quote">
+                      “Given the seriousness of the Covid-19 outbreak, I and the undersigned are writing to ask that the petitioning requirements be suspended or altered for the upcoming election for declared candidates,” wrote Gagarin in the letter signed by nearly 40 other candidates for elected office in Queens.
+                        <OutboundLink
+                          className="readmore"
+                          href="https://queenseagle.com/all/coronavirus-queens-pols-cancel-petitioning-in-person-campaigning"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Read More >
+                        </OutboundLink>
+                      </div>
+                      <OutboundLink
+                        href="https://queenseagle.com/all/coronavirus-queens-pols-cancel-petitioning-in-person-campaigning"
+                        target="_blank"
+                      >
+                      <div className="press_credit">
+                        Queens Daily Eagle
+                        <div className="press_date">
+                          March 12, 2020
+                        </div>
+                      </div>
+                      </OutboundLink>
                     </div>
                     <div className="press_clipping">
                       <div className="press_headline">
