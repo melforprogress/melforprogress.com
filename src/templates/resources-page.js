@@ -54,6 +54,18 @@ export default function() {
             <p>
             There is a 90-day moratorium on evictions, so if you cannot pay rent you won't be kicked out. If your landlord issues a notice of eviction, call 311 to get help.
             </p>
+
+            <br/>
+
+            <div className="resource_header">Schools</div>
+            <p>
+            <a href="https://www.schools.nyc.gov/school-life/health-and-wellness/coronavirus-update" target="_blank">NYC Coronavirus public school updates</a>
+            </p>
+            <p>
+            <a href="https://www.businessinsider.com/coronavirus-free-spectrum-internet-wifi-offer-student-households-promotion-2020-3" target="_blank">Spectrum</a> is providing free internet for students.
+            </p><br/>
+
+             <div className="resource_header">Domestic Violence</div>
             <p>
               <a href="https://www.thehotline.org/2020/03/13/staying-safe-during-covid-19/" target="_blank">
                 National Domestic Violence Hotline: Staying Safe During Covid-19
@@ -66,14 +78,6 @@ export default function() {
             </p>
 
             <br/>
-
-            <div className="resource_header">Schools</div>
-            <p>
-            <a href="https://www.schools.nyc.gov/school-life/health-and-wellness/coronavirus-update" target="_blank">NYC Coronavirus public school updates</a>
-            </p>
-            <p>
-            <a href="https://www.businessinsider.com/coronavirus-free-spectrum-internet-wifi-offer-student-households-promotion-2020-3" target="_blank">Spectrum</a> is providing free internet for students.
-            </p><br/>
 
             <div className="resource_header">Health & Medical</div>
             <p>
