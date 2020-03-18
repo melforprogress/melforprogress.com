@@ -36,10 +36,13 @@ export default function() {
           <div className="resource_content">
             <div className="resource_header">Food</div>
             <p>
-            You can apply for <a href="https://www1.nyc.gov/…/hra/…/snap-benefits-food-program.page" target="_blank">SNAP Benefits</a> to help supplement your food budget.
+            You can apply for <a href="https://www1.nyc.gov/site/hra/help/snap-benefits-food-program.page" target="_blank">SNAP Benefits</a> to help supplement your food budget.
             </p>
             <p>
             <a href="https://www.foodbanknyc.org/get-help/" target="_blank">Food Bank / Pantry locator</a>
+            </p>
+            <p>
+            <span>La Jornada, the Greater Flushing Chamber of Commerce, Kissena Synergy, Mel for Progress, Gutsier Living, FLushing Interfaith Council</span>, and other community organizations are mobilizing volunteers to call and deliver food to local residents. If you need emergency food assistance, <a href="https://forms.gle/Qx1Z3jN9u3EQc7RZA">fill out this form</a>.
             </p><br/>
             
             <div className="resource_header">Work</div>
@@ -118,19 +121,22 @@ export default function() {
 
             <div className="resource_header">Crisis Hotlines</div>
             <p>
-            The <a href="https://www.thehotline.org/" target="_blank">National Domestic Violence Hotline</a> is 24/7, confidential and free: 1-800-799-7233 and through chat.
+            The <a href="https://suicidepreventionlifeline.org/" target="_blank">National Suicide Prevention Lifeline</a> is 24/7, confidential and free: <strong>1-800-273-8255</strong> and through chat.
             </p>
             <p>
-            The <a href="https://hotline.rainn.org/online" target="_blank">National Sexual Assault Hotline</a> is 24/7, confidential and free: 800.656.HOPE (4673) and through chat.
+            The <a href="https://www.thehotline.org/" target="_blank">National Domestic Violence Hotline</a> is 24/7, confidential and free: <strong>1-800-799-7233</strong> and through chat.
             </p>
             <p>
-            The <a href="https://www.strongheartshelpline.org/" target="_blank">StrongHearts Native Helpline</a> for domestic/sexual violence is available 7am-10pm CT, confidential, and specifically for Native communities: 1−844-762-8483.
+            The <a href="https://hotline.rainn.org/online" target="_blank">National Sexual Assault Hotline</a> is 24/7, confidential and free: <strong>800.656.HOPE (4673)</strong> and through chat.
             </p>
             <p>
-            The <a href="https://www.translifeline.org/" target="_blank">Trans LifeLine</a> is staffed exclusively by trans operators is the only crisis line with a policy against non-consensual active rescue. 9am-3am CT: 1-877-565-8860
+            The <a href="https://www.strongheartshelpline.org/" target="_blank">StrongHearts Native Helpline</a> for domestic/sexual violence is available 7am-10pm CT, confidential, and specifically for Native communities: <strong>1−844-762-8483</strong>.
             </p>
             <p>
-            <a href="https://www.nationalparenthelpline.org/" target="_blank">National Parent Helpline</a> Monday-Friday 12pm-9am CT emotional support and advocacy for parents: 1-855-427-2736.
+            The <a href="https://www.translifeline.org/" target="_blank">Trans LifeLine</a> is staffed exclusively by trans operators is the only crisis line with a policy against non-consensual active rescue. 9am-3am CT: <strong>1-877-565-8860</strong>.
+            </p>
+            <p>
+            <a href="https://www.nationalparenthelpline.org/" target="_blank">National Parent Helpline</a> Monday-Friday 12pm-9am CT emotional support and advocacy for parents: <strong>1-855-427-2736</strong>.
             </p>
 
             
