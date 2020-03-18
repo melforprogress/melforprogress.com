@@ -42,7 +42,7 @@ export default function() {
             <a href="https://www.foodbanknyc.org/get-help/" target="_blank">Food Bank / Pantry locator</a>
             </p>
             <p>
-            <span>La Jornada, the Greater Flushing Chamber of Commerce, Kissena Synergy, Mel for Progress, Gutsier Living, FLushing Interfaith Council</span>, and other community organizations are mobilizing volunteers to call and deliver food to local residents. If you need emergency food assistance, <a href="https://forms.gle/Qx1Z3jN9u3EQc7RZA">fill out this form</a>.
+            <span>La Jornada, the Greater Flushing Chamber of Commerce, Kissena Synergy, Mel for Progress, Gutsier Living, Flushing Interfaith Council</span>, and other community organizations are mobilizing volunteers to call and deliver food to local residents. If you need emergency food assistance, <a href="https://forms.gle/Qx1Z3jN9u3EQc7RZA">fill out this form</a>.
             </p><br/>
             
             <div className="resource_header">Work</div>
