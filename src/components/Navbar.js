@@ -43,6 +43,9 @@ const Navbar = class extends React.Component {
         aria-label="main-navigation"
         id="navbar"
       >
+        <Link className="resources_alert" to="/resources">
+          COVID-19 Resources for Consituents and Neighbors
+        </Link>
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
@@ -119,9 +122,13 @@ const Navbar = class extends React.Component {
                   defaultMessage="Register to Vote"
                 />
               </OutboundLink>
+
+
+
           </div>
         </div>
       </nav>
+
     )
   }
 }
