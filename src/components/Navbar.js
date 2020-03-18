@@ -44,7 +44,7 @@ const Navbar = class extends React.Component {
         id="navbar"
       >
         <Link className="resources_alert" to="/resources">
-          COVID-19 Resources for Consituents and Neighbors &gt;
+          COVID-19 Resources for Constituents and Neighbors &gt;
         </Link>
         <div className="container">
           <div className="navbar-brand">
