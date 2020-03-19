@@ -70,6 +70,12 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item navbar-link" to="/">
                 <FormattedMessage id={localizedStringsKeypaths.home.title} defaultMessage="Home" />
               </Link>
+              <Link className="navbar-item navbar-link" to="/about">
+                <FormattedMessage
+                  id={localizedStringsKeypaths.issues.title}
+                  defaultMessage="About"
+                />
+              </Link>
               <Link className="navbar-item navbar-link" to="/issues">
                 <FormattedMessage
                   id={localizedStringsKeypaths.issues.title}
