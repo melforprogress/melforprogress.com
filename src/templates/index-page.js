@@ -37,36 +37,26 @@ export const IndexPageTemplate = ({}) => (
                       </span>
                     </div>
                   </div>
-                  <div>
+                  <div className="video-container-container">
+                    <div className="video-container">
+                      <iframe width="560" height="315"
+                      src="https://www.youtube.com/embed/Zmd8f3-XCv0?controls=0" 
+                      frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div className="intro_para">
                     <FormattedMessage
                       id={localizedStringsKeypaths.home.about.summary}
-                      defaultMessage={oneLine(`Melquiades Gagarin is a stay-at-home dad and a lifelong advocate who is running
-                      for congress in New York’s Sixth Congressional District to be the bold, progressive fighter unbeholden to the
-                      political establishment that this moment calls for.`)}
+                      defaultMessage={oneLine(`Melquiades Gagarin is a Queens native, a community organizer, a policy advocate, a father of three, and a punk rocker running for Congress to fight for you.`)}
                     />
-                  </div>
-                  <br />
-                  <div>
-                    <FormattedMessage
-                      id={localizedStringsKeypaths.home.about.background}
-                      defaultMessage={oneLine(`He was born in Elmhurst to a Puerto-Rican working-class mother and a Filipino immigrant
-                      father, and raised by his mom and abuela. He went to Resurrection Ascension and Archbishop Molloy in district before
-                      attending American University in Washington, DC. Mel worked as a congressional aide representing large parts of the
-                      6th Congressional District, advocated on the Hill alongside criminal justice reformers, and organized across Queens
-                      as part of a movement to build a more just future for the nation’s most diverse county.`)}
-                    />
-                  </div>
-                  <br />
-                  <div>
-                    <FormattedMessage
-                      id={localizedStringsKeypaths.home.about.background}
-                      defaultMessage={oneLine(`Mel has always been dedicated to fighting for progress. He is running to fight for working
-                      class people, people of color, immigrants, the elderly, and our future.  He won’t be accepting any money from
-                      corporations, the fossil fuel industry or real estate developers. The only interests he will ever answer to are those
-                      of neighbors in the district. Mel lives in Kew Gardens with his wife Aleda, their three beautiful children, and their
-                      dachshund, Chewbacca. `)}
-                    />
-                  </div>
+                    <Link className="readmore" to="/about">
+                        <FormattedMessage
+                          id = "about.readmore"
+                          defaultMessage="About Mel&nbsp;>"
+                        />
+                      </Link>
+                    </div>
                   <br />
 
 
