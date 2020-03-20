@@ -48,7 +48,7 @@ export const IndexPageTemplate = ({}) => (
                   <div className="intro_para">
                     <FormattedMessage
                       id={localizedStringsKeypaths.home.about.summary}
-                      defaultMessage={oneLine(`Melquiades Gagarin is a Queens native, a community organizer, a policy advocate, a father of three, and a punk rocker running for Congress to fight for you.`)}
+                      defaultMessage={oneLine(`Melquiades Gagarin is a Queens native, a community organizer, a policy advocate, a father of three, and a punk rocker running for Congress in New York’s Sixth Congressional District to fight for you.`)}
                     />
                     <Link className="readmore" to="/about">
                         <FormattedMessage
