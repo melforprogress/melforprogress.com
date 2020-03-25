@@ -25,7 +25,8 @@ import Privacy_bug from '../img/content/policies/Policy-Privacy.png'
 import SESTA_bug from '../img/content/policies/Policy-SESTA.png'
 import Veterans_bug from '../img/content/policies/Policy-Veterans.png'
 import Labor_bug from '../img/content/policies/Policy-Labor.png'
-
+import GunControl_bug from '../img/content/policies/Policy-GunControl.png'
+import ForeignPolicy_bug from '../img/content/policies/Policy-ForeignPolicy.png'
 
 
 const issuesDefaults = [
@@ -68,6 +69,17 @@ const issuesDefaults = [
       oneLine(`In the 1970s, when other countries around the world had implemented or were implementing national health insurance plans, we put our health in the hands of private enterprise. Decades and billions of lobbying dollars later, the results are clear: the United States spends far more on healthcare than any other nation, with significantly worse outcomes — including the highest maternal mortality rate in the developed world.`),
       oneLine(`Executive salaries and compensation packages in the pharmaceutical and health insurance industries are astronomical, while medical bills steadfastly remain the leading cause of bankruptcy in this country. Over 30 million Americans remain uninsured, while tens of millions with coverage still face inadequate or denied care. Healthcare is a right, not a privilege, and it’s time to focus on the American people and their health over the profits of billion-dollar corporations.`),
 	  oneLine(`Mel supports Medicare for All — a federal universal single-payer program. No longer will our health be weighed against the balance sheets of massive corporations; with a single-payer program, all residents of the United States will be covered for their medical services, including doctor, hospital, preventive, long-term care, mental health, reproductive health care, dental, vision, prescription drug and medical supply costs. Eliminating co-pays, premiums, and deductibles means that lower- and middle-income Americans will no longer have to weigh the cost of paying for life-saving medicine against feeding their families.`),
+    ]
+  },
+  {
+    title: 'Foreign Policy',
+    id: 'ForeignPolicy',
+    bugurl: ForeignPolicy_bug,
+    text: [
+      oneLine(`Protecting Americans and our national security are best ensured by a foreign policy based on human rights and justice abroad. War hawks in Congress have pushed for the invasion of Iraq, war in Afghanistan, right-wing regime change in Latin America, military escalation in Iraq, and unilateral support for Israel only to create a more dangerous world and cause irreparable harm. Mel believes that the US must stop promoting regime change and destabilizing regions. Unlike the incumbent, Mel refuses donations from weapon manufacturers and will fight against those who profit off the US war machine.`),
+      oneLine(`The US must stand for justice everywhere, whether it is for Muslims in India threatened by state-supported supremacist violence, Uighurs and Tibetans oppressed by China, Palestinians living under Israeli apartheid, Iranians and Venezuelans whose lives are choked by punitive US sanctions, or people living under right-wing regimes in Bolivia and Brazil.`),
+    oneLine(`In Palestine and Israel, we must take special responsibility for the harms caused by decades of one-sided US support for Israel. We must stop fueling the conflict and end all military aid to Israel, and instead work for solutions that guarantee security, justice, and full equality to Israelis and Palestinians.`),
+    oneLine(`Military force must be wielded with care and responsibility, which is why our Constitution entrusts Congress with the power to decide when to use it and how to fund it. In Congress, Mel will fight for a foreign policy that makes the world safer by seeking peace and justice for all.`),
     ]
   },
   {
@@ -160,6 +172,16 @@ const issuesDefaults = [
 	  oneLine(`The rise in the incarceration rates of women are often left out of the national conversation or absorbed into the general conversation. However, the rate of incarceration for women has actually been increasing nationwide. In New York, while the rate for women has been slowly declining, it has not kept pace with the reduction of rates for men. Many women who find themselves in the system are victims of domestic abuse and prison furthers that trauma. Our jails and prisons are not mental health or counseling facilities. Mel believes the federal government must invest in diversion programs for all, but especially for women who have fewer options available to them, and that they are provided with appropriate trauma informed services.`),
     ]
   },
+  {
+    title: 'Gun Control',
+    id: 'GunControl',
+    bugurl: GunControl_bug,
+    text: [
+      oneLine(`Despite what the NRA and their right-wing network of politicians and lobbyists say, millions of dollars are being spent to achieve one goal: to increase gun sales. These lobbying efforts have attacked common-sense gun legislation and its advocates in order to protect industry profits over saving lives.`),
+      oneLine(`Mel supports strict gun control legislation, universal background checks, regulating gun manufacturers, and a ban on assault weapon sales. Additionally, he supports the Violence Against Women Act and federal Red Flag legislation, which can temporarily remove firearms from individuals who pose a clear danger to themselves, their families, and their communities.`),
+      oneLine(`Gun violence is a threat to the safety of those in our communities and our schools. We must hold the firearms industry accountable to federal regulations instead of protecting it from liability. It’s time to take actions, not offer thoughts and prayers.`),
+    ]
+  }, 
   {
     title: 'Repealing SESTA-FOSTA',
     id: 'SESTA',
