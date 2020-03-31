@@ -10,6 +10,9 @@ var cleanResult = (data) => {
   docDiv = data;
   docDiv = docDiv.slice(docDiv.indexOf("<body>")+6,docDiv.indexOf('<div id="footer">'));
   docDiv = docDiv.slice(docDiv.indexOf("</style>")+8);
+  console.log("Here is the sliced data:");
+  console.log(docDiv)
+
 }
 var askReload = () => { docDiv = "<div> Please Reload the Page</div> "}
 
