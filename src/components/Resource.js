@@ -12,7 +12,7 @@ var cleanResult = (data) => {
 }
 var askReload = () => { docDiv = "<div> Please Reload the Page</div> "}
 
-axios.get(iframeSRC)
+axios.get(iframeSRC, { crossdomain: true })
   .then((response) => 
     cleanResult(response.data)
   )
