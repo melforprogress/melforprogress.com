@@ -1,6 +1,6 @@
 import React from 'react'
 
-const fetch = require("node-fetch");
+const axios = require('axios');
 
 let iframeSRC = "https://docs.google.com/document/d/e/2PACX-1vTxA5mfzuOFOGbqCsNJnTCD5GjgAGfyd3sU3X3Lwev9oEb0Asnr0eHIRe8ytTxwqEf9kxH8J8rk1x_B/pub";
 var docDiv;
@@ -10,11 +10,14 @@ var cleanResult = (data) => {
   docDiv = docDiv.slice(docDiv.indexOf("<body>")+6,docDiv.indexOf('<div id="footer">'));
   docDiv = docDiv.slice(docDiv.indexOf("</style>")+8);
 }
+var askReload = () => { docDiv = "<div> Please Reload the Page</div> "}
 
-fetch(iframeSRC)
-  .then((response) => response.text())
-  .then((data) => 
-        cleanResult(data)
+axios.get(iframeSRC)
+  .then((response) => 
+    cleanResult(response.data)
+  )
+  .catch((response) => 
+        askReload()
         );
 
 
