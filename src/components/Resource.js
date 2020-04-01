@@ -8,7 +8,7 @@ var cleanResult = (data) => {
   console.log("We have data!");
   console.log(data);
   docDiv = data;
-  docDiv = docDiv.slice(docDiv.indexOf("<body>")+6,docDiv.indexOf('<div id="footer">'));
+  docDiv = docDiv.slice(docDiv.indexOf("<h1 ")-7,docDiv.indexOf('<div id="footer">'));
   docDiv = docDiv.slice(docDiv.indexOf("</style>")+8);
   docDiv = docDiv.replace(/(<p[^>]+?>|<p>|<\/p>)/img, "");
   console.log("Here is the sliced data:");
