@@ -1,10 +1,9 @@
 import React from 'react'
 
-const axios = require('axios');
-
-let iframeSRC = "https://docs.google.com/document/d/e/2PACX-1vTxA5mfzuOFOGbqCsNJnTCD5GjgAGfyd3sU3X3Lwev9oEb0Asnr0eHIRe8ytTxwqEf9kxH8J8rk1x_B/pub";
-var docDiv;
-var parseDoc;
+//
+//let iframeSRC = "https://docs.google.com/document/d/e/2PACX-1vTxA5mfzuOFOGbqCsNJnTCD5GjgAGfyd3sU3X3Lwev9oEb0Asnr0eHIRe8ytTxwqEf9kxH8J8rk1x_B/pub";
+var docDiv = "<div>Test</div>";
+/*var parseDoc;
 var cleanResult = (data) => {
   console.log("We have data!");
   console.log(data);
@@ -27,7 +26,7 @@ axios.get(iframeSRC, { crossdomain: true })
   )
   .catch((response) => 
         askReload()
-        );
+        );*/
 
 
 
