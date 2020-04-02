@@ -15,7 +15,7 @@ var cleanResult = (data) => {
 }
 
 export default function(props) {
-
+  console.log("quick debug log")
   let [docData, setDocData] = useState(0)
   useEffect(() => {
     axios.get(iframeSRC, { crossdomain: true })
