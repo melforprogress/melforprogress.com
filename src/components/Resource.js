@@ -13,8 +13,10 @@ var cleanResult = (data) => {
   docDiv = docDiv.slice(docDiv.indexOf("</style>")+8);
   docDiv = docDiv.replace(/(<p[^>]+?>|<p>|<\/p>)/img, "");
   console.log("Here is the sliced data:");
-  console.log(docDiv)
-  parseDoc = (new DOMParser().parseFromString(docDiv, "text/html"))
+  console.log(docDiv);
+  docDiv = "<div>Test</div>"
+  //parseDoc = (new DOMParser().parseFromString(docDiv, "text/html"));
+  //parseDoc = '<p className={test}>Test</p>';
 
 }
 var askReload = () => { docDiv = "<div> Please Reload the Page</div> "}
@@ -32,7 +34,7 @@ axios.get(iframeSRC, { crossdomain: true })
 export default function(props) {
   return (
     <div>
-    <div dangerouslySetInnerHTML={{ __html: parseDoc.body.innerHTML }} />
+    <div dangerouslySetInnerHTML={{ __html: docDiv }} />
     </div>
   )
 }
