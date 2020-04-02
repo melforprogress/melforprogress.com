@@ -3,9 +3,7 @@ import { FormattedMessage } from "react-intl";
 import Layout from '../components/Layout'
 import PageUnderNavbar from '../components/PageUnderNavBar'
 import Resources from '../components/Resource'
-import { oneLine } from "../translations/stringFileUtils";
 import { localizedStringsKeypaths } from "../translations/es";
-import { OutboundLink } from 'gatsby-plugin-google-analytics';
 
 
 export default function() {
