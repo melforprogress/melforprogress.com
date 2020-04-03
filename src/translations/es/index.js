@@ -88,6 +88,31 @@ const localizedStrings = {
 	    ]
 	  },
       {
+    title: 'Reproductive Justice',
+    text: [
+      oneLine(`No-cost contraception — All contraceptive services must be cost-free, including prescriptive consultations, contraceptive products, and surgeries.`),
+      oneLine(`Fund research for long-acting and reversible birth control for people with testes and sperm — We must end the unequal burden of contraception only available to those with uteruses and eggs, and provide dependable, safe, and long acting reversible birth control that can be used by those with testes and sperm.`),
+      oneLine(`Universal comprehensive sex education — High quality, sex-positive, consent-based sex education is essential to building a community able to make informed decisions.`),
+      oneLine(`Cost-free STI prevention and care — To quell transmission rates and improve quality of life, STI prevention and care must be easily accessed by all.`),
+      oneLine(`Repeal the Hyde Amendment — We must repeal the Hyde Amendement and ensure that abortion (elective and non-elective) is legally understood as a necessary medical procedure.`),
+      oneLine(`No-cost abortion services — In order for a person to assert their right to choose, there must be no financial impediment to their ability to access essential abortion services.`),
+      oneLine(`No cost contraception — All contraceptive services must be cost-free, including prescriptive consultations, contraceptive products, and surgeries.`),
+      oneLine(`No state shall have the ability to place restriction on abortion services or providers — For too long states and forced-birth advocates have nibbled around the edges of Roe v Wade. We must legislate abortion as a right and redefine “undue burden” specifically in order to eliminate the opportunity for bad actors to corrupt the intent of the law. We must also eliminate any trimester or fetal viability restrictions.`),
+      oneLine(`No-cost, high-quality, universal pre- & post-natal care — To improve maternal and infant health and birth outcomes pre- and post-natal care must be guaranteed.`),
+      oneLine(`Labor support stipend — A stipend given to the birthing parent to be used for doula care, or to ensure a family member or friend is able and prepared to assist with labor and birth.`),
+      oneLine(`Strengthening the midwifery profession — For years BIPOC have been excluded from midwifery. We must strengthen the profession by eliminating white and male supremacy. Providing scholarships and study stipends for communities that are traditionally excluded and therefore experience the worst birth outcomes.`),
+      oneLine(`Postpartum depression screenings for every new parent in America — Postpartum depression can severely limit the ability of a new parent to care for themselves and their child. Screening can do much to identify and provide resources to a new parent who may be suffering.`),
+      oneLine(`Legalize gestational surrogacy and support surrogate unionization across all 50 states — Criminalizing an economic choice serves no one. Surrogates should enjoy the benefits of unionization to prevent exploitation while retaining agency over their bodies.`),
+      oneLine(`2-year parental leave for the birthing/lactating parent, 4 months for the supportive partner, to be distributed however best serves the interests of the family — It’s time we join the rest of the world in providing our parents and children with time to bond, rest, and grow together without the worry of losing a job or income.`),
+      oneLine(`NICU leave — Paid time off or a stipend for parents with infants in the NICU. This is time in addition to the two-year and four-month guaranteed parental leave to help support the incredibly stressful NICU period.`),
+      oneLine(`Free childcare 0-5 years old. High-quality universal childcare is essential for building stable, successful families.`),
+      oneLine(`Free Universal Pre-K — All children should have access to high-quality early childhood education in order to close the achievement gap.`),
+      oneLine(`Raise the wages of every childcare worker & pre-school teacher — Let’s reward those who care for our most valuable and vulnerable.`),
+      oneLine(`Domestic violence assistance — Healthy families need safe homes.`),
+      oneLine(`None of this is enough without adequate wages to support families, a homes guarantee to end homelessness and a larger scope of economic and social justice.`),
+    ]
+  },
+      {
         title: 'Immigration Justice',
         text: [
           oneLine(`The Trump administration has taken pride in policies that rip away children from their families, deprive our undocumented friends and neighbors of due process and dignity, and erode any accountability of immigration agencies. It’s time to shut down detention centers and terminate all of the private prison contracts that profit off them. We must abolish ICE, end the militarization of the CBP, and develop sensible policy when it comes to our borders.`),

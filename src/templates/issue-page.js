@@ -27,6 +27,7 @@ import Veterans_bug from '../img/content/policies/Policy-Veterans.png'
 import Labor_bug from '../img/content/policies/Policy-Labor.png'
 import GunControl_bug from '../img/content/policies/Policy-GunControl.png'
 import ForeignPolicy_bug from '../img/content/policies/Policy-ForeignPolicy.png'
+import ReproJustice_bug from '../img/content/policies/Policy-ReproJustice.png'
 
 
 const issuesDefaults = [
@@ -93,6 +94,33 @@ const issuesDefaults = [
 	  oneLine(`Each year, women are forced to leave approximately $28.9 billion on the table, in order to take off work in order to care for aging parents. When Mel’s abuela got ill in her final year of life, his mom could not afford to take off work and juggled being a night-shift nurse with caring for her ailing parents. Mel’s desire to introduce a Golden Years Security Act was inspired by this reality, one that is not uncommon for women throughout the country.`),
 	  oneLine(`Mel worked for an organization that served formerly incarcerated women by connecting them with higher education, and maintaining wrap around services throughout their career. Mel knows that the challenges currently and formerly incarcerated women face are unique, which is why his Criminal Justice Reform positions aim to address the unique needs women face in our broken system.`),
 	  oneLine(`As technological innovation continues to rapidly reshape the modern workforce, the jobs that are most likely to be replaced by automation first are those most often held by women and people of color. That’s why Mel supports funding experiments in Universal Basic Income which would provide support as the nature of work is redefined. As a stay-at-home parent Mel knows first-hand that caretaking is an uncompensated full-time job essential to the health of our economy and society. Caretaking is meaningful labor, and should be recognized as such. While more mothers are in the labor force today than ever before, they are also spending more time on childcare as well, which is why Mel supports Universal Childcare to ease the burden on families who don’t have a choice between careers and raising a family.`),		
+    ]
+  },
+  {
+    title: 'Reproductive Justice',
+    id: 'ReproJustice',
+    bugurl: ReproJustice_bug,
+    text: [
+      oneLine(`No-cost contraception — All contraceptive services must be cost-free, including prescriptive consultations, contraceptive products, and surgeries.`),
+      oneLine(`Fund research for long-acting and reversible birth control for people with testes and sperm — We must end the unequal burden of contraception only available to those with uteruses and eggs, and provide dependable, safe, and long acting reversible birth control that can be used by those with testes and sperm.`),
+      oneLine(`Universal comprehensive sex education — High quality, sex-positive, consent-based sex education is essential to building a community able to make informed decisions.`),
+      oneLine(`Cost-free STI prevention and care — To quell transmission rates and improve quality of life, STI prevention and care must be easily accessed by all.`),
+      oneLine(`Repeal the Hyde Amendment — We must repeal the Hyde Amendement and ensure that abortion (elective and non-elective) is legally understood as a necessary medical procedure.`),
+      oneLine(`No-cost abortion services — In order for a person to assert their right to choose, there must be no financial impediment to their ability to access essential abortion services.`),
+      oneLine(`No cost contraception — All contraceptive services must be cost-free, including prescriptive consultations, contraceptive products, and surgeries.`),
+      oneLine(`No state shall have the ability to place restriction on abortion services or providers — For too long states and forced-birth advocates have nibbled around the edges of Roe v Wade. We must legislate abortion as a right and redefine “undue burden” specifically in order to eliminate the opportunity for bad actors to corrupt the intent of the law. We must also eliminate any trimester or fetal viability restrictions.`),
+      oneLine(`No-cost, high-quality, universal pre- & post-natal care — To improve maternal and infant health and birth outcomes pre- and post-natal care must be guaranteed.`),
+      oneLine(`Labor support stipend — A stipend given to the birthing parent to be used for doula care, or to ensure a family member or friend is able and prepared to assist with labor and birth.`),
+      oneLine(`Strengthening the midwifery profession — For years BIPOC have been excluded from midwifery. We must strengthen the profession by eliminating white and male supremacy. Providing scholarships and study stipends for communities that are traditionally excluded and therefore experience the worst birth outcomes.`),
+      oneLine(`Postpartum depression screenings for every new parent in America — Postpartum depression can severely limit the ability of a new parent to care for themselves and their child. Screening can do much to identify and provide resources to a new parent who may be suffering.`),
+      oneLine(`Legalize gestational surrogacy and support surrogate unionization across all 50 states — Criminalizing an economic choice serves no one. Surrogates should enjoy the benefits of unionization to prevent exploitation while retaining agency over their bodies.`),
+      oneLine(`2-year parental leave for the birthing/lactating parent, 4 months for the supportive partner, to be distributed however best serves the interests of the family — It’s time we join the rest of the world in providing our parents and children with time to bond, rest, and grow together without the worry of losing a job or income.`),
+      oneLine(`NICU leave — Paid time off or a stipend for parents with infants in the NICU. This is time in addition to the two-year and four-month guaranteed parental leave to help support the incredibly stressful NICU period.`),
+      oneLine(`Free childcare 0-5 years old. High-quality universal childcare is essential for building stable, successful families.`),
+      oneLine(`Free Universal Pre-K — All children should have access to high-quality early childhood education in order to close the achievement gap.`),
+      oneLine(`Raise the wages of every childcare worker & pre-school teacher — Let’s reward those who care for our most valuable and vulnerable.`),
+      oneLine(`Domestic violence assistance — Healthy families need safe homes.`),
+      oneLine(`None of this is enough without adequate wages to support families, a homes guarantee to end homelessness and a larger scope of economic and social justice.`),
     ]
   },
   {
