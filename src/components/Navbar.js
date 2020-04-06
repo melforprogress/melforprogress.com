@@ -106,6 +106,17 @@ const Navbar = class extends React.Component {
                 />
               </OutboundLink>
               <OutboundLink
+                className="navbar-item navbar-link"
+                href="http://melforprogress.square.site"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FormattedMessage
+                  id={localizedStringsKeypaths.organize.title}
+                  defaultMessage="Store"
+                />
+              </OutboundLink>
+              <OutboundLink
                 className="navbar-item navbar-link donate"
                 href="https://secure.actblue.com/donate/melforprogress"
                 target="_blank"
