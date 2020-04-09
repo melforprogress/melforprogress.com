@@ -17,6 +17,7 @@ import FTD from '../img/content/endorsements/FTD_logo-200px.png'
 import OPF from '../img/content/endorsements/OPF_logo-200px.png'
 import PFB from '../img/content/endorsements/PFB_logo.png'
 import QUIP from '../img/content/endorsements/QUIP-transparent.png'
+import NYPAN from '../img/content/endorsements/NYPAN-logo.png'
 
 export const IndexPageTemplate = ({}) => (
   <div>
@@ -206,6 +207,11 @@ export const IndexPageTemplate = ({}) => (
                         href="https://www.facebook.com/QUIPClub/photos/a.389336338564077/653594858804889/?type=3&theater"
                       >
                         <img className="endorsement_bug" src={QUIP} alt="Queens United Independent Progressives" />
+                      </OutboundLink>
+                      <OutboundLink className="endorsement"
+                        href="https://twitter.com/MelforProgress/status/1248235036610084870"
+                      >
+                        <img className="endorsement_bug" src={NYPAN} alt="New York Progressive Action Network" />
                       </OutboundLink>
                     </div>
                   </div>
