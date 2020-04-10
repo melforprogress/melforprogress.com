@@ -18,6 +18,7 @@ import OPF from '../img/content/endorsements/OPF_logo-200px.png'
 import PFB from '../img/content/endorsements/PFB_logo.png'
 import QUIP from '../img/content/endorsements/QUIP-transparent.png'
 import NYPAN from '../img/content/endorsements/NYPAN-logo.png'
+import DUH from '../img/content/endorsements/DUH_logo.png'
 
 export const IndexPageTemplate = ({}) => (
   <div>
@@ -186,12 +187,6 @@ export const IndexPageTemplate = ({}) => (
                         <img className="endorsement_bug" src={PFB} alt="The People for Bernie" />
                       </OutboundLink>
                       <OutboundLink className="endorsement"
-                        href="https://brandnewcongress.org/Mel-Gagarin"
-                        target="_blank"
-                      >
-                        <img className="endorsement_bug" src={BNC} alt="Brand New Congress" />
-                      </OutboundLink>
-                      <OutboundLink className="endorsement"
                         href="http://forwardthinkingdemocracy.com/index.php/2019/12/18/forward-thinking-democracy-announces-endorsement-of-mel-gagarin-ny-06/"
                         target="_blank"
                       >
@@ -212,6 +207,17 @@ export const IndexPageTemplate = ({}) => (
                         href="https://twitter.com/MelforProgress/status/1248235036610084870"
                       >
                         <img className="endorsement_bug" src={NYPAN} alt="New York Progressive Action Network" />
+                      </OutboundLink>
+                      <OutboundLink className="endorsement"
+                        href="https://duh4all.org/us-house-senate-candidates/us-congress-house-senate.html"
+                      >
+                        <img className="endorsement_bug" src={DUH} alt="Demand Universal Healthcare" />
+                      </OutboundLink>
+                      <OutboundLink className="endorsement"
+                        href="https://brandnewcongress.org/Mel-Gagarin"
+                        target="_blank"
+                      >
+                        <img className="endorsement_bug" src={BNC} alt="Brand New Congress" />
                       </OutboundLink>
                     </div>
                   </div>
