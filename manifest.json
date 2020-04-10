@@ -2,6 +2,7 @@
   "main.js": "render-page.js",
   "main.js.map": "render-page.js.map",
   "static/BNC_logo-400px.png": "static/BNC_logo-400px-c59f7dc5c84ae12f4036613cf1be98a8.png",
+  "static/DUH_logo.png": "static/DUH_logo-7b29fa461e4a6166252c31585cbd610b.png",
   "static/FTD_logo-200px.png": "static/FTD_logo-200px-3b4726a1b30f9d96793b35ae49dd6b68.png",
   "static/Field-1.jpg": "static/Field-1-6f3fafee193db40f6ee385428297a5fe.jpg",
   "static/Field-QFB.jpg": "static/Field-QFB-6ea447ef9ec90ef0ca793b3afba1744a.jpg",
