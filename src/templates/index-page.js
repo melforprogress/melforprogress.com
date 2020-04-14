@@ -19,6 +19,9 @@ import PFB from '../img/content/endorsements/PFB_logo.png'
 import QUIP from '../img/content/endorsements/QUIP-transparent.png'
 import NYPAN from '../img/content/endorsements/NYPAN-logo.png'
 import DUH from '../img/content/endorsements/DUH_logo.png'
+import IncomeMvmt from '../img/content/endorsements/IncomeMvmt_logo.png'
+import APIS from '../img/content/endorsements/APIS_logo.png'
+
 
 export const IndexPageTemplate = ({}) => (
   <div>
@@ -218,6 +221,18 @@ export const IndexPageTemplate = ({}) => (
                         target="_blank"
                       >
                         <img className="endorsement_bug" src={BNC} alt="Brand New Congress" />
+                      </OutboundLink>
+                      <OutboundLink className="endorsement"
+                        href="https://www.incomemovement.com/politics"
+                        target="_blank"
+                      >
+                        <img className="endorsement_bug" src={IncomeMvmt} alt="Income Movement" />
+                      </OutboundLink>
+                      <OutboundLink className="endorsement"
+                        href="https://twitter.com/MelforProgress/status/1250050186530996226"
+                        target="_blank"
+                      >
+                        <img className="endorsement_bug" src={APIS} alt="American Progressives in STEM" />
                       </OutboundLink>
                     </div>
                   </div>
