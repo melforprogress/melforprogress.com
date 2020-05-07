@@ -88,7 +88,7 @@ const Navbar = class extends React.Component {
                   defaultMessage="Endorsements"
                 />
               </Link>
-              <Link className="navbar-item navbar-link" to="/#press">
+              <Link className="navbar-item navbar-link" to="/press">
                 <FormattedMessage
                   id={localizedStringsKeypaths.press.title}
                   defaultMessage="Press"
