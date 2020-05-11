@@ -82,10 +82,11 @@ const Navbar = class extends React.Component {
                   defaultMessage="Issues"
                 />
               </Link>
-              <Link className="navbar-item navbar-link" to="/press">
+              <Link className="navbar-item navbar-link" to="/vote">
+
                 <FormattedMessage
-                  id={localizedStringsKeypaths.press.title}
-                  defaultMessage="Press"
+                  id={localizedStringsKeypaths.issues.title}
+                  defaultMessage="Vote"
                 />
               </Link>
               <OutboundLink
@@ -98,7 +99,13 @@ const Navbar = class extends React.Component {
                   id={localizedStringsKeypaths.organize.title}
                   defaultMessage="Organize"
                 />
-              </OutboundLink>
+              </OutboundLink>              
+              <Link className="navbar-item navbar-link" to="/press">
+                <FormattedMessage
+                  id={localizedStringsKeypaths.press.title}
+                  defaultMessage="Press"
+                />
+              </Link>
               <OutboundLink
                 className="navbar-item navbar-link"
                 href="http://melforprogress.square.site"
