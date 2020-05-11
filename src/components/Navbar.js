@@ -83,6 +83,7 @@ const Navbar = class extends React.Component {
                 />
               </Link>
               <Link className="navbar-item navbar-link" to="/vote">
+
                 <FormattedMessage
                   id={localizedStringsKeypaths.issues.title}
                   defaultMessage="Vote"
