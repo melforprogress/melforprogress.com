@@ -21,11 +21,33 @@ import NYPAN from '../img/content/endorsements/NYPAN-logo.png'
 import DUH from '../img/content/endorsements/DUH_logo.png'
 import IncomeMvmt from '../img/content/endorsements/IncomeMvmt_logo.png'
 import APIS from '../img/content/endorsements/APIS_logo.png'
+import ActionNetworkWidget from '../components/ActionNetworkWidget.js'
+
+
 
 
 export const IndexPageTemplate = ({}) => (
   <div>
     <Billboard>
+
+    <div class="display-banner">
+      <div class="vote-banner-main">
+          <div className="vote-banner-container">
+              <div className="vote-banner">
+                VOTE BY <br />
+                JUNE 23
+              </div>
+          </div>
+          <div class="vote-ballot-button-container">
+            <a class="vote-ballot-button" href="http://www.nycabsentee.com">Request your ballot&nbsp;></a>
+          </div>
+          <div class="links-container">
+            <a class="link-black" href="/vote">More information for voters&nbsp;></a>
+          </div>
+      </div>
+    </div>
+
+
       <div className="container">
         <div className="section">
           <div className="columns">
@@ -236,8 +258,21 @@ export const IndexPageTemplate = ({}) => (
                       </OutboundLink>
                     </div>
                   </div>
-
-                  
+                  <div className="content" id="signup">
+                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                      <div className="title">
+                        <span className="underlined">
+                          <FormattedMessage
+                            id={localizedStringsKeypaths.home.about.header}
+                            defaultMessage="Join Our Movement"
+                          />
+                        </span>
+                      </div>
+                    </div>
+                    <div className="an_widget" id="action-network-section">
+                      <ActionNetworkWidget />
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

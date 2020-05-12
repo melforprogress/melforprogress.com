@@ -97,7 +97,7 @@ const Navbar = class extends React.Component {
               >
                 <FormattedMessage
                   id={localizedStringsKeypaths.organize.title}
-                  defaultMessage="Organize"
+                  defaultMessage="Volunteer"
                 />
               </OutboundLink>              
               <Link className="navbar-item navbar-link" to="/press">
@@ -130,17 +130,15 @@ const Navbar = class extends React.Component {
               </OutboundLink>
             </div>
             <div className="nav-buttons">
-              <OutboundLink
+              <Link
                 className="register-vote"
-                href="https://vote.nyc/page/register-vote"
-                target="_blank"
-                rel="noopener noreferrer"
+                to="#signup"
               >
                 <FormattedMessage
                   id={localizedStringsKeypaths.organize.title}
-                  defaultMessage="Register to Vote"
+                  defaultMessage="Join Our Movement"
                 />
-              </OutboundLink>
+              </Link>
               <OutboundLink
                 className="phonebank-now"
                 href="https://act.melforprogress.com/events/phonebank-for-mel-35"

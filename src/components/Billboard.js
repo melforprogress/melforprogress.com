@@ -21,9 +21,6 @@ export default function({ children }) {
           src={headshotMobile}
           sizeSrcMap={{ tablet: headshotTablet }}
         />
-        <div className={styles.actionNetworkSection} id="action-network-section">
-          <ActionNetworkWidget />
-        </div>
         {children}
       </PageUnderNavbar>
     </div>
