@@ -8,6 +8,7 @@ $title-blue: #0398fc
 $black: black
 $white: white
 $sky-blue: #009bdf
+$dark-blue: #193f6d
 $white-ter: white
 $font-weight-strong: 600
 $font-weight-very-strong: 800
@@ -155,6 +156,7 @@ textarea
   text-align: center
   text-transform: uppercase
   font-weight: bold
+  line-height: 24px
   letter-spacing: .5px
   background: $crimson
   color: $paper
@@ -323,6 +325,9 @@ p
   margin-right: 0
   margin-left: auto
 
+a
+  color: $sky-blue
+
 a.navbar-link
   @extend %transition
   &:hover
@@ -417,7 +422,6 @@ a.navbar-link
   margin-left: 10px
   text-transform: uppercase
   font-weight: 800
-  color: $sky-blue
   font-size: 1rem
 
 .issue_teaser_container
@@ -603,3 +607,63 @@ a.navbar-link
     left: 0
     width: 100%
     height: 100%
+
+// Vote Banner
+.vote-banner
+  font-weight: bold
+  font-size: 72px
+  color: $dark-blue
+  text-align: center
+  letter-spacing: 2px
+  transform: skew(-5deg)
+  line-height: 64px
+
+.vote-banner-container
+  transform: rotate(-5deg)
+  margin: auto
+  margin-top: 20px
+
+.vote-ballot-button
+  @extend %transition
+  cursor: pointer
+  background-color: $dark-blue
+  text-transform: uppercase
+  color: $white !important
+  font-weight: bold
+  border-radius: .25rem
+  text-decoration: none
+  font-weight: 700
+  text-align: center
+  line-height: 24px
+  align: center
+  margin: 25px auto 10px auto
+  padding: 10px 20px
+  max-width: 300px
+  display: block
+
+  &:hover
+    background-color: $white
+    color: $sky-blue
+    box-shadow: inset 0px 0px 0px 2px $sky-blue
+
+.link-black
+  display: block
+  margin: auto
+  text-align: center
+  text-transform: uppercase
+  font-weight: 800
+  margin-top: 15px
+  font-size: 1.2rem
+  color: $black
+  text-decoration: underline
+
+.vote-banner-main
+  @media only screen and (min-width: 768px)
+    position: absolute
+    top: 274px
+    right: 6%
+    z-index: 9999
+    width: 50%
+    text-align: right
+
+
