@@ -28,6 +28,7 @@ import Labor_bug from '../img/content/policies/Policy-Labor.png'
 import GunControl_bug from '../img/content/policies/Policy-GunControl.png'
 import ForeignPolicy_bug from '../img/content/policies/Policy-ForeignPolicy.png'
 import ReproJustice_bug from '../img/content/policies/Policy-ReproJustice.png'
+import Disability_bug from '../img/content/policies/Policy-Disability.png'
 
 
 const issuesDefaults = [
@@ -133,6 +134,31 @@ const issuesDefaults = [
       oneLine(`Mel understands that we need to act against the atrocities being committed in our country. Asylum seekers should be fast-tracked and given the chance to build the better life that they came here seeking. America should be a beacon of hope, not a stage for cruel and inhumane acts against refugees and immigrants.`),
       oneLine(`Undocumented immigrants who were brought here as children only know America as their home. These children have grown up in America and are woven into the very fabric of our community. Mel will fight to secure DACA and DAPA, creating a path to citizenship for our DREAMer friends and neighbors. Mel is the descendant of immigrants who understands that America can and must do better for families.`),
     oneLine(`It’s time for America to value the work and contributions of immigrants.  By reforming our immigration infrastructure, Mel believes that we can keep families together, build safer communities, and restore America’s promise as a land of refuge and opportunity.`),
+    ]
+  },
+  {
+    title: 'Disability Justice',
+    id: 'Disability',
+    bugurl: Disability_bug,
+    text: [
+      oneLine(`Thirty years after the passage of the Americans with Disabilities Act (ADA), people with disabilities still face poverty rates nearly three times higher than people without disabilities; are disproportionately more likely to live and work in conditions that are hazardous to their health and are hugely overrepresented in our nation’s prisons and jails.`),
+      oneLine(`The nexus of disability policy must be recognition that each disability is unique, with unique needs that existing policies have failed to address. I will fight to ensure American laws, statistics and programs finally recognize developmental, hearing, mental, mobility, vision issues are unique and reject the ableism that shapes present inclusion initiatives. I recognize that accessibility will spur new jobs, programs, products and services that will create opportunities for everyone to pursue rich lives.`),
+      oneLine(`We must guarantee:`),
+      oneLine(`• Health care, including mental health care, home- and community-based services and supports without waitlists, asset or income restrictions, as a human right to everyone in America.`),
+      oneLine(`• Ensure Medicaid coverage of hearing, magnification, and mobility aids.`),
+      oneLine(`• Expand funding for research into treatments and cures, such as the passage of H.R. 2620, the Faster Treatments and Cures for Eye Diseases Act`),
+      oneLine(`• End subminimum wage for workers with disabilities while guaranteeing jobs and living wages in the community for all.`),
+      oneLine(`• Expand, and increase effective enforcement of the ADA.`),
+      oneLine(`• End the use of arbitration clauses in employment agreements which prevent disabled people from ensuring employers provide adequate accommodations.`),
+      oneLine(`• Pass the Disability Integration Act, to establish a clear standard for the delivery of high-quality services.`),
+      oneLine(`• Enact the Social Security Caregiver Credit Act to compensate the more than 43 million unpaid caregivers for their work.`),
+      oneLine(`• Protect and expand the Social Security Disability Insurance and Supplemental Security Income`),
+      oneLine(`• Eliminate the SSDI benefits cliff.`),
+      oneLine(`• Eliminate the SSI asset test.`),
+      oneLine(`• Expand benefits across-the-board for all Social Security beneficiaries, including SSI, and increase and index the SSI benefit level so that it is equal to 125 percent of the poverty line.`),
+      oneLine(`• Remove the marriage penalty from SSI benefits.`),
+      oneLine(`• Ensure all people with disabilities and older Americans will possess the right to convert their existing home- and community-based services into a self-directed model of service, where those receiving support may choose who provides them with assistance.`),
+
     ]
   },
   {
