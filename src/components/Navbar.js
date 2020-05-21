@@ -79,7 +79,7 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item navbar-link" to="/issues">
                 <FormattedMessage
                   id={localizedStringsKeypaths.issues.title}
-                  defaultMessage="Issues"
+                  defaultMessage="Policy"
                 />
               </Link>
               <Link className="navbar-item navbar-link" to="/vote">

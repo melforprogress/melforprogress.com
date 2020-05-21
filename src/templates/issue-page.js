@@ -38,7 +38,7 @@ const issuesDefaults = [
     bugurl: Housing_bug,
     text: [
       oneLine(`A housing guarantee affirms Mel’s belief that housing is a human right. While an improving economy has benefited real estate and land development corporations, wages are not keeping up with rising housing prices and rent. In Queens alone, countless working families are being priced out of their neighborhoods, and the number of people experiencing homelessness is increasing. `),
-      oneLine(`When the scales are tipped in favor of wealthy developers, a new vision for social housing in America is necessary. Mel will introduce legislation to create 25 million new social housing units by 2050 building upon recommendations by the People’s Policy Project and The People’s Action Homes Guarantee. `),
+      oneLine(`When the scales are tipped in favor of wealthy developers, a new vision for social housing in America is necessary. Mel will introduce legislation to create millions of new social housing units by 2050 building upon recommendations by the People’s Policy Project and The People’s Action Homes Guarantee. `),
 	  oneLine(`This comprehensive plan aims to meet the sustainability goals of the Green New Deal, create new jobs that pay prevailing wages, desegregate poverty, eliminate re-entry barriers for formerly incarcerated people, and create housing that is affordable to all. `),
     ]
   },
@@ -70,7 +70,7 @@ const issuesDefaults = [
     text: [
       oneLine(`In the 1970s, when other countries around the world had implemented or were implementing national health insurance plans, we put our health in the hands of private enterprise. Decades and billions of lobbying dollars later, the results are clear: the United States spends far more on healthcare than any other nation, with significantly worse outcomes — including the highest maternal mortality rate in the developed world.`),
       oneLine(`Executive salaries and compensation packages in the pharmaceutical and health insurance industries are astronomical, while medical bills steadfastly remain the leading cause of bankruptcy in this country. Over 30 million Americans remain uninsured, while tens of millions with coverage still face inadequate or denied care. Healthcare is a right, not a privilege, and it’s time to focus on the American people and their health over the profits of billion-dollar corporations.`),
-	  oneLine(`Mel supports Medicare for All — a federal universal single-payer program. No longer will our health be weighed against the balance sheets of massive corporations; with a single-payer program, all residents of the United States will be covered for their medical services, including doctor, hospital, preventive, long-term care, mental health, reproductive health care, dental, vision, prescription drug and medical supply costs. Eliminating co-pays, premiums, and deductibles means that lower- and middle-income Americans will no longer have to weigh the cost of paying for life-saving medicine against feeding their families.`),
+	  oneLine(`Mel supports Medicare for All — a federal universal single-payer program. No longer will our health be weighed against the balance sheets of massive corporations; with a single-payer program, all residents of the United States will be covered for all of their medical services. Eliminating co-pays, premiums, and deductibles means that lower- and middle-income Americans will no longer have to weigh the cost of paying for life-saving medicine against feeding their families.`),
     ]
   },
   {
