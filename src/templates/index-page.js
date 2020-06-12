@@ -67,7 +67,7 @@ export const IndexPageTemplate = ({}) => (
                   <div className="video-container-container">
                     <div className="video-container">
                       <iframe width="560" height="315"
-                      src="https://www.youtube.com/embed/Cst_ck79-G8" 
+                      src="https://www.youtube.com/embed/CHgIjEzuazk" 
                       frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                       allowfullscreen></iframe>
                     </div>
