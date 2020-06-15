@@ -22,6 +22,7 @@ import DUH from '../img/content/endorsements/DUH_logo.png'
 import IncomeMvmt from '../img/content/endorsements/IncomeMvmt_logo.png'
 import APIS from '../img/content/endorsements/APIS_logo.png'
 import ActionNetworkWidget from '../components/ActionNetworkWidget.js'
+import NOIDC from '../img/content/endorsements/NOIDC_logo-transparent-sm.png'
 
 
 
@@ -251,10 +252,16 @@ export const IndexPageTemplate = ({}) => (
                         <img className="endorsement_bug" src={IncomeMvmt} alt="Income Movement" />
                       </OutboundLink>
                       <OutboundLink className="endorsement"
-                        href="https://twitter.com/MelforProgress/status/1250050186530996226"
+                        href="https://twitter.com/NoIDCNY/status/1272655783365312518"
                         target="_blank"
                       >
                         <img className="endorsement_bug" src={APIS} alt="American Progressives in STEM" />
+                      </OutboundLink>
+                      <OutboundLink className="endorsement"
+                        href="https://twitter.com/MelforProgress/status/1250050186530996226"
+                        target="_blank"
+                      >
+                        <img className="endorsement_bug" src={NOIDC} alt="NO IDC NY" />
                       </OutboundLink>
                     </div>
                   </div>
