@@ -35,12 +35,12 @@ export const IndexPageTemplate = ({}) => (
       <div class="vote-banner-main">
           <div className="vote-banner-container">
               <div className="vote-banner">
-                VOTE BY <br />
+                VOTE BY<br />
                 JUNE 23
               </div>
           </div>
           <div class="vote-ballot-button-container">
-            <a class="vote-ballot-button" href="http://www.nycabsentee.com">Request your ballot&nbsp;></a>
+            <a class="vote-ballot-button" href="https://nyc.pollsitelocator.com/search">Find your Polling Location></a>
           </div>
           <div class="links-container">
             <a class="link-black" href="/vote">More information for voters&nbsp;></a>
