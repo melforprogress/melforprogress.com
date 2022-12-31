@@ -6,7 +6,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "bulma": "^0.7.0",
-    "flat": "^4.1.0",
+    "flat": "^5.0.1",
     "gatsby": "^2.13.31",
     "gatsby-image": "^2.0.23",
     "gatsby-plugin-amplitude-analytics": "^1.5.0",
